@@ -1,0 +1,23 @@
+<MaterialData>
+	<TemplateData>
+		<template>terrain_m2</template>
+		<tex_clr_0>"ground_grass_b.dds"</tex_clr_0>
+		<tex_nrm_0>"ground_grass_b_nrm.dds"</tex_nrm_0>
+		<tex_mat_sub_0>"ground_grass_b_shn.dds"</tex_mat_sub_0>
+		<f_uv_factor_0>1.000000</f_uv_factor_0>
+		<f_nrm_scale_0>1.000000</f_nrm_scale_0>
+		<f_shn_factor_0>1.000000</f_shn_factor_0>
+		<i_mappimg_0>0</i_mappimg_0>
+		<i_mat_id_0>0</i_mat_id_0>
+		<f_Msk0>18</f_Msk0>
+		<tex_clr_1>"ground_rockwall_b.dds"</tex_clr_1>
+		<tex_nrm_1>"ground_rockwall_b_nrm.dds"</tex_nrm_1>
+		<tex_mat_sub_1>"ground_rockwall_b_shn.dds"</tex_mat_sub_1>
+		<f_uv_factor_1>1.000000</f_uv_factor_1>
+		<f_nrm_scale_1>1.000000</f_nrm_scale_1>
+		<f_shn_factor_1>1.000000</f_shn_factor_1>
+		<i_mappimg_1>1</i_mappimg_1>
+		<i_mat_id_1>0</i_mat_id_1>
+		<f_Msk1>65</f_Msk1>
+	</TemplateData>
+</MaterialData>

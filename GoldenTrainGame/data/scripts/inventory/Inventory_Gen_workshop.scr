@@ -1,0 +1,25 @@
+//This script is generated from Inventory.xlsm. Don't modify it!!!
+
+import "inventorystuff.scr" 
+sub main() 
+{
+    
+    //WHITE
+    DamageMultiplier(1, 0.95);
+    DamageMultiplier(2, 1.01);
+    //GREEN
+    DamageMultiplier(3, 1.00);
+    DamageMultiplier(4, 1.10);
+    //BLUE
+    DamageMultiplier(5, 1.30);
+    DamageMultiplier(6, 1.35);
+    //VIOLET
+    DamageMultiplier(7, 1.40);
+    DamageMultiplier(8, 1.45);
+    //ORANGE
+    DamageMultiplier(9, 1.50);
+    DamageMultiplier(10, 1.55);
+    //PLATINUM
+    DamageMultiplier(11, 1.56);
+    DamageMultiplier(12, 1.60);
+}

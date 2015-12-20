@@ -1,0 +1,6 @@
+!include("AudioScript.def")
+
+AudioProc("map_01")
+{
+    CallProc("map_default")
+}

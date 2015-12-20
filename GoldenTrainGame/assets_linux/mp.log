@@ -1,0 +1,1236 @@
+Starting at 2015-12-19 20:07:23
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_0040aaa.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200000bbb.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200000bbc.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200000ccc.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200040aab.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200040aac.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200040abc.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light developer tools/engine/data/objects/shadow_caster.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light developer tools/engine/data/objects/shadow_caster_2s.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light developer tools/engine/data/objects/shadow_caster_wind_bend.dmt
+File added (no dependency check): d:/steam/steam/steamapps/common/dying light developer tools/engine/data/shaders/master/templates/shadowcaster.dmt
+Updating database local for platform opengl4 (using 4 threads)
+
+>>>>> d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_0040aaa.dmt
+ >> needs compilation...
+	40000005: -> processing 'map_01_t2_0040aaa.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	00000000: map_01_t2_0040aaa.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:323810639
+	40000003: //HASH:1486619363
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_0040aaa.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_0040aaa.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=16 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:-977386215
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_0040aaa.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_0040aaa.mat:
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=0 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	00000000: map_01_t2_0040aaa.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:323810639
+	40000003: //HASH:-354905338
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_0040aaa.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_0040aaa.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:604910943
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_0040aaa.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_0040aaa.mat:
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000005: -> processed in 1.09s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200000bbb.dmt
+ >> needs compilation...
+	40000005: -> processing 'map_01_t2_200000bbb.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	00000000: map_01_t2_200000bbb.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:-196504500
+	40000003: //HASH:35226814
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbb.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbb.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=16 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:-977386215
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbb.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache after compilation.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbb.mat:
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=0 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	00000000: map_01_t2_200000bbb.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:-196504500
+	40000003: //HASH:-1336076965
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbb.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbb.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:604910943
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbb.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbb.mat:
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000005: -> processed in 1.09s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200000bbc.dmt
+ >> needs compilation...
+	40000005: -> processing 'map_01_t2_200000bbc.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	00000000: map_01_t2_200000bbc.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:253454648
+	40000003: //HASH:-1645208346
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbc.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=CONST_112 bufid=1 offset=32 size=16 numcomp=4 fullname=CONST_112
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbc.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=16 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:-977386215
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbc.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbc.mat:
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=0 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	00000000: map_01_t2_200000bbc.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:253454648
+	40000003: //HASH:-495145715
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbc.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=CONST_112 bufid=1 offset=32 size=16 numcomp=4 fullname=CONST_112
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbc.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:604910943
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbc.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000bbc.mat:
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000005: -> processed in 1.09s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200000ccc.dmt
+ >> needs compilation...
+	40000005: -> processing 'map_01_t2_200000ccc.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	00000000: map_01_t2_200000ccc.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:1728645415
+	40000003: //HASH:-1503455946
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000ccc.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000ccc.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=16 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:-977386215
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000ccc.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000ccc.mat:
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=0 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	00000000: map_01_t2_200000ccc.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:1728645415
+	40000003: //HASH:338134227
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000ccc.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000ccc.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:604910943
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000ccc.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200000ccc.mat:
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000005: -> processed in 1.09s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200040aab.dmt
+ >> needs compilation...
+	40000005: -> processing 'map_01_t2_200040aab.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	00000000: map_01_t2_200040aab.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:367423800
+	40000003: //HASH:-2065331149
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aab.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=CONST_112 bufid=1 offset=32 size=16 numcomp=4 fullname=CONST_112
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aab.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=16 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:-977386215
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aab.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aab.mat:
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=0 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	00000000: map_01_t2_200040aab.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:367423800
+	40000003: //HASH:-76988968
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aab.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=CONST_112 bufid=1 offset=32 size=16 numcomp=4 fullname=CONST_112
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aab.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:604910943
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aab.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aab.mat:
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000005: -> processed in 0.81s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200040aac.dmt
+ >> needs compilation...
+	40000005: -> processing 'map_01_t2_200040aac.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	00000000: map_01_t2_200040aac.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:-1392272676
+	40000003: //HASH:-1135688793
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aac.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=CONST_112 bufid=1 offset=32 size=16 numcomp=4 fullname=CONST_112
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aac.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=16 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:-977386215
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aac.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aac.mat:
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=0 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	00000000: map_01_t2_200040aac.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:-1392272676
+	40000003: //HASH:-1010666932
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aac.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=CONST_112 bufid=1 offset=32 size=16 numcomp=4 fullname=CONST_112
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aac.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:604910943
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aac.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040aac.mat:
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000005: -> processed in 0.80s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light/devtools/workshop/goldentraingame/data/maps/map_01/terrain/map_01_t2_200040abc.dmt
+ >> needs compilation...
+	40000005: -> processing 'map_01_t2_200040abc.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	00000000: map_01_t2_200040abc.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:154746067
+	40000003: //HASH:-1945367663
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040abc.mat:
+	40000005: Uniform: name=CONST_111 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=CONST_112 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_112
+	40000005: Uniform: name=CONST_113 bufid=1 offset=32 size=16 numcomp=4 fullname=CONST_113
+	40000005: Uniform: name=CONST_114 bufid=1 offset=48 size=16 numcomp=4 fullname=CONST_114
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040abc.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=2 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=32 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:-977386215
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040abc.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040abc.mat:
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=0 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	00000000: map_01_t2_200040abc.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000003: //HASH:154746067
+	40000003: //HASH:1523950383
+	40000005: Compiling PixelShader in technique opq -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040abc.mat:
+	40000005: Uniform: name=CONST_111 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_111
+	40000005: Uniform: name=CONST_112 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_112
+	40000005: Uniform: name=CONST_113 bufid=1 offset=32 size=16 numcomp=4 fullname=CONST_113
+	40000005: Uniform: name=CONST_114 bufid=1 offset=48 size=16 numcomp=4 fullname=CONST_114
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique opq -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040abc.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=CONST_111 bufid=1 offset=16 size=16 numcomp=4 fullname=CONST_111
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_NRM_MS @ 2] recognized as Normal0, Float3
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	40000003: //HASH:-2134712998
+	40000003: //HASH:604910943
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040abc.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader map_01_t2_200040abc.mat:
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	40000005: -> processed in 0.77s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light developer tools/engine/data/objects/shadow_caster.dmt
+ >> needs compilation...
+	40000005: -> processing 'shadow_caster.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	00000000: shadow_caster.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:-295717747
+	40000003: //HASH:815149525
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=16 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:-295717747
+	40000003: //HASH:-2017612255
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster.mat & 0408 (INSTANCING|DISTANCE_FADE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:-295717747
+	40000003: //HASH:-2017612255
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster.mat & 0001 (SKINNING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:912128516
+	40000003: //HASH:-1558022566
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: Uniform: name=CONST_PALETTE bufid=1 offset=0 size=24576 numcomp=6144 fullname=CONST_PALETTE[0]
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_SKINNING_WEIGHTS @ 1] recognized as BlendWeight0, Float4
+	40000005: Attribute [I_SKINNING_INDEX @ 7] recognized as BlendIndices0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster.mat & 0201 (SKINNING|SKINNING_ONE_BONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:912128516
+	40000003: //HASH:-992373926
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: Uniform: name=CONST_PALETTE bufid=1 offset=0 size=24576 numcomp=6144 fullname=CONST_PALETTE[0]
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_SKINNING_INDEX @ 7] recognized as BlendIndices0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster.mat & 0005 (SKINNING|MORPH_TARGETS)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:912128516
+	40000003: //HASH:-2097865205
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader shadow_caster.mat:
+	40000005: Uniform: name=CONST_PALETTE bufid=1 offset=0 size=24576 numcomp=6144 fullname=CONST_PALETTE[0]
+	40000005: Uniform: name=CONST_0 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_0
+	40000005: Uniform: name=CONST_110 bufid=2 offset=16 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=INT_CONST_0 bufid=2 offset=32 size=16 numcomp=4 fullname=INT_CONST_0
+	40000005: Uniform: name=CONST_15 bufid=2 offset=48 size=512 numcomp=128 fullname=CONST_15[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_SKINNING_WEIGHTS @ 1] recognized as BlendWeight0, Float4
+	40000005: Attribute [I_SKINNING_INDEX @ 7] recognized as BlendIndices0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	40000005:  ... I was waiting for '15' loop checks!
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000005: -> processed in 1.09s (shaders compilation took 0.00s).
+	40000005: -> processing 'shadow_caster_hl.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000005: -> processed in 0.00s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light developer tools/engine/data/objects/shadow_caster_2s.dmt
+ >> needs compilation...
+	40000005: -> processing 'shadow_caster_2s.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	00000000: shadow_caster_2s.mat & 0000 (NONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:-295717747
+	40000003: //HASH:815149525
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=PREV_MODEL_XFORM bufid=2 offset=16 size=48 numcomp=12 fullname=PREV_MODEL_XFORM[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster_2s.mat & 0008 (INSTANCING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:-295717747
+	40000003: //HASH:-2017612255
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster_2s.mat & 0408 (INSTANCING|DISTANCE_FADE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:-295717747
+	40000003: //HASH:-2017612255
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: Uniform: name=CONST_110 bufid=1 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [MODEL_XFORM_I_R0 @ 5] recognized as TexCoord4, Float4
+	40000005: Attribute [MODEL_XFORM_I_R1 @ 6] recognized as TexCoord5, Float4
+	40000005: Attribute [MODEL_XFORM_I_R2 @ 12] recognized as TexCoord6, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster_2s.mat & 0001 (SKINNING)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:912128516
+	40000003: //HASH:-1558022566
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: Uniform: name=CONST_PALETTE bufid=1 offset=0 size=24576 numcomp=6144 fullname=CONST_PALETTE[0]
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_SKINNING_WEIGHTS @ 1] recognized as BlendWeight0, Float4
+	40000005: Attribute [I_SKINNING_INDEX @ 7] recognized as BlendIndices0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster_2s.mat & 0201 (SKINNING|SKINNING_ONE_BONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:912128516
+	40000003: //HASH:-992373926
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: Uniform: name=CONST_PALETTE bufid=1 offset=0 size=24576 numcomp=6144 fullname=CONST_PALETTE[0]
+	40000005: Uniform: name=CONST_110 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_110
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_SKINNING_INDEX @ 7] recognized as BlendIndices0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster_2s.mat & 0005 (SKINNING|MORPH_TARGETS)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:912128516
+	40000003: //HASH:-2097865205
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: Uniform: name=CONST_PALETTE bufid=1 offset=0 size=24576 numcomp=6144 fullname=CONST_PALETTE[0]
+	40000005: Uniform: name=CONST_0 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_0
+	40000005: Uniform: name=CONST_110 bufid=2 offset=16 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=INT_CONST_0 bufid=2 offset=32 size=16 numcomp=4 fullname=INT_CONST_0
+	40000005: Uniform: name=CONST_15 bufid=2 offset=48 size=512 numcomp=128 fullname=CONST_15[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_SKINNING_WEIGHTS @ 1] recognized as BlendWeight0, Float4
+	40000005: Attribute [I_SKINNING_INDEX @ 7] recognized as BlendIndices0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	00000000: shadow_caster_2s.mat & 0205 (SKINNING|MORPH_TARGETS|SKINNING_ONE_BONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:912128516
+	40000003: //HASH:1820245198
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_2s.mat:
+	40000005: Uniform: name=CONST_PALETTE bufid=1 offset=0 size=24576 numcomp=6144 fullname=CONST_PALETTE[0]
+	40000005: Uniform: name=CONST_0 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_0
+	40000005: Uniform: name=CONST_110 bufid=2 offset=16 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=INT_CONST_0 bufid=2 offset=32 size=16 numcomp=4 fullname=INT_CONST_0
+	40000005: Uniform: name=CONST_15 bufid=2 offset=48 size=512 numcomp=128 fullname=CONST_15[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_SKINNING_INDEX @ 7] recognized as BlendIndices0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000005: -> processed in 0.55s (shaders compilation took 0.00s).
+	40000005: -> processing 'shadow_caster_2s_hl.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000005: -> processed in 0.00s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light developer tools/engine/data/objects/shadow_caster_wind_bend.dmt
+ >> needs compilation...
+	40000005: -> processing 'shadow_caster_wind_bend.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	00000000: shadow_caster_wind_bend.mat & 0205 (SKINNING|MORPH_TARGETS|SKINNING_ONE_BONE)
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000003: //HASH:912128516
+	40000003: //HASH:1820245198
+	40000005: Compiling PixelShader in technique zfill -------------
+	40000005: PixelShader fetched from cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_wind_bend.mat:
+	40000005: ------ OK
+	40000005: Compiling VertexShader in technique zfill -------------
+	40000005: VertexShader compiled and put to cache.
+	80000001: Warning(s) at GLSL shader shadow_caster_wind_bend.mat:
+	40000005: Uniform: name=CONST_PALETTE bufid=1 offset=0 size=24576 numcomp=6144 fullname=CONST_PALETTE[0]
+	40000005: Uniform: name=CONST_0 bufid=2 offset=0 size=16 numcomp=4 fullname=CONST_0
+	40000005: Uniform: name=CONST_110 bufid=2 offset=16 size=16 numcomp=4 fullname=CONST_110
+	40000005: Uniform: name=INT_CONST_0 bufid=2 offset=32 size=16 numcomp=4 fullname=INT_CONST_0
+	40000005: Uniform: name=CONST_15 bufid=2 offset=48 size=512 numcomp=128 fullname=CONST_15[0]
+	40000005: Attribute [I_POS_MS @ 0] recognized as Position0, Float4
+	40000005: Attribute [I_SKINNING_INDEX @ 7] recognized as BlendIndices0, Float4
+	40000005: ------ OK
+	80000015: Unused Pass Const expressions removed from tech 'zfill': 115
+	40000005:  ... I was waiting for '1' loop checks!
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000005: -> processed in 0.17s (shaders compilation took 0.00s).
+
+>>>>> d:/steam/steam/steamapps/common/dying light developer tools/engine/data/shaders/master/templates/shadowcaster.dmt
+ >> needs compilation...
+	40000005: -> processing 'shadowcaster.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000005:  ... I was waiting for '58' loop checks!
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000005: -> processed in 0.12s (shaders compilation took 0.00s).
+	40000005: -> processing 'shadowcaster_hl.mat'...
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	80000005: missing FLOAT variable 'f_alpha_test_value' used in material.
+	80000009: missing STRING variable 's_env' used in material.
+	80000006: missing VEC3 variable 'v_pp_highlight' used in material.
+	80000005: missing FLOAT variable 'f_weather_shadows4rain' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_omni_offset' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_power_current' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_direct_power' used in material.
+	80000005: missing FLOAT variable 'f_pp_wind_noise_power' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_2d_xform' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_2' used in material.
+	80000007: missing FLOAT4 variable 'v_pp_wind_params_3' used in material.
+	40000005: -> processed in 0.00s (shaders compilation took 0.00s).
+
+Finalizing update... 
+ done.
+== Assets Database check results ==
+Number of materials in assets database : 14
+Number of basic materials              : 11
+Number of materials to remove          : 0
+===================================
+
+== Material database statistics ==
+Blend states          :       2 of     256,         32 bytes
+Pass states           :       2 of     256,         16 bytes
+Expressions           :      10 of   4,096,        752 bytes
+Shaders Sys           :       0 of       0,          0 bytes
+Shaders Tmp           :      32 of   8,192,    860,864 bytes
+Shaders Vid           :       0 of       0,          0 bytes
+HiLevelShaders        :      32 of  32,768,      2,368 bytes
+Templates             :      28 of  57,344,      5,792 bytes
+Instances             :      14 of  16,384,        936 bytes
+InputAttributes       :       6 of      64,        104 bytes
+Strings               :      34 of   8,192,        588 bytes
+==================================
+

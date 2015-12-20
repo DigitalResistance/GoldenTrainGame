@@ -1,0 +1,11 @@
+//This script is generated from Inventory.xlsm. Don't modify it!!!
+
+export int Consumables = 1;
+export int Ammo = 2;
+export int Valuables = 3;
+export int Weapon = 4;
+export int Dirty = 5;
+export int CraftPart = 6;
+export int Lockpick = 7;
+export int Mods = 8;
+export int Other = 9;

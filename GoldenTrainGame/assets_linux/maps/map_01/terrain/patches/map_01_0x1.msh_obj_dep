@@ -1,0 +1,27 @@
+Version(106)
+ResPackVersion(1)
+Source("data/maps/map_01/terrain/patches/map_01_0x1.msh", "1D13A91A6A560A0")  // 2015-12-19, 19:15:41:098
+UsedFile("map_01_t2_0040aaa&0008.dmt", "1D13A8DBB3B7210")  // 2015-12-19, 18:47:37:649
+UsedFile("map_01_t2_200000ccc&0008.dmt", "1D13A8DBB4D4C60")  // 2015-12-19, 18:47:37:766
+UsedFile("map_01_t2_200040aac&0008.dmt", "1D13A8DBB52A390")  // 2015-12-19, 18:47:37:801
+ResVersion("_SKIN_", 8, 92)
+ResVersion("_MESH_", 15, 5408)
+ResVersion("_MESH_FIXUPS_", 15, 412)
+ResVersion("_VERTEX_DATA_", 1, 16960)
+ResVersion("_INDEX_DATA_", 1, 9184)
+ResVersion("_BUILDER_INFORMATION_", 1, 16)
+Meta("nodes","1")
+Meta("lods","2")
+Meta("vertices_bytes","16960")
+Meta("indices_bytes","9182")
+Meta("colltree_bytes","4416")
+Meta("mesh_bytes","5408")
+Meta("skins_bytes","92")
+Meta("surface_params","1")
+Meta("hull_faces","2178")
+Meta("hull_vertices","6534")
+Meta("hull_primitives","0")
+Meta("geom_faces","2178")
+Meta("geom_vertices","6534")
+Meta("geom_primitives","0")
+

@@ -1,0 +1,3 @@
+!include("common_spawn.scr")
+
+CrowdDynamicPatternFill(10)

@@ -1,0 +1,10 @@
+sub details()
+{
+    title("GoldenTrainGame");
+    desc("");
+    visibility(0);
+    tags("");
+    date_created(0);
+    date_updated(0);
+    id("576124138");
+}

@@ -1,0 +1,14 @@
+<MaterialData>
+	<TemplateData>
+		<template>terrain_m1</template>
+		<tex_clr_0>"ground_grass_b.dds"</tex_clr_0>
+		<tex_nrm_0>"ground_grass_b_nrm.dds"</tex_nrm_0>
+		<tex_mat_sub_0>"ground_grass_b_shn.dds"</tex_mat_sub_0>
+		<f_uv_factor_0>1.000000</f_uv_factor_0>
+		<f_nrm_scale_0>1.000000</f_nrm_scale_0>
+		<f_shn_factor_0>1.000000</f_shn_factor_0>
+		<i_mappimg_0>0</i_mappimg_0>
+		<i_mat_id_0>0</i_mat_id_0>
+		<f_Msk0>18</f_Msk0>
+	</TemplateData>
+</MaterialData>

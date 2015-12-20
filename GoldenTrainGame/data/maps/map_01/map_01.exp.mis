@@ -1,0 +1,19 @@
+map_01{LevelDI}
+	guid	=	894C8C3C86CCE78D
+	m_DayTimeAndWeatherScripts	=	Data/Scripts/dw_weather.scr;
+	m_tempTinyObjectsScriptPath	=	
+MapStart{SpawnPoint}
+	world_position = <0, 5, 0>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDD495E4224BAF77
+
+ GUID to level ID mapping:
+<894C8C3C86CCE78D, 2>
+<EDD495E4224BAF77, 13>
+<EDD4F9E4224C5963, 123>
+
+Classes used:
+AIManager
+LevelDI
+SpawnPoint

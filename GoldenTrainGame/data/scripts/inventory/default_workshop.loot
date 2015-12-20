@@ -1,0 +1,34 @@
+//This script is generated from Inventory.xlsm. Don't modify it!!!
+
+import "color_sets_workshop.loot"
+import "item_sets_workshop.loot"
+import "containers_object_type_workshop.def"
+
+export int LootType_None            = 0;
+export int LootType_Knuckles        = 1;
+export int LootType_Blunt           = 2;
+export int LootType_Sharp           = 3;
+export int LootType_Firearm_Short   = 4;
+export int LootType_Firearm_Long    = 5;
+export int LootType_Firearm_Auto    = 6;
+export int LootType_Throwable       = 7;
+export int LootType_Powerup         = 8;
+
+//----- CONTAINERS -----
+sub Loot()
+{
+
+}
+
+sub default()
+{
+    use DefineColors();
+	use Loot();
+}
+
+sub default_hard() 
+{
+	//use DefineColors();
+	use DefineColorsHard();
+	use Loot();
+}

@@ -1,0 +1,258 @@
+map_01{LevelDI}
+	ID	=	2
+	local ID	=	0
+	m_DayTimeAndWeatherScripts	=	Data/Scripts/dw_weather.scr;
+	m_tempTinyObjectsScriptPath	=	
+MapStart{SpawnPoint}
+	world_position = <0, 5, 0>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	13
+	local ID	=	2
+LightObject{LightObject}
+	world_position = <49, 0, 36>
+	world_dir = <0, 0, 134>
+	local_scale = <916, 550, 134>
+	ID	=	170
+	local ID	=	260
+	EditorMeshName	=	dynamiclight_env_probe.msh
+terrain/patches/map_01_-1x0.msh{TerrainObject}
+	world_position = <-16, 0, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	236
+	local ID	=	388
+	MeshName	=	map_01_-1x0.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x1.msh{TerrainObject}
+	world_position = <-16, 8, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	237
+	local ID	=	390
+	MeshName	=	map_01_-1x1.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x2.msh{TerrainObject}
+	world_position = <-16, 17, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	238
+	local ID	=	392
+	MeshName	=	map_01_-1x2.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x3.msh{TerrainObject}
+	world_position = <-16, 19, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	239
+	local ID	=	394
+	MeshName	=	map_01_-1x3.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x4.msh{TerrainObject}
+	world_position = <-16, 14, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	240
+	local ID	=	396
+	MeshName	=	map_01_-1x4.msh
+	SkinName	=	default
+terrain/patches/map_01_0x0.msh{TerrainObject}
+	world_position = <16, 0, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	241
+	local ID	=	398
+	MeshName	=	map_01_0x0.msh
+	SkinName	=	default
+terrain/patches/map_01_0x1.msh{TerrainObject}
+	world_position = <16, 11, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	242
+	local ID	=	400
+	MeshName	=	map_01_0x1.msh
+	SkinName	=	default
+terrain/patches/map_01_0x2.msh{TerrainObject}
+	world_position = <16, 26, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	243
+	local ID	=	402
+	MeshName	=	map_01_0x2.msh
+	SkinName	=	default
+terrain/patches/map_01_0x3.msh{TerrainObject}
+	world_position = <16, 32, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	244
+	local ID	=	404
+	MeshName	=	map_01_0x3.msh
+	SkinName	=	default
+terrain/patches/map_01_0x4.msh{TerrainObject}
+	world_position = <16, 17, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	245
+	local ID	=	406
+	MeshName	=	map_01_0x4.msh
+	SkinName	=	default
+terrain/patches/map_01_1x0.msh{TerrainObject}
+	world_position = <48, 1, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	246
+	local ID	=	408
+	MeshName	=	map_01_1x0.msh
+	SkinName	=	default
+terrain/patches/map_01_1x1.msh{TerrainObject}
+	world_position = <48, 14, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	247
+	local ID	=	410
+	MeshName	=	map_01_1x1.msh
+	SkinName	=	default
+terrain/patches/map_01_1x2.msh{TerrainObject}
+	world_position = <48, 28, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	248
+	local ID	=	412
+	MeshName	=	map_01_1x2.msh
+	SkinName	=	default
+terrain/patches/map_01_1x3.msh{TerrainObject}
+	world_position = <48, 33, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	249
+	local ID	=	414
+	MeshName	=	map_01_1x3.msh
+	SkinName	=	default
+terrain/patches/map_01_1x4.msh{TerrainObject}
+	world_position = <48, 21, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	250
+	local ID	=	416
+	MeshName	=	map_01_1x4.msh
+	SkinName	=	default
+terrain/patches/map_01_2x0.msh{TerrainObject}
+	world_position = <80, 6, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	251
+	local ID	=	418
+	MeshName	=	map_01_2x0.msh
+	SkinName	=	default
+terrain/patches/map_01_2x1.msh{TerrainObject}
+	world_position = <80, 17, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	252
+	local ID	=	420
+	MeshName	=	map_01_2x1.msh
+	SkinName	=	default
+terrain/patches/map_01_2x2.msh{TerrainObject}
+	world_position = <80, 30, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	253
+	local ID	=	422
+	MeshName	=	map_01_2x2.msh
+	SkinName	=	default
+terrain/patches/map_01_2x3.msh{TerrainObject}
+	world_position = <80, 29, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	254
+	local ID	=	424
+	MeshName	=	map_01_2x3.msh
+	SkinName	=	default
+terrain/patches/map_01_2x4.msh{TerrainObject}
+	world_position = <80, 18, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	255
+	local ID	=	426
+	MeshName	=	map_01_2x4.msh
+	SkinName	=	default
+terrain/patches/map_01_3x0.msh{TerrainObject}
+	world_position = <112, 13, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	256
+	local ID	=	428
+	MeshName	=	map_01_3x0.msh
+	SkinName	=	default
+terrain/patches/map_01_3x1.msh{TerrainObject}
+	world_position = <112, 21, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	257
+	local ID	=	430
+	MeshName	=	map_01_3x1.msh
+	SkinName	=	default
+terrain/patches/map_01_3x2.msh{TerrainObject}
+	world_position = <112, 28, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	258
+	local ID	=	432
+	MeshName	=	map_01_3x2.msh
+	SkinName	=	default
+terrain/patches/map_01_3x3.msh{TerrainObject}
+	world_position = <112, 30, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	259
+	local ID	=	434
+	MeshName	=	map_01_3x3.msh
+	SkinName	=	default
+terrain/patches/map_01_3x4.msh{TerrainObject}
+	world_position = <112, 18, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	260
+	local ID	=	436
+	MeshName	=	map_01_3x4.msh
+	SkinName	=	default
+terrain/patches/map_01_4x0.msh{TerrainObject}
+	world_position = <144, 13, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	261
+	local ID	=	438
+	MeshName	=	map_01_4x0.msh
+	SkinName	=	default
+terrain/patches/map_01_4x1.msh{TerrainObject}
+	world_position = <144, 16, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	262
+	local ID	=	440
+	MeshName	=	map_01_4x1.msh
+	SkinName	=	default
+terrain/patches/map_01_4x2.msh{TerrainObject}
+	world_position = <144, 16, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	263
+	local ID	=	442
+	MeshName	=	map_01_4x2.msh
+	SkinName	=	default
+terrain/patches/map_01_4x3.msh{TerrainObject}
+	world_position = <144, 15, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	264
+	local ID	=	444
+	MeshName	=	map_01_4x3.msh
+	SkinName	=	default
+terrain/patches/map_01_4x4.msh{TerrainObject}
+	world_position = <144, 13, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	265
+	local ID	=	446
+	MeshName	=	map_01_4x4.msh
+	SkinName	=	default

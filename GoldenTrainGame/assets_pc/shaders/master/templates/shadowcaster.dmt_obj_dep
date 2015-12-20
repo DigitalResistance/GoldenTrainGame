@@ -1,0 +1,38 @@
+Version(106)
+ResPackVersion(1)
+Source("data/shaders/master/templates/shadowcaster.dmt", "1D11EC69660F6F0")  // 2015-11-14, 10:24:04:575
+Dependency("data/shaders/common/materialeditor/templates/engineflags.met", "1D11EC6A297F2C0")  // 2015-11-14, 10:24:25:068
+Dependency("data/shaders/common/materialeditor/templates/settemplates.met", "1D11EC6A16454C0")  // 2015-11-14, 10:24:23:052
+Dependency("data/shaders/common/materialeditor/templates/tmu.met", "1D11EC6A1D6C5A0")  // 2015-11-14, 10:24:23:802
+Dependency("data/shaders/objects/templates/depth_pass.met", "1D11EC698053110")  // 2015-11-14, 10:24:07:329
+Dependency("data/shaders/common/attribs.met", "1D11EC69FF2EA70")  // 2015-11-14, 10:24:20:631
+Dependency("EngineDefs.mth", "1D11EC694EAAAA0")  // 2015-11-14, 10:24:02:122
+Dependency("values.mtt", "1D11EC68C0AF020")  // 2015-11-14, 10:23:47:234
+Dependency("master_me_val.mtt", "1D11EC6959B0EE0")  // 2015-11-14, 10:24:03:278
+Dependency("templates_val.mtt", "1D11EC6959B0EE0")  // 2015-11-14, 10:24:03:278
+Dependency("mtt_const.data", "1D11EC68C279FE0")  // 2015-11-14, 10:23:47:422
+Dependency("mtt_const_game.data", "1D11EC68C252EE0")  // 2015-11-14, 10:23:47:406
+Dependency("Converters.data", "1D11EC6A166C5C0")  // 2015-11-14, 10:24:23:068
+Dependency("Converters_game.data", "1D11EC6966822E0")  // 2015-11-14, 10:24:04:622
+Dependency("data/shaders/objects/shadow_caster.met", "1D11EC6A1F83050")  // 2015-11-14, 10:24:24:021
+Dependency("data/shaders/common/common.hlsl", "1D11EC69671BFD0")  // 2015-11-14, 10:24:04:685
+Dependency("data/shaders/common/common_ps.hlsl", "1D11EC69F482B80")  // 2015-11-14, 10:24:19:512
+Dependency("data/shaders/common/common_vs.hlsl", "1D11EC6A297F2C0")  // 2015-11-14, 10:24:25:068
+Dependency("data/shaders/common/commonvarslayout.hlsl", "1D11EC6A3140090")  // 2015-11-14, 10:24:25:881
+Dependency("data/shaders/common/defines.hlsl", "1D11EC6A1D47BB0")  // 2015-11-14, 10:24:23:787
+Dependency("data/shaders/common/defines_orbis.hlsl", "1D11EC6A16DF1B0")  // 2015-11-14, 10:24:23:115
+Dependency("data/shaders/common/depth_sample.hlsl", "1D11EC6951A6D30")  // 2015-11-14, 10:24:02:435
+Dependency("data/shaders/common/enginedefs.hlsl", "1D11EC68C279FE0")  // 2015-11-14, 10:23:47:422
+Dependency("data/shaders/common/glsl_attributes.hlsl", "1D11EC68C279FE0")  // 2015-11-14, 10:23:47:422
+Dependency("data/shaders/common/instancing.hlsl", "1D11EC69671BFD0")  // 2015-11-14, 10:24:04:685
+Dependency("data/shaders/master/instancing_new.hlsl", "1D11EC6A2A3D9A0")  // 2015-11-14, 10:24:25:146
+Dependency("data/shaders/master/master_new.hlsl", "1D11EC6A1CD4FC0")  // 2015-11-14, 10:24:23:740
+Dependency("data/shaders/common/mtx.hlsl", "1D11EC6A2743E20")  // 2015-11-14, 10:24:24:834
+Dependency("data/shaders/common/position_cs.hlsl", "1D11EC6A1CFC0C0")  // 2015-11-14, 10:24:23:756
+Dependency("data/shaders/common/position_ws.hlsl", "1D11EC694EAAAA0")  // 2015-11-14, 10:24:02:122
+Dependency("data/shaders/common/sample.hlsl", "1D11EC68C0AF020")  // 2015-11-14, 10:23:47:234
+Dependency("data/shaders/common/shadows.hlsl", "1D11EC68C0AF020")  // 2015-11-14, 10:23:47:234
+Dependency("data/shaders/common/skinning.hlsl", "1D11EC69FF2EA70")  // 2015-11-14, 10:24:20:631
+Dependency("data/techniques.ini", "1D11EC698053110")  // 2015-11-14, 10:24:07:329
+Dependency("data/shaders/common/vertexmorphing.hlsl", "1D11EC694EAAAA0")  // 2015-11-14, 10:24:02:122
+

@@ -1,0 +1,52 @@
+sub SkillsAgility() {
+	
+}
+
+
+
+sub SkillsPower(){
+
+}
+
+
+
+sub SkillsStatus(){
+
+}
+
+
+
+sub Items_Common(){
+
+}
+
+
+
+sub main() 
+
+{
+
+    Chapter(0)
+
+    {
+
+        LevelFighter(1);
+
+		LevelRunner(1);
+
+		LevelStatus(1);
+
+
+
+		use Items_Common();
+
+		use SkillsStatus();
+
+		use SkillsAgility();
+
+		use SkillsPower();
+
+    }
+
+}
+

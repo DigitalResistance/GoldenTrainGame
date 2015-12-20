@@ -1,0 +1,73 @@
+!include("AmbientSounds.def")
+!AmbientVolume(fMasterVolume, fTrack00Volume, fTrack01Volume, fTrack02Volume, fTrack03Volume)
+!AmbientSound(sId, sFileName, nTrack, nPriority, nLoops, fVolume, fFadeIn, fFadeOut) // note - you can use tracks numbers from 0 to 2, as default priority use 100
+
+// AmbientSound(          sId,                   sFileName,                   nTrack, nPriority, nLoops, fVolume, fFadeIn, fFadeOut)
+// AmbientSound( "DW_SLUMS_AMBIENT_DAY", "ambience_slums_day_global_loop.ogg",        0,       100,     -1,      0.8,      3,       3 )
+
+AmbientVolume(1, 1, 1, 1, 1)
+
+// Align      |                                     |                                           |  |     |   |     |   |  |
+
+// Track 0 - Ambiences, Room Tones
+
+AmbientSound( "MSA_Global_Weather",                 "msa_global_weather",                       0, 0010, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Coastline_Weather",              "msa_coastline_weather",                    0, 0020, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Antenna_Weather",         		"msa_antenna_medium_weather",               0, 0030, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Hill_Weather",                   "msa_hill_weather",                    		0, 0040, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Rooftops_Weather",               "msa_rooftop_weather",               		0, 0050, -1, 0.9,  3,  3  )
+AmbientSound( "MSA_Trainyard_Weather",              "msa_trainyard_weather",                    0, 0060, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Alley_Weather",                  "msa_narrow_alley_weather",                 0, 0070, -1, 1.0,  1,  3  )
+AmbientSound( "MSA_Hangar_Weather",                 "msa_hangar_weather",                       0, 0080, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Cave_Weather",          			"msa_cave_weather",                         0, 0090, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Tunnel_Weather",                 "msa_tunnel_weather",                       0, 0100, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Corridor_Weather",               "msa_corridor_weather",                     0, 0110, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Room_Weather",                   "msa_room_weather",                         0, 0200, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Basement_Weather",               "msa_arcades_weather",       				0, 0210, -1, 1.00, 1,  5  )
+AmbientSound( "MSA_Van_Weather",                    "msa_van_weather",                          0, 0400, -1, 1.0,  1,  5  )
+AmbientSound( "MSA_Underwater_Weather",             "msa_underwater_weather",           		0, 0500, -1, 1.0,  1,  1  )
+
+AmbientSound( "Sewers_Corridor",                    "ambience_sewers_corridor_loop.ogg",        0, 0250, -1, 1.0,  1,  3  )
+AmbientSound( "Sewers_Pipe",                        "ambience_sewers_pipe_loop.ogg",            0, 0260, -1, 1.0,  1,  3  )
+AmbientSound( "Sewers_Underwater",                  "ambience_sewers_underwater.ogg",           0, 0510, -1, 1.0,  1,  4  )
+
+AmbientSound( "Highrise_Hall",                  	"ambience_slums_highrise_hall.ogg",         0, 0200, -1, 1.0,  2,  5 )
+AmbientSound( "Highrise_Corridor",              	"ambience_slums_highrise_corridor.ogg",     0, 0210, -1, 1.0,  2,  5 )
+AmbientSound( "Highrise_Room",                      "ambience_slums_highrise_room.ogg",       	0, 0220, -1, 1.0,  2,  3 )
+AmbientSound( "Highrise_Basement",               	"ambience_slums_highrise_basement.ogg",     0, 0230, -1, 1.0,  2,  5 )
+AmbientSound( "Highrise_Bathroom",               	"ambience_slums_highrise_bathroom.ogg",     0, 0240, -1, 1.0,  2,  3 )
+
+AmbientSound( "Hotel_Lobby",               			"ambience_ot_dz_apartment_corridor.ogg",    0, 0200, -1, 1.0,  2,  3 )
+AmbientSound( "Hotel_Corridor",              		"ambience_ot_dz_hotel_corridor.ogg",     	0, 0210, -1, 1.0,  2,  5 )
+AmbientSound( "Hotel_Staircase",                  	"ambience_ot_hotel_staircase.ogg",         	0, 0220, -1, 1.0,  2,  5 )
+AmbientSound( "Hotel_Room",                      	"ambience_ot_dz_hotel_room.ogg",       		0, 0230, -1, 1.0,  2,  3 )
+
+AmbientSound( "Parking",               				"ambience_ot_dz_parking.ogg",     			0, 0300, -1, 1.0,  2,  5 )
+AmbientSound( "Elevator_Shaft",            			"ambience_ot_dz_hotel_elevator_shaft.ogg",  0, 0310, -1, 1.0,  1,  4  )
+AmbientSound( "Elevator",                  			"ambience_ot_dz_hotel_elevator_inside.ogg", 0, 0320, -1, 1.0,  1,  4  )
+
+
+// Track 1 - Winds, Additional Room Tones
+
+AmbientSound( "Additional_Streets",                 "ambience_slums_day_street.ogg",            1, 1000, -1, 1.0,  1,  4 )
+AmbientSound( "Additional_Sea_Waves",         		"sea_waves_around_player.ogg",              1, 1010, -1, 1.0,  1,  3  )
+AmbientSound( "Adittional_Tree_Leaves",            	"wind_heavy_leafs_trees_loop.ogg",          1, 1100, -1, 1.0,  4,  4  )
+AmbientSound( "Adittional_Wind_High",            	"ambience_wind_very_high_loop.ogg",         1, 1110, -1, 1.0,  4,  4  )
+AmbientSound( "Additional_Corridor_Flooded",        "ambience_sewers_corridor_flooded_loop.ogg",1, 1200, -1, 1.0,  2,  4  )
+
+AmbientSound( "Additional_Screamer_Cry",            "screamer_crying_interior_far.ogg",         1, 2000, -1, 1.0,  1,  1  )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
