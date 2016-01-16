@@ -4,7 +4,7 @@ map_01{LevelDI}
 	m_DayTimeAndWeatherScripts	=	Data/Scripts/dw_weather.scr;
 	m_tempTinyObjectsScriptPath	=	
 MapStart{SpawnPoint}
-	world_position = <0, 5, 0>
+	world_position = <-22, 1, -7>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	ID	=	13
@@ -16,243 +16,1367 @@ LightObject{LightObject}
 	ID	=	170
 	local ID	=	260
 	EditorMeshName	=	dynamiclight_env_probe.msh
+SelectionObject{SelectionObject}
+	world_position = <-25, 0, 9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	347
+	local ID	=	577
+	Seed	=	32706
+	Eds_table	=	
+		plg_raise_0603_l_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-27, 0, 9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	348
+	local ID	=	579
+	Seed	=	32706
+	Eds_table	=	
+		plg_raise_0603_l_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-28, 0, 7>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	349
+	local ID	=	581
+	Seed	=	32706
+	Eds_table	=	
+		plg_raise_0603_l_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-28, 0, 8>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	350
+	local ID	=	583
+	Seed	=	32706
+	Eds_table	=	
+		plg_raise_0603_l_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-29, 0, 7>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	352
+	local ID	=	587
+	Seed	=	33681
+	Eds_table	=	
+		plg_raise_0603_n_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-27, 0, 9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	354
+	local ID	=	591
+	Seed	=	3869
+	Eds_table	=	
+		plg_raise_0603_r_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-28, 0, 9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	355
+	local ID	=	593
+	Seed	=	3869
+	Eds_table	=	
+		plg_raise_0603_r_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-20, 0, 8>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	356
+	local ID	=	595
+	Seed	=	3869
+	Eds_table	=	
+		plg_raise_0603_r_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-20, 0, 11>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	357
+	local ID	=	597
+	Seed	=	3869
+	Eds_table	=	
+		plg_raise_0603_r_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-23, 0, 10>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	361
+	local ID	=	605
+	Seed	=	32706
+	Eds_table	=	
+		plg_raise_0603_l_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-23, 0, 10>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	363
+	local ID	=	609
+	Seed	=	33681
+	Eds_table	=	
+		plg_raise_0603_n_stairs_a.eds	=	1
+SelectionObject{SelectionObject}
+	world_position = <-24, 0, 9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	365
+	local ID	=	613
+	Seed	=	3869
+	Eds_table	=	
+		plg_raise_0603_r_stairs_a.eds	=	1
+LadderDI{LadderDI}
+	world_position = <-21, 0, 9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	403
+	local ID	=	685
+	MeshName	=	ladder_c.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-19, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1002
+	local ID	=	1658
+	MeshName	=	int_low_stairs_mid.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-24, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1018
+	local ID	=	1690
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
 terrain/patches/map_01_-1x0.msh{TerrainObject}
 	world_position = <-16, 0, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	236
-	local ID	=	388
+	ID	=	1055
+	local ID	=	1760
 	MeshName	=	map_01_-1x0.msh
 	SkinName	=	default
 terrain/patches/map_01_-1x1.msh{TerrainObject}
 	world_position = <-16, 8, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	237
-	local ID	=	390
+	ID	=	1056
+	local ID	=	1762
 	MeshName	=	map_01_-1x1.msh
 	SkinName	=	default
 terrain/patches/map_01_-1x2.msh{TerrainObject}
 	world_position = <-16, 17, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	238
-	local ID	=	392
+	ID	=	1057
+	local ID	=	1764
 	MeshName	=	map_01_-1x2.msh
 	SkinName	=	default
 terrain/patches/map_01_-1x3.msh{TerrainObject}
 	world_position = <-16, 19, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	239
-	local ID	=	394
+	ID	=	1058
+	local ID	=	1766
 	MeshName	=	map_01_-1x3.msh
 	SkinName	=	default
 terrain/patches/map_01_-1x4.msh{TerrainObject}
 	world_position = <-16, 14, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	240
-	local ID	=	396
+	ID	=	1059
+	local ID	=	1768
 	MeshName	=	map_01_-1x4.msh
 	SkinName	=	default
 terrain/patches/map_01_0x0.msh{TerrainObject}
 	world_position = <16, 0, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	241
-	local ID	=	398
+	ID	=	1060
+	local ID	=	1770
 	MeshName	=	map_01_0x0.msh
 	SkinName	=	default
 terrain/patches/map_01_0x1.msh{TerrainObject}
 	world_position = <16, 11, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	242
-	local ID	=	400
+	ID	=	1061
+	local ID	=	1772
 	MeshName	=	map_01_0x1.msh
 	SkinName	=	default
 terrain/patches/map_01_0x2.msh{TerrainObject}
 	world_position = <16, 26, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	243
-	local ID	=	402
+	ID	=	1062
+	local ID	=	1774
 	MeshName	=	map_01_0x2.msh
 	SkinName	=	default
 terrain/patches/map_01_0x3.msh{TerrainObject}
 	world_position = <16, 32, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	244
-	local ID	=	404
+	ID	=	1063
+	local ID	=	1776
 	MeshName	=	map_01_0x3.msh
 	SkinName	=	default
 terrain/patches/map_01_0x4.msh{TerrainObject}
 	world_position = <16, 17, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	245
-	local ID	=	406
+	ID	=	1064
+	local ID	=	1778
 	MeshName	=	map_01_0x4.msh
 	SkinName	=	default
 terrain/patches/map_01_1x0.msh{TerrainObject}
 	world_position = <48, 1, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	246
-	local ID	=	408
+	ID	=	1065
+	local ID	=	1780
 	MeshName	=	map_01_1x0.msh
 	SkinName	=	default
 terrain/patches/map_01_1x1.msh{TerrainObject}
 	world_position = <48, 14, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	247
-	local ID	=	410
+	ID	=	1066
+	local ID	=	1782
 	MeshName	=	map_01_1x1.msh
 	SkinName	=	default
 terrain/patches/map_01_1x2.msh{TerrainObject}
 	world_position = <48, 28, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	248
-	local ID	=	412
+	ID	=	1067
+	local ID	=	1784
 	MeshName	=	map_01_1x2.msh
 	SkinName	=	default
 terrain/patches/map_01_1x3.msh{TerrainObject}
 	world_position = <48, 33, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	249
-	local ID	=	414
+	ID	=	1068
+	local ID	=	1786
 	MeshName	=	map_01_1x3.msh
 	SkinName	=	default
 terrain/patches/map_01_1x4.msh{TerrainObject}
 	world_position = <48, 21, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	250
-	local ID	=	416
+	ID	=	1069
+	local ID	=	1788
 	MeshName	=	map_01_1x4.msh
 	SkinName	=	default
 terrain/patches/map_01_2x0.msh{TerrainObject}
 	world_position = <80, 6, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	251
-	local ID	=	418
+	ID	=	1070
+	local ID	=	1790
 	MeshName	=	map_01_2x0.msh
 	SkinName	=	default
 terrain/patches/map_01_2x1.msh{TerrainObject}
 	world_position = <80, 17, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	252
-	local ID	=	420
+	ID	=	1071
+	local ID	=	1792
 	MeshName	=	map_01_2x1.msh
 	SkinName	=	default
 terrain/patches/map_01_2x2.msh{TerrainObject}
 	world_position = <80, 30, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	253
-	local ID	=	422
+	ID	=	1072
+	local ID	=	1794
 	MeshName	=	map_01_2x2.msh
 	SkinName	=	default
 terrain/patches/map_01_2x3.msh{TerrainObject}
 	world_position = <80, 29, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	254
-	local ID	=	424
+	ID	=	1073
+	local ID	=	1796
 	MeshName	=	map_01_2x3.msh
 	SkinName	=	default
 terrain/patches/map_01_2x4.msh{TerrainObject}
 	world_position = <80, 18, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	255
-	local ID	=	426
+	ID	=	1074
+	local ID	=	1798
 	MeshName	=	map_01_2x4.msh
 	SkinName	=	default
 terrain/patches/map_01_3x0.msh{TerrainObject}
 	world_position = <112, 13, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	256
-	local ID	=	428
+	ID	=	1075
+	local ID	=	1800
 	MeshName	=	map_01_3x0.msh
 	SkinName	=	default
 terrain/patches/map_01_3x1.msh{TerrainObject}
 	world_position = <112, 21, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	257
-	local ID	=	430
+	ID	=	1076
+	local ID	=	1802
 	MeshName	=	map_01_3x1.msh
 	SkinName	=	default
 terrain/patches/map_01_3x2.msh{TerrainObject}
 	world_position = <112, 28, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	258
-	local ID	=	432
+	ID	=	1077
+	local ID	=	1804
 	MeshName	=	map_01_3x2.msh
 	SkinName	=	default
 terrain/patches/map_01_3x3.msh{TerrainObject}
 	world_position = <112, 30, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	259
-	local ID	=	434
+	ID	=	1078
+	local ID	=	1806
 	MeshName	=	map_01_3x3.msh
 	SkinName	=	default
 terrain/patches/map_01_3x4.msh{TerrainObject}
 	world_position = <112, 18, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	260
-	local ID	=	436
+	ID	=	1079
+	local ID	=	1808
 	MeshName	=	map_01_3x4.msh
 	SkinName	=	default
 terrain/patches/map_01_4x0.msh{TerrainObject}
 	world_position = <144, 13, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	261
-	local ID	=	438
+	ID	=	1080
+	local ID	=	1810
 	MeshName	=	map_01_4x0.msh
 	SkinName	=	default
 terrain/patches/map_01_4x1.msh{TerrainObject}
 	world_position = <144, 16, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	262
-	local ID	=	440
+	ID	=	1081
+	local ID	=	1812
 	MeshName	=	map_01_4x1.msh
 	SkinName	=	default
 terrain/patches/map_01_4x2.msh{TerrainObject}
 	world_position = <144, 16, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	263
-	local ID	=	442
+	ID	=	1082
+	local ID	=	1814
 	MeshName	=	map_01_4x2.msh
 	SkinName	=	default
 terrain/patches/map_01_4x3.msh{TerrainObject}
 	world_position = <144, 15, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	264
-	local ID	=	444
+	ID	=	1083
+	local ID	=	1816
 	MeshName	=	map_01_4x3.msh
 	SkinName	=	default
 terrain/patches/map_01_4x4.msh{TerrainObject}
 	world_position = <144, 13, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	265
-	local ID	=	446
+	ID	=	1084
+	local ID	=	1818
 	MeshName	=	map_01_4x4.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-20, 0, -1>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1089
+	local ID	=	1823
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1090
+	local ID	=	1824
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-28, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1091
+	local ID	=	1825
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 2>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1092
+	local ID	=	1826
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 6>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1093
+	local ID	=	1827
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 10>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1094
+	local ID	=	1828
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 14>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1095
+	local ID	=	1829
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 18>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1096
+	local ID	=	1830
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 22>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1097
+	local ID	=	1831
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-28, 0, 12>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1109
+	local ID	=	1855
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-24, 0, 12>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1131
+	local ID	=	1898
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-24, 0, 12>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1132
+	local ID	=	1899
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-28, 0, 12>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1133
+	local ID	=	1900
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-26, 0, 14>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1134
+	local ID	=	1901
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-20, 0, 12>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1135
+	local ID	=	1902
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 10>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1136
+	local ID	=	1903
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 6>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1137
+	local ID	=	1904
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 2>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 0, 0>
+	ID	=	1138
+	local ID	=	1905
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 2>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 0, 0>
+	ID	=	1139
+	local ID	=	1906
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 6>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1140
+	local ID	=	1907
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-14, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1141
+	local ID	=	1908
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-10, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1142
+	local ID	=	1909
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-6, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1143
+	local ID	=	1910
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-2, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1144
+	local ID	=	1911
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <1, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1145
+	local ID	=	1912
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-16, 0, 4>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1146
+	local ID	=	1913
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 4>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1147
+	local ID	=	1914
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 4>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1148
+	local ID	=	1915
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-4, 0, 4>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1149
+	local ID	=	1916
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-26, 0, 18>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1150
+	local ID	=	1917
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-26, 0, 18>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1151
+	local ID	=	1918
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-24, 0, 20>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1153
+	local ID	=	1920
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-20, 0, 20>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1154
+	local ID	=	1921
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 18>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1155
+	local ID	=	1922
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 14>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1157
+	local ID	=	1924
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 14>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1158
+	local ID	=	1925
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 6>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1159
+	local ID	=	1926
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 10>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1160
+	local ID	=	1927
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 14>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1161
+	local ID	=	1928
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 18>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1162
+	local ID	=	1929
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 22>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1163
+	local ID	=	1930
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 26>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1164
+	local ID	=	1931
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 30>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1165
+	local ID	=	1932
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-26, 0, 22>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1166
+	local ID	=	1933
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 26>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1167
+	local ID	=	1934
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 30>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1168
+	local ID	=	1935
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-26, 0, 26>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1169
+	local ID	=	1936
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-26, 0, 30>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1170
+	local ID	=	1937
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 34>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1171
+	local ID	=	1938
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <5, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1172
+	local ID	=	1939
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <9, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1173
+	local ID	=	1940
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 2>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1174
+	local ID	=	1941
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 6>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1175
+	local ID	=	1942
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 10>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1176
+	local ID	=	1943
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 14>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1177
+	local ID	=	1944
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 18>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1178
+	local ID	=	1945
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 22>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1179
+	local ID	=	1946
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 26>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1180
+	local ID	=	1947
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <0, 0, 4>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1181
+	local ID	=	1948
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <3, 0, 4>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1183
+	local ID	=	1950
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <6, 0, 4>
+	world_dir = <0, 0, 0>
+	local_scale = <1, 1, 0>
+	ID	=	1184
+	local ID	=	1951
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <9, 0, 4>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1185
+	local ID	=	1952
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <9, 0, 4>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1186
+	local ID	=	1953
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <9, 0, 4>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1187
+	local ID	=	1954
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 6>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1189
+	local ID	=	1957
+	MeshName	=	int_low_wall_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 10>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1192
+	local ID	=	1961
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 14>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1193
+	local ID	=	1962
+	MeshName	=	int_low_wall_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 18>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1194
+	local ID	=	1963
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 18>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1195
+	local ID	=	1964
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 22>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1196
+	local ID	=	1965
+	MeshName	=	int_low_wall_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 26>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1197
+	local ID	=	1966
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 30>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1198
+	local ID	=	1967
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 38>
+	world_dir = <0, 0, -1>
+	local_scale = <0, 0, 1>
+	ID	=	1200
+	local ID	=	1969
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 38>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1201
+	local ID	=	1970
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 30>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1202
+	local ID	=	1971
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 34>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1203
+	local ID	=	1972
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <11, 0, 38>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1204
+	local ID	=	1973
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <9, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1205
+	local ID	=	1974
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <5, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1206
+	local ID	=	1975
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <1, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1207
+	local ID	=	1976
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-2, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1208
+	local ID	=	1977
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-6, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1209
+	local ID	=	1978
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-10, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1210
+	local ID	=	1979
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-14, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1211
+	local ID	=	1980
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1212
+	local ID	=	1981
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-22, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1213
+	local ID	=	1982
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-26, 0, 40>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1214
+	local ID	=	1983
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-30, 0, 38>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1215
+	local ID	=	1984
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-29, 0, 40>
+	world_dir = <0, 0, 0>
+	local_scale = <1, 1, 0>
+	ID	=	1216
+	local ID	=	1985
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-26, 0, 34>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1217
+	local ID	=	1986
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-23, 0, 38>
+	world_dir = <0, 0, -1>
+	local_scale = <0, 0, 1>
+	ID	=	1218
+	local ID	=	1987
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-23, 0, 38>
+	world_dir = <0, 0, 1>
+	local_scale = <0, 0, 1>
+	ID	=	1219
+	local ID	=	1988
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <5, 0, 36>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1220
+	local ID	=	1989
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <1, 0, 36>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1221
+	local ID	=	1990
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-2, 0, 36>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1222
+	local ID	=	1991
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-6, 0, 36>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1223
+	local ID	=	1992
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-10, 0, 36>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1224
+	local ID	=	1993
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-14, 0, 36>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1225
+	local ID	=	1994
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-18, 0, 36>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1226
+	local ID	=	1995
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-25, 0, 36>
+	world_dir = <0, 0, 0>
+	local_scale = <1, 1, 0>
+	ID	=	1227
+	local ID	=	1996
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-12, 0, 34>
+	world_dir = <0, 0, 0>
+	local_scale = <1, 1, 0>
+	ID	=	1228
+	local ID	=	1997
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-23, 0, 36>
+	world_dir = <-1, 0, 0>
+	local_scale = <0, 1, 1>
+	ID	=	1240
+	local ID	=	2021
+	MeshName	=	int_low_wall_dest_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <5, 0, 16>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1242
+	local ID	=	2024
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <1, 0, 16>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1243
+	local ID	=	2025
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-2, 0, 16>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1244
+	local ID	=	2026
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-6, 0, 16>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1245
+	local ID	=	2027
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 18>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1246
+	local ID	=	2028
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 18>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1247
+	local ID	=	2029
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-6, 0, 20>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1248
+	local ID	=	2030
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-2, 0, 20>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1249
+	local ID	=	2031
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <1, 0, 20>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1250
+	local ID	=	2032
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <5, 0, 20>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1251
+	local ID	=	2033
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 22>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1252
+	local ID	=	2034
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 26>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1253
+	local ID	=	2035
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 30>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1254
+	local ID	=	2036
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-6, 0, 32>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1255
+	local ID	=	2037
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-2, 0, 32>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1256
+	local ID	=	2038
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <1, 0, 32>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1257
+	local ID	=	2039
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <5, 0, 32>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	ID	=	1258
+	local ID	=	2040
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 34>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1259
+	local ID	=	2041
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <7, 0, 34>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	ID	=	1260
+	local ID	=	2042
+	MeshName	=	int_low_wall_door_sm_a.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 6>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1261
+	local ID	=	2043
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 10>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1262
+	local ID	=	2044
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <-8, 0, 14>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
+	ID	=	1263
+	local ID	=	2045
+	MeshName	=	int_low_wall_a_anim.msh
 	SkinName	=	default

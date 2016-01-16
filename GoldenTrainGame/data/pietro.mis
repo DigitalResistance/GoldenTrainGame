@@ -1,0 +1,48 @@
+ModelObject{ModelObject} from group :929
+	world_position = <-21, 0, 0>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	Parent's guid	=	EDCDF4E422463236
+	local ID	=	0
+	MeshName	=	int_low_stairs_mid.msh
+	SkinName	=	default
+ModelObject{ModelObject} from group :929
+	world_position = <-24, 0, 2>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	Parent's guid	=	EDCDF4E422463236
+	local ID	=	1
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject} from group :929
+	world_position = <-24, 0, 6>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	Parent's guid	=	EDCDF4E422463236
+	local ID	=	2
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject} from group :929
+	world_position = <-21, 0, 2>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	Parent's guid	=	EDCDF4E422463236
+	local ID	=	3
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject} from group :929
+	world_position = <-19, 0, 4>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	Parent's guid	=	EDCDF4E422463236
+	local ID	=	4
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ModelObject{ModelObject} from group :929
+	world_position = <-17, 0, 4>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	Parent's guid	=	EDCDF4E422463236
+	local ID	=	5
+	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
