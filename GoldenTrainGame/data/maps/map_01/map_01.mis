@@ -148,246 +148,6 @@ ModelObject{ModelObject}
 	local ID	=	1690
 	MeshName	=	int_low_wall_a_anim.msh
 	SkinName	=	default
-terrain/patches/map_01_-1x0.msh{TerrainObject}
-	world_position = <-16, 0, 16>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1055
-	local ID	=	1760
-	MeshName	=	map_01_-1x0.msh
-	SkinName	=	default
-terrain/patches/map_01_-1x1.msh{TerrainObject}
-	world_position = <-16, 8, 48>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1056
-	local ID	=	1762
-	MeshName	=	map_01_-1x1.msh
-	SkinName	=	default
-terrain/patches/map_01_-1x2.msh{TerrainObject}
-	world_position = <-16, 17, 80>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1057
-	local ID	=	1764
-	MeshName	=	map_01_-1x2.msh
-	SkinName	=	default
-terrain/patches/map_01_-1x3.msh{TerrainObject}
-	world_position = <-16, 19, 112>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1058
-	local ID	=	1766
-	MeshName	=	map_01_-1x3.msh
-	SkinName	=	default
-terrain/patches/map_01_-1x4.msh{TerrainObject}
-	world_position = <-16, 14, 144>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1059
-	local ID	=	1768
-	MeshName	=	map_01_-1x4.msh
-	SkinName	=	default
-terrain/patches/map_01_0x0.msh{TerrainObject}
-	world_position = <16, 0, 16>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1060
-	local ID	=	1770
-	MeshName	=	map_01_0x0.msh
-	SkinName	=	default
-terrain/patches/map_01_0x1.msh{TerrainObject}
-	world_position = <16, 11, 48>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1061
-	local ID	=	1772
-	MeshName	=	map_01_0x1.msh
-	SkinName	=	default
-terrain/patches/map_01_0x2.msh{TerrainObject}
-	world_position = <16, 26, 80>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1062
-	local ID	=	1774
-	MeshName	=	map_01_0x2.msh
-	SkinName	=	default
-terrain/patches/map_01_0x3.msh{TerrainObject}
-	world_position = <16, 32, 112>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1063
-	local ID	=	1776
-	MeshName	=	map_01_0x3.msh
-	SkinName	=	default
-terrain/patches/map_01_0x4.msh{TerrainObject}
-	world_position = <16, 17, 144>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1064
-	local ID	=	1778
-	MeshName	=	map_01_0x4.msh
-	SkinName	=	default
-terrain/patches/map_01_1x0.msh{TerrainObject}
-	world_position = <48, 1, 16>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1065
-	local ID	=	1780
-	MeshName	=	map_01_1x0.msh
-	SkinName	=	default
-terrain/patches/map_01_1x1.msh{TerrainObject}
-	world_position = <48, 14, 48>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1066
-	local ID	=	1782
-	MeshName	=	map_01_1x1.msh
-	SkinName	=	default
-terrain/patches/map_01_1x2.msh{TerrainObject}
-	world_position = <48, 28, 80>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1067
-	local ID	=	1784
-	MeshName	=	map_01_1x2.msh
-	SkinName	=	default
-terrain/patches/map_01_1x3.msh{TerrainObject}
-	world_position = <48, 33, 112>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1068
-	local ID	=	1786
-	MeshName	=	map_01_1x3.msh
-	SkinName	=	default
-terrain/patches/map_01_1x4.msh{TerrainObject}
-	world_position = <48, 21, 144>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1069
-	local ID	=	1788
-	MeshName	=	map_01_1x4.msh
-	SkinName	=	default
-terrain/patches/map_01_2x0.msh{TerrainObject}
-	world_position = <80, 6, 16>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1070
-	local ID	=	1790
-	MeshName	=	map_01_2x0.msh
-	SkinName	=	default
-terrain/patches/map_01_2x1.msh{TerrainObject}
-	world_position = <80, 17, 48>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1071
-	local ID	=	1792
-	MeshName	=	map_01_2x1.msh
-	SkinName	=	default
-terrain/patches/map_01_2x2.msh{TerrainObject}
-	world_position = <80, 30, 80>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1072
-	local ID	=	1794
-	MeshName	=	map_01_2x2.msh
-	SkinName	=	default
-terrain/patches/map_01_2x3.msh{TerrainObject}
-	world_position = <80, 29, 112>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1073
-	local ID	=	1796
-	MeshName	=	map_01_2x3.msh
-	SkinName	=	default
-terrain/patches/map_01_2x4.msh{TerrainObject}
-	world_position = <80, 18, 144>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1074
-	local ID	=	1798
-	MeshName	=	map_01_2x4.msh
-	SkinName	=	default
-terrain/patches/map_01_3x0.msh{TerrainObject}
-	world_position = <112, 13, 16>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1075
-	local ID	=	1800
-	MeshName	=	map_01_3x0.msh
-	SkinName	=	default
-terrain/patches/map_01_3x1.msh{TerrainObject}
-	world_position = <112, 21, 48>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1076
-	local ID	=	1802
-	MeshName	=	map_01_3x1.msh
-	SkinName	=	default
-terrain/patches/map_01_3x2.msh{TerrainObject}
-	world_position = <112, 28, 80>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1077
-	local ID	=	1804
-	MeshName	=	map_01_3x2.msh
-	SkinName	=	default
-terrain/patches/map_01_3x3.msh{TerrainObject}
-	world_position = <112, 30, 112>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1078
-	local ID	=	1806
-	MeshName	=	map_01_3x3.msh
-	SkinName	=	default
-terrain/patches/map_01_3x4.msh{TerrainObject}
-	world_position = <112, 18, 144>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1079
-	local ID	=	1808
-	MeshName	=	map_01_3x4.msh
-	SkinName	=	default
-terrain/patches/map_01_4x0.msh{TerrainObject}
-	world_position = <144, 13, 16>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1080
-	local ID	=	1810
-	MeshName	=	map_01_4x0.msh
-	SkinName	=	default
-terrain/patches/map_01_4x1.msh{TerrainObject}
-	world_position = <144, 16, 48>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1081
-	local ID	=	1812
-	MeshName	=	map_01_4x1.msh
-	SkinName	=	default
-terrain/patches/map_01_4x2.msh{TerrainObject}
-	world_position = <144, 16, 80>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1082
-	local ID	=	1814
-	MeshName	=	map_01_4x2.msh
-	SkinName	=	default
-terrain/patches/map_01_4x3.msh{TerrainObject}
-	world_position = <144, 15, 112>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1083
-	local ID	=	1816
-	MeshName	=	map_01_4x3.msh
-	SkinName	=	default
-terrain/patches/map_01_4x4.msh{TerrainObject}
-	world_position = <144, 13, 144>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	ID	=	1084
-	local ID	=	1818
-	MeshName	=	map_01_4x4.msh
-	SkinName	=	default
 ModelObject{ModelObject}
 	world_position = <-20, 0, -1>
 	world_dir = <0, 0, -1>
@@ -1379,4 +1139,563 @@ ModelObject{ModelObject}
 	ID	=	1263
 	local ID	=	2045
 	MeshName	=	int_low_wall_a_anim.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <-25, 0, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1481
+	local ID	=	2173
+	ID	=	AI_Throwable_Knife
+	m_EditorItemName	=	AI_Throwable_Knife
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_throwing_knife_a.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <-24, 0, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1482
+	local ID	=	2175
+	ID	=	Firearm_PistolAGen
+	m_EditorItemName	=	Firearm_PistolAGen
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_pistol_a.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <-24, 0, 17>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1483
+	local ID	=	2177
+	ID	=	ShotgunTPP
+	m_EditorItemName	=	ShotgunTPP
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_shotgun_a_tpp.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <-24, 0, 17>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1484
+	local ID	=	2179
+	ID	=	Ammo_ShotgunBig
+	m_EditorItemName	=	Ammo_ShotgunBig
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	ammo_gauge.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <-24, 0, 17>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1485
+	local ID	=	2181
+	ID	=	Ammo_PistolBig
+	m_EditorItemName	=	Ammo_PistolBig
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	loot_ok_ammo_short.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <-24, 0, 17>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1486
+	local ID	=	2183
+	ID	=	ZZZZFirearm_PVPPistol
+	m_EditorItemName	=	ZZZZFirearm_PVPPistol
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_pistol_a.msh
+	SkinName	=	default
+ComplexContainer{ComplexContainer}
+	world_position = <-19, 0, 19>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1488
+	local ID	=	2187
+		Preset: Type : basket_b_anm_Cont_Basket
+				MeshName : basket_b_anm.msh
+				SkinName : basket
+				m_InteractionName : basket_cover_removing
+	m_InitialState	=	closed
+	m_UnlimitedLockpicks	=	0
+	m_LootType	=	undefined
+	m_ForcedLootItemsCount	=	-1
+	m_OpenStringType	=	Open
+	m_ForceNoLoot	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+enemy{AISpawnBoxNumber}
+	world_position = <-20, 0, 14>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	ID	=	1492
+	local ID	=	2195
+		Preset: AI Preset : Screamer
+				m_AIPresets : Screamer
+				m_BeforeSpawnSoundStartRange : 22.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 1
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+wallet{QuestInventoryItemDI}
+	world_position = <-20, 0, 14>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1497
+	local ID	=	2199
+	m_Description	=	&MyWallet_Item_Wallet&
+	MeshName	=	collectable_wallet.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x0.msh{TerrainObject}
+	world_position = <-16, 0, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1693
+	local ID	=	2266
+	MeshName	=	map_01_-1x0.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x1.msh{TerrainObject}
+	world_position = <-16, 8, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1694
+	local ID	=	2268
+	MeshName	=	map_01_-1x1.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x2.msh{TerrainObject}
+	world_position = <-16, 17, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1695
+	local ID	=	2270
+	MeshName	=	map_01_-1x2.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x3.msh{TerrainObject}
+	world_position = <-16, 19, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1696
+	local ID	=	2272
+	MeshName	=	map_01_-1x3.msh
+	SkinName	=	default
+terrain/patches/map_01_-1x4.msh{TerrainObject}
+	world_position = <-16, 14, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1697
+	local ID	=	2274
+	MeshName	=	map_01_-1x4.msh
+	SkinName	=	default
+terrain/patches/map_01_0x0.msh{TerrainObject}
+	world_position = <16, 0, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1698
+	local ID	=	2276
+	MeshName	=	map_01_0x0.msh
+	SkinName	=	default
+terrain/patches/map_01_0x1.msh{TerrainObject}
+	world_position = <16, 11, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1699
+	local ID	=	2278
+	MeshName	=	map_01_0x1.msh
+	SkinName	=	default
+terrain/patches/map_01_0x2.msh{TerrainObject}
+	world_position = <16, 26, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1700
+	local ID	=	2280
+	MeshName	=	map_01_0x2.msh
+	SkinName	=	default
+terrain/patches/map_01_0x3.msh{TerrainObject}
+	world_position = <16, 32, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1701
+	local ID	=	2282
+	MeshName	=	map_01_0x3.msh
+	SkinName	=	default
+terrain/patches/map_01_0x4.msh{TerrainObject}
+	world_position = <16, 17, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1702
+	local ID	=	2284
+	MeshName	=	map_01_0x4.msh
+	SkinName	=	default
+terrain/patches/map_01_1x0.msh{TerrainObject}
+	world_position = <48, 1, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1703
+	local ID	=	2286
+	MeshName	=	map_01_1x0.msh
+	SkinName	=	default
+terrain/patches/map_01_1x1.msh{TerrainObject}
+	world_position = <48, 14, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1704
+	local ID	=	2288
+	MeshName	=	map_01_1x1.msh
+	SkinName	=	default
+terrain/patches/map_01_1x2.msh{TerrainObject}
+	world_position = <48, 28, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1705
+	local ID	=	2290
+	MeshName	=	map_01_1x2.msh
+	SkinName	=	default
+terrain/patches/map_01_1x3.msh{TerrainObject}
+	world_position = <48, 33, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1706
+	local ID	=	2292
+	MeshName	=	map_01_1x3.msh
+	SkinName	=	default
+terrain/patches/map_01_1x4.msh{TerrainObject}
+	world_position = <48, 21, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1707
+	local ID	=	2294
+	MeshName	=	map_01_1x4.msh
+	SkinName	=	default
+terrain/patches/map_01_2x0.msh{TerrainObject}
+	world_position = <80, 6, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1708
+	local ID	=	2296
+	MeshName	=	map_01_2x0.msh
+	SkinName	=	default
+terrain/patches/map_01_2x1.msh{TerrainObject}
+	world_position = <80, 17, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1709
+	local ID	=	2298
+	MeshName	=	map_01_2x1.msh
+	SkinName	=	default
+terrain/patches/map_01_2x2.msh{TerrainObject}
+	world_position = <80, 30, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1710
+	local ID	=	2300
+	MeshName	=	map_01_2x2.msh
+	SkinName	=	default
+terrain/patches/map_01_2x3.msh{TerrainObject}
+	world_position = <80, 29, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1711
+	local ID	=	2302
+	MeshName	=	map_01_2x3.msh
+	SkinName	=	default
+terrain/patches/map_01_2x4.msh{TerrainObject}
+	world_position = <80, 18, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1712
+	local ID	=	2304
+	MeshName	=	map_01_2x4.msh
+	SkinName	=	default
+terrain/patches/map_01_3x0.msh{TerrainObject}
+	world_position = <112, 13, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1713
+	local ID	=	2306
+	MeshName	=	map_01_3x0.msh
+	SkinName	=	default
+terrain/patches/map_01_3x1.msh{TerrainObject}
+	world_position = <112, 21, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1714
+	local ID	=	2308
+	MeshName	=	map_01_3x1.msh
+	SkinName	=	default
+terrain/patches/map_01_3x2.msh{TerrainObject}
+	world_position = <112, 28, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1715
+	local ID	=	2310
+	MeshName	=	map_01_3x2.msh
+	SkinName	=	default
+terrain/patches/map_01_3x3.msh{TerrainObject}
+	world_position = <112, 30, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1716
+	local ID	=	2312
+	MeshName	=	map_01_3x3.msh
+	SkinName	=	default
+terrain/patches/map_01_3x4.msh{TerrainObject}
+	world_position = <112, 18, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1717
+	local ID	=	2314
+	MeshName	=	map_01_3x4.msh
+	SkinName	=	default
+terrain/patches/map_01_4x0.msh{TerrainObject}
+	world_position = <144, 13, 16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1718
+	local ID	=	2316
+	MeshName	=	map_01_4x0.msh
+	SkinName	=	default
+terrain/patches/map_01_4x1.msh{TerrainObject}
+	world_position = <144, 16, 48>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1719
+	local ID	=	2318
+	MeshName	=	map_01_4x1.msh
+	SkinName	=	default
+terrain/patches/map_01_4x2.msh{TerrainObject}
+	world_position = <144, 16, 80>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1720
+	local ID	=	2320
+	MeshName	=	map_01_4x2.msh
+	SkinName	=	default
+terrain/patches/map_01_4x3.msh{TerrainObject}
+	world_position = <144, 15, 112>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1721
+	local ID	=	2322
+	MeshName	=	map_01_4x3.msh
+	SkinName	=	default
+terrain/patches/map_01_4x4.msh{TerrainObject}
+	world_position = <144, 13, 144>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	ID	=	1722
+	local ID	=	2324
+	MeshName	=	map_01_4x4.msh
 	SkinName	=	default

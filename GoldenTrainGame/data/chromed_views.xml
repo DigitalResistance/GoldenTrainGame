@@ -2,7 +2,32 @@
 	<document path=""/>
 	<document path="data/maps/map_01/map_01.map">
 		<docksite id="0000000000000000" data="">
-			<view name="map_01" location="-1" float_rc="0;0;0;0" data="41;1.000000;0.671603;0.000000;-0.740911;-0.535052;0.691732;-0.485001;0.512512;0.722154;0.464569;4.102379;21.931492;15.648026;0.100000;500.000000;"/>
+			<view name="map_01" location="-1" float_rc="0;0;0;0" data="41;1.000000;0.867422;0.000000;-0.497572;-0.478649;0.273160;-0.834433;0.135917;0.961969;0.236945;-19.531437;4.020075;15.330709;0.100000;500.000000;"/>
+		</docksite>
+	</document>
+	<document path="data/quests/e.pxsl">
+		<docksite id="0000000000000000" data="">
+			<view name="e.pxsl" location="-1" float_rc="0;0;0;0" data=""/>
+		</docksite>
+	</document>
+	<document path="data/quests/example/WalletStory.pxsl">
+		<docksite id="0000000000000000" data="">
+			<view name="walletstory.pxsl" location="-1" float_rc="0;0;0;0" data=""/>
+		</docksite>
+	</document>
+	<document path="data/quests/example/WalletStory2.pxsl">
+		<docksite id="0000000000000000" data="">
+			<view name="walletstory2.pxsl" location="-1" float_rc="0;0;0;0" data=""/>
+		</docksite>
+	</document>
+	<document path="data/quests/example/WalletStory3.pxsl">
+		<docksite id="0000000000000000" data="">
+			<view name="walletstory3.pxsl" location="-1" float_rc="0;0;0;0" data=""/>
+		</docksite>
+	</document>
+	<document path="data/quests/example/walletstory.pxsl">
+		<docksite id="0000000000000000" data="">
+			<view name="walletstory.pxsl" location="-1" float_rc="0;0;0;0" data=""/>
 		</docksite>
 	</document>
 </documents>

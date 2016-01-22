@@ -1,0 +1,10 @@
+<<<?xml version="1.0"?>>>
+
+QuestsDefinitions -level=map_01
+quest MyWallet
+,kill <<Kill enemy>> AISpawnBoxNumber enemy -obj=&MyWallet_Kill&
+,take <<take wallet>> QuestInventoryItemDI wallet -obj=&MyWallet_Take&
+quest MyWalletEpilog -parent=MyWallet -final=true
+,wait <<Wait 5 seconds>> 5
+,goto <<Go back>> SpawnPoint MapStart -distance=5 -obj=&MyWalletEpilog_Go&
+,semaphore <<No credits>>

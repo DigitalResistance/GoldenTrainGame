@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<QuestsDefinitions
+     level="map_01"
+     pxsl_line="3" />
+<Quest
+     name="MyWallet"
+     pxsl_line="4" />
+<Phase
+     type="kill"
+     name="Kill enemy"
+     objective="&amp;MyWallet_Kill&amp;"
+     pxsl_line="5">
+    <Spawner
+         pxsl_line="5">
+        <QuestObject
+             class="AISpawnBoxNumber"
+             name="enemy"
+             pxsl_line="5" />
+    </Spawner>
+</Phase>
+<Phase
+     type="take item"
+     name="take wallet"
+     objective="&amp;MyWallet_Take&amp;"
+     pxsl_line="6">
+    <Item
+         pxsl_line="6">
+        <QuestObject
+             class="QuestInventoryItemDI"
+             name="wallet"
+             pxsl_line="6" />
+    </Item>
+</Phase>
+<Quest
+     name="MyWalletEpilog"
+     parent="MyWallet"
+     final="true"
+     pxsl_line="7" />
+<Phase
+     type="wait guard"
+     name="Wait 5 seconds"
+     time="5"
+     pxsl_line="8" />
+<Phase
+     type="go to"
+     name="Go back"
+     objective="&amp;MyWalletEpilog_Go&amp;"
+     distance="5"
+     pxsl_line="9">
+    <Destination
+         pxsl_line="9">
+        <QuestObject
+             class="SpawnPoint"
+             name="MapStart"
+             pxsl_line="9" />
+    </Destination>
+</Phase>
+<Phase
+     type="semaphore"
+     name="No credits"
+     pxsl_line="10" />
