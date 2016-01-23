@@ -1463,239 +1463,239 @@ terrain/patches/map_01_-1x0.msh{TerrainObject}
 	world_position = <-16, 0, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1693
-	local ID	=	2266
+	ID	=	2219
+	local ID	=	2644
 	MeshName	=	map_01_-1x0.msh
 	SkinName	=	default
 terrain/patches/map_01_-1x1.msh{TerrainObject}
 	world_position = <-16, 8, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1694
-	local ID	=	2268
+	ID	=	2220
+	local ID	=	2646
 	MeshName	=	map_01_-1x1.msh
 	SkinName	=	default
 terrain/patches/map_01_-1x2.msh{TerrainObject}
 	world_position = <-16, 17, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1695
-	local ID	=	2270
+	ID	=	2221
+	local ID	=	2648
 	MeshName	=	map_01_-1x2.msh
 	SkinName	=	default
 terrain/patches/map_01_-1x3.msh{TerrainObject}
 	world_position = <-16, 19, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1696
-	local ID	=	2272
+	ID	=	2222
+	local ID	=	2650
 	MeshName	=	map_01_-1x3.msh
 	SkinName	=	default
 terrain/patches/map_01_-1x4.msh{TerrainObject}
 	world_position = <-16, 14, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1697
-	local ID	=	2274
+	ID	=	2223
+	local ID	=	2652
 	MeshName	=	map_01_-1x4.msh
 	SkinName	=	default
 terrain/patches/map_01_0x0.msh{TerrainObject}
 	world_position = <16, 0, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1698
-	local ID	=	2276
+	ID	=	2224
+	local ID	=	2654
 	MeshName	=	map_01_0x0.msh
 	SkinName	=	default
 terrain/patches/map_01_0x1.msh{TerrainObject}
 	world_position = <16, 11, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1699
-	local ID	=	2278
+	ID	=	2225
+	local ID	=	2656
 	MeshName	=	map_01_0x1.msh
 	SkinName	=	default
 terrain/patches/map_01_0x2.msh{TerrainObject}
 	world_position = <16, 26, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1700
-	local ID	=	2280
+	ID	=	2226
+	local ID	=	2658
 	MeshName	=	map_01_0x2.msh
 	SkinName	=	default
 terrain/patches/map_01_0x3.msh{TerrainObject}
 	world_position = <16, 32, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1701
-	local ID	=	2282
+	ID	=	2227
+	local ID	=	2660
 	MeshName	=	map_01_0x3.msh
 	SkinName	=	default
 terrain/patches/map_01_0x4.msh{TerrainObject}
 	world_position = <16, 17, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1702
-	local ID	=	2284
+	ID	=	2228
+	local ID	=	2662
 	MeshName	=	map_01_0x4.msh
 	SkinName	=	default
 terrain/patches/map_01_1x0.msh{TerrainObject}
 	world_position = <48, 1, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1703
-	local ID	=	2286
+	ID	=	2229
+	local ID	=	2664
 	MeshName	=	map_01_1x0.msh
 	SkinName	=	default
 terrain/patches/map_01_1x1.msh{TerrainObject}
 	world_position = <48, 14, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1704
-	local ID	=	2288
+	ID	=	2230
+	local ID	=	2666
 	MeshName	=	map_01_1x1.msh
 	SkinName	=	default
 terrain/patches/map_01_1x2.msh{TerrainObject}
 	world_position = <48, 28, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1705
-	local ID	=	2290
+	ID	=	2231
+	local ID	=	2668
 	MeshName	=	map_01_1x2.msh
 	SkinName	=	default
 terrain/patches/map_01_1x3.msh{TerrainObject}
 	world_position = <48, 33, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1706
-	local ID	=	2292
+	ID	=	2232
+	local ID	=	2670
 	MeshName	=	map_01_1x3.msh
 	SkinName	=	default
 terrain/patches/map_01_1x4.msh{TerrainObject}
 	world_position = <48, 21, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1707
-	local ID	=	2294
+	ID	=	2233
+	local ID	=	2672
 	MeshName	=	map_01_1x4.msh
 	SkinName	=	default
 terrain/patches/map_01_2x0.msh{TerrainObject}
 	world_position = <80, 6, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1708
-	local ID	=	2296
+	ID	=	2234
+	local ID	=	2674
 	MeshName	=	map_01_2x0.msh
 	SkinName	=	default
 terrain/patches/map_01_2x1.msh{TerrainObject}
 	world_position = <80, 17, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1709
-	local ID	=	2298
+	ID	=	2235
+	local ID	=	2676
 	MeshName	=	map_01_2x1.msh
 	SkinName	=	default
 terrain/patches/map_01_2x2.msh{TerrainObject}
 	world_position = <80, 30, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1710
-	local ID	=	2300
+	ID	=	2236
+	local ID	=	2678
 	MeshName	=	map_01_2x2.msh
 	SkinName	=	default
 terrain/patches/map_01_2x3.msh{TerrainObject}
 	world_position = <80, 29, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1711
-	local ID	=	2302
+	ID	=	2237
+	local ID	=	2680
 	MeshName	=	map_01_2x3.msh
 	SkinName	=	default
 terrain/patches/map_01_2x4.msh{TerrainObject}
 	world_position = <80, 18, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1712
-	local ID	=	2304
+	ID	=	2238
+	local ID	=	2682
 	MeshName	=	map_01_2x4.msh
 	SkinName	=	default
 terrain/patches/map_01_3x0.msh{TerrainObject}
 	world_position = <112, 13, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1713
-	local ID	=	2306
+	ID	=	2239
+	local ID	=	2684
 	MeshName	=	map_01_3x0.msh
 	SkinName	=	default
 terrain/patches/map_01_3x1.msh{TerrainObject}
 	world_position = <112, 21, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1714
-	local ID	=	2308
+	ID	=	2240
+	local ID	=	2686
 	MeshName	=	map_01_3x1.msh
 	SkinName	=	default
 terrain/patches/map_01_3x2.msh{TerrainObject}
 	world_position = <112, 28, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1715
-	local ID	=	2310
+	ID	=	2241
+	local ID	=	2688
 	MeshName	=	map_01_3x2.msh
 	SkinName	=	default
 terrain/patches/map_01_3x3.msh{TerrainObject}
 	world_position = <112, 30, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1716
-	local ID	=	2312
+	ID	=	2242
+	local ID	=	2690
 	MeshName	=	map_01_3x3.msh
 	SkinName	=	default
 terrain/patches/map_01_3x4.msh{TerrainObject}
 	world_position = <112, 18, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1717
-	local ID	=	2314
+	ID	=	2243
+	local ID	=	2692
 	MeshName	=	map_01_3x4.msh
 	SkinName	=	default
 terrain/patches/map_01_4x0.msh{TerrainObject}
 	world_position = <144, 13, 16>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1718
-	local ID	=	2316
+	ID	=	2244
+	local ID	=	2694
 	MeshName	=	map_01_4x0.msh
 	SkinName	=	default
 terrain/patches/map_01_4x1.msh{TerrainObject}
 	world_position = <144, 16, 48>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1719
-	local ID	=	2318
+	ID	=	2245
+	local ID	=	2696
 	MeshName	=	map_01_4x1.msh
 	SkinName	=	default
 terrain/patches/map_01_4x2.msh{TerrainObject}
 	world_position = <144, 16, 80>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1720
-	local ID	=	2320
+	ID	=	2246
+	local ID	=	2698
 	MeshName	=	map_01_4x2.msh
 	SkinName	=	default
 terrain/patches/map_01_4x3.msh{TerrainObject}
 	world_position = <144, 15, 112>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1721
-	local ID	=	2322
+	ID	=	2247
+	local ID	=	2700
 	MeshName	=	map_01_4x3.msh
 	SkinName	=	default
 terrain/patches/map_01_4x4.msh{TerrainObject}
 	world_position = <144, 13, 144>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	ID	=	1722
-	local ID	=	2324
+	ID	=	2248
+	local ID	=	2702
 	MeshName	=	map_01_4x4.msh
 	SkinName	=	default
