@@ -3,674 +3,657 @@ map_01{LevelDI}
 	m_DayTimeAndWeatherScripts	=	Data/Scripts/dw_weather.scr;
 	m_tempTinyObjectsScriptPath	=	
 MapStart{SpawnPoint}
-	world_position = <-22, 1, -7>
+	world_position = <-22, 1, -45>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	EDD495E4224BAF77
-LadderDI{LadderDI}
-	world_position = <-21, 0, 9>
+ModelObject{ModelObject}
+	world_position = <-18, 0, -30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	EDDB06E42250DB28
-	MeshName	=	ladder_c.msh
+	guid	=	1BE2D7B9AB4947CE
+	MeshName	=	dream_floor_a.msh
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <-24, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCD55E422452409
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-20, 0, -1>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCA58E42242F34B
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-18, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCA85E422433FC2
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-28, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCA86E422434175
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-30, 0, 2>
+	world_position = <1, 0, -30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCA83E422433C5C
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2DAB9AB494CE7
+	MeshName	=	dream_floor_a.msh
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <-30, 0, 6>
+	world_position = <-5, 0, -30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCA84E422433E0F
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2D9B9AB494B34
+	MeshName	=	dream_floor_a.msh
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <-30, 0, 10>
+	world_position = <-30, 0, -30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCA81E4224338F6
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2DCB9AB49504D
+	MeshName	=	dream_floor_a.msh
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <-30, 0, 14>
+	world_position = <-30, 0, -10>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCA82E422433AA9
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2DBB9AB494E9A
+	MeshName	=	dream_floor_a.msh
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <-30, 0, 18>
+	world_position = <-17, 0, -10>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCA7FE422433590
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2CEB9AB493883
+	MeshName	=	dream_floor_a.msh
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <-30, 0, 22>
+	world_position = <-4, 0, -10>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCA80E422433743
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2D0B9AB493BE9
+	MeshName	=	dream_floor_a.msh
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <-26, 0, 14>
+	world_position = <2, 0, -10>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCACAE42243B501
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2CFB9AB493A36
+	MeshName	=	dream_floor_a.msh
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-20, 0, 12>
+DoorDI{DoorDI}
+	world_position = <3, 0, -12>
 	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCAC7E42243AFE8
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2D4B9AB4942B5
+		Preset: Behaviour : ClosedCheck
+				m_InteractionMode : check
+				m_SelectedBehaviours : 16
+				m_StartState : locked
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-18, 0, 10>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAC8E42243B19B
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-14, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAB1E422438A86
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-10, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAB2E422438C39
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-6, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAAFE422438720
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-2, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAB0E4224388D3
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <1, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCABDE422439EEA
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-16, 0, 4>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCABEE42243A09D
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 4>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCABBE422439B84
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-8, 0, 4>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCABCE422439D37
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-4, 0, 4>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAB9E42243981E
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-26, 0, 18>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCABAE4224399D1
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-26, 0, 18>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAB7E4224394B8
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-24, 0, 20>
+DoorDI{DoorDI}
+	world_position = <3, 0, -8>
 	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCAE5E42243E2E2
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2D3B9AB494102
+		Preset: Behaviour : ClosedCheck
+				m_InteractionMode : check
+				m_SelectedBehaviours : 16
+				m_StartState : locked
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-20, 0, 20>
+DoorDI{DoorDI}
+	world_position = <3, 0, -4>
 	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCAE6E42243E495
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2C6B9AB492AEB
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-18, 0, 18>
-	world_dir = <0, 0, -1>
+DoorDI{DoorDI}
+	world_position = <-12, 0, -20>
+	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCAE3E42243DF7C
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2C5B9AB492938
+		Preset: Behaviour : ClosedCheck
+				m_InteractionMode : check
+				m_SelectedBehaviours : 16
+				m_StartState : locked
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 6>
-	world_dir = <0, 0, -1>
+DoorDI{DoorDI}
+	world_position = <-22, 0, -24>
+	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCADFE42243D8B0
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2C8B9AB492E51
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 10>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAE0E42243DA63
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 14>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAEDE42243F07A
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 18>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAEEE42243F22D
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 22>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAEBE42243ED14
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 26>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAECE42243EEC7
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 30>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAE9E42243E9AE
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-26, 0, 22>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAEAE42243EB61
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-30, 0, 26>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAE7E42243E648
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-30, 0, 30>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAE8E42243E7FB
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-26, 0, 26>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAD5E42243C7B2
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-26, 0, 30>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAD6E42243C965
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-30, 0, 34>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAD3E42243C44C
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <5, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAD4E42243C5FF
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <9, 0, 0>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAD1E42243C0E6
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 2>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAD2E42243C299
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 6>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCACFE42243BD80
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 10>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAD0E42243BF33
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 14>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCADDE42243D54A
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 18>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCADEE42243D6FD
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 22>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCADBE42243D1E4
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 26>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCADCE42243D397
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <3, 0, 4>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAD7E42243CB18
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <6, 0, 4>
+DoorDI{DoorDI}
+	world_position = <3, 0, -28>
 	world_dir = <0, 0, 0>
-	local_scale = <1, 1, 0>
-	guid	=	EDCAD8E42243CCCB
-	MeshName	=	int_low_wall_a_anim.msh
+	local_scale = <0, 1, 0>
+	guid	=	1BE2C7B9AB492C9E
+		Preset: Behaviour : ClosedCheck
+				m_InteractionMode : check
+				m_SelectedBehaviours : 16
+				m_StartState : locked
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 30>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAF4E42243FC5F
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 34>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAF1E42243F746
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <11, 0, 38>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAF2E42243F8F9
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <9, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAEFE42243F3E0
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <5, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAF0E42243F593
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <1, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAFDE422440BAA
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-2, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAFEE422440D5D
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-6, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAFBE422440844
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-10, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAFCE4224409F7
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-14, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAF9E4224404DE
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-18, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAFAE422440691
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-22, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAF7E422440178
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-26, 0, 40>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCAF8E42244032B
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-30, 0, 38>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB25E422444FA2
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-29, 0, 40>
+DoorDI{DoorDI}
+	world_position = <-28, 0, -27>
 	world_dir = <0, 0, 0>
-	local_scale = <1, 1, 0>
-	guid	=	EDCB26E422445155
-	MeshName	=	int_low_wall_a_anim.msh
+	local_scale = <0, 1, 0>
+	guid	=	1BE2CAB9AB4931B7
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-26, 0, 34>
-	world_dir = <0, 0, 1>
+DoorDI{DoorDI}
+	world_position = <-22, 0, -37>
+	world_dir = <-1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCB23E422444C3C
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2C9B9AB493004
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <5, 0, 36>
-	world_dir = <1, 0, 0>
+DoorDI{DoorDI}
+	world_position = <-32, 0, -27>
+	world_dir = <0, 0, -1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCB22E422444A89
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2CCB9AB49351D
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <1, 0, 36>
-	world_dir = <1, 0, 0>
+DoorDI{DoorDI}
+	world_position = <6, 0, -35>
+	world_dir = <0, 0, -1>
 	local_scale = <1, 1, 1>
-	guid	=	EDCB1FE422444570
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2CBB9AB49336A
+		Preset: Behaviour : ClosedCheck
+				m_InteractionMode : check
+				m_SelectedBehaviours : 16
+				m_StartState : locked
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-2, 0, 36>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB20E422444723
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-6, 0, 36>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB2DE422445D3A
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-10, 0, 36>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB2EE422445EED
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-14, 0, 36>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB2BE4224459D4
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-18, 0, 36>
-	world_dir = <1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB2CE422445B87
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-25, 0, 36>
+DoorDI{DoorDI}
+	world_position = <-22, 0, -34>
 	world_dir = <0, 0, 0>
-	local_scale = <1, 1, 0>
-	guid	=	EDCB29E42244566E
-	MeshName	=	int_low_wall_a_anim.msh
+	local_scale = <0, 1, 0>
+	guid	=	1BE2BEB9AB491D53
+		Preset: Behaviour : ClosedCheck
+				m_InteractionMode : check
+				m_SelectedBehaviours : 16
+				m_StartState : locked
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-12, 0, 34>
+DoorDI{DoorDI}
+	world_position = <-4, 0, -35>
 	world_dir = <0, 0, 0>
-	local_scale = <1, 1, 0>
-	guid	=	EDCB2AE422445821
-	MeshName	=	int_low_wall_a_anim.msh
+	local_scale = <0, 1, 0>
+	guid	=	1BE2BDB9AB491BA0
+		Preset: Behaviour : ClosedCheck
+				m_InteractionMode : check
+				m_SelectedBehaviours : 16
+				m_StartState : locked
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <5, 0, 16>
-	world_dir = <-1, 0, 0>
+DoorDI{DoorDI}
+	world_position = <3, 0, -20>
+	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCB4DE42244939A
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2C0B9AB4920B9
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <1, 0, 16>
-	world_dir = <-1, 0, 0>
+DoorDI{DoorDI}
+	world_position = <-27, 0, 0>
+	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCB4EE42244954D
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2BFB9AB491F06
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-2, 0, 16>
-	world_dir = <-1, 0, 0>
+DoorDI{DoorDI}
+	world_position = <3, 0, 0>
+	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDCB4BE422449034
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-6, 0, 16>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB4CE4224491E7
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-6, 0, 20>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB47E422448968
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-2, 0, 20>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB48E422448B1B
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <1, 0, 20>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB35E422446AD2
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <5, 0, 20>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB36E422446C85
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-8, 0, 22>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB33E42244676C
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-8, 0, 26>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB34E42244691F
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-8, 0, 30>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB31E422446406
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-6, 0, 32>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB32E4224465B9
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-2, 0, 32>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB2FE4224460A0
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <1, 0, 32>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB30E422446253
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <5, 0, 32>
-	world_dir = <-1, 0, 0>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB3DE42244786A
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-8, 0, 6>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB3CE4224476B7
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-8, 0, 10>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB39E42244719E
-	MeshName	=	int_low_wall_a_anim.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-8, 0, 14>
-	world_dir = <0, 0, -1>
-	local_scale = <1, 1, 1>
-	guid	=	EDCB3AE422447351
-	MeshName	=	int_low_wall_a_anim.msh
+	guid	=	1BE2C2B9AB49241F
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
 ItemSpawner{ItemSpawner}
 	world_position = <-25, 0, 16>
@@ -954,103 +937,31 @@ wallet{QuestInventoryItemDI}
 	SkinName	=	default
 
  GUID to level ID mapping:
+<1BE2BDB9AB491BA0, 2757>
+<1BE2BEB9AB491D53, 2751>
+<1BE2BFB9AB491F06, 2768>
+<1BE2C0B9AB4920B9, 2760>
+<1BE2C2B9AB49241F, 2764>
+<1BE2C5B9AB492938, 2765>
+<1BE2C6B9AB492AEB, 2763>
+<1BE2C7B9AB492C9E, 2759>
+<1BE2C8B9AB492E51, 2766>
+<1BE2C9B9AB493004, 2756>
+<1BE2CAB9AB4931B7, 2744>
+<1BE2CBB9AB49336A, 2758>
+<1BE2CCB9AB49351D, 2750>
+<1BE2CEB9AB493883, 2525>
+<1BE2CFB9AB493A36, 2528>
+<1BE2D0B9AB493BE9, 2527>
+<1BE2D3B9AB494102, 2762>
+<1BE2D4B9AB4942B5, 2761>
+<1BE2D7B9AB4947CE, 2521>
+<1BE2D9B9AB494B34, 2522>
+<1BE2DAB9AB494CE7, 2523>
+<1BE2DBB9AB494E9A, 2524>
+<1BE2DCB9AB49504D, 2517>
 <894C8C3C86CCE78D, 2>
-<EDCA58E42242F34B, 1089>
-<EDCA7FE422433590, 1096>
-<EDCA80E422433743, 1097>
-<EDCA81E4224338F6, 1094>
-<EDCA82E422433AA9, 1095>
-<EDCA83E422433C5C, 1092>
-<EDCA84E422433E0F, 1093>
-<EDCA85E422433FC2, 1090>
-<EDCA86E422434175, 1091>
-<EDCAAFE422438720, 1143>
-<EDCAB0E4224388D3, 1144>
-<EDCAB1E422438A86, 1141>
-<EDCAB2E422438C39, 1142>
-<EDCAB7E4224394B8, 1151>
-<EDCAB9E42243981E, 1149>
-<EDCABAE4224399D1, 1150>
-<EDCABBE422439B84, 1147>
-<EDCABCE422439D37, 1148>
-<EDCABDE422439EEA, 1145>
-<EDCABEE42243A09D, 1146>
-<EDCAC7E42243AFE8, 1135>
-<EDCAC8E42243B19B, 1136>
-<EDCACAE42243B501, 1134>
-<EDCACFE42243BD80, 1175>
-<EDCAD0E42243BF33, 1176>
-<EDCAD1E42243C0E6, 1173>
-<EDCAD2E42243C299, 1174>
-<EDCAD3E42243C44C, 1171>
-<EDCAD4E42243C5FF, 1172>
-<EDCAD5E42243C7B2, 1169>
-<EDCAD6E42243C965, 1170>
-<EDCAD7E42243CB18, 1183>
-<EDCAD8E42243CCCB, 1184>
-<EDCADBE42243D1E4, 1179>
-<EDCADCE42243D397, 1180>
-<EDCADDE42243D54A, 1177>
-<EDCADEE42243D6FD, 1178>
-<EDCADFE42243D8B0, 1159>
-<EDCAE0E42243DA63, 1160>
-<EDCAE3E42243DF7C, 1155>
-<EDCAE5E42243E2E2, 1153>
-<EDCAE6E42243E495, 1154>
-<EDCAE7E42243E648, 1167>
-<EDCAE8E42243E7FB, 1168>
-<EDCAE9E42243E9AE, 1165>
-<EDCAEAE42243EB61, 1166>
-<EDCAEBE42243ED14, 1163>
-<EDCAECE42243EEC7, 1164>
-<EDCAEDE42243F07A, 1161>
-<EDCAEEE42243F22D, 1162>
-<EDCAEFE42243F3E0, 1205>
-<EDCAF0E42243F593, 1206>
-<EDCAF1E42243F746, 1203>
-<EDCAF2E42243F8F9, 1204>
-<EDCAF4E42243FC5F, 1202>
-<EDCAF7E422440178, 1213>
-<EDCAF8E42244032B, 1214>
-<EDCAF9E4224404DE, 1211>
-<EDCAFAE422440691, 1212>
-<EDCAFBE422440844, 1209>
-<EDCAFCE4224409F7, 1210>
-<EDCAFDE422440BAA, 1207>
-<EDCAFEE422440D5D, 1208>
-<EDCB1FE422444570, 1221>
-<EDCB20E422444723, 1222>
-<EDCB22E422444A89, 1220>
-<EDCB23E422444C3C, 1217>
-<EDCB25E422444FA2, 1215>
-<EDCB26E422445155, 1216>
-<EDCB29E42244566E, 1227>
-<EDCB2AE422445821, 1228>
-<EDCB2BE4224459D4, 1225>
-<EDCB2CE422445B87, 1226>
-<EDCB2DE422445D3A, 1223>
-<EDCB2EE422445EED, 1224>
-<EDCB2FE4224460A0, 1256>
-<EDCB30E422446253, 1257>
-<EDCB31E422446406, 1254>
-<EDCB32E4224465B9, 1255>
-<EDCB33E42244676C, 1252>
-<EDCB34E42244691F, 1253>
-<EDCB35E422446AD2, 1250>
-<EDCB36E422446C85, 1251>
-<EDCB39E42244719E, 1262>
-<EDCB3AE422447351, 1263>
-<EDCB3CE4224476B7, 1261>
-<EDCB3DE42244786A, 1258>
-<EDCB47E422448968, 1248>
-<EDCB48E422448B1B, 1249>
-<EDCB4BE422449034, 1244>
-<EDCB4CE4224491E7, 1245>
-<EDCB4DE42244939A, 1242>
-<EDCB4EE42244954D, 1243>
-<EDCD55E422452409, 1018>
 <EDD495E4224BAF77, 13>
-<EDDB06E42250DB28, 403>
 <EDEF40E42261E6C0, 1486>
 <EDEF42E42261EA26, 1485>
 <EDEF44E42261ED8C, 1484>
@@ -1059,13 +970,13 @@ wallet{QuestInventoryItemDI}
 <EDEF54E4226208BC, 1492>
 <EDEFB8E42262B2A8, 1482>
 <EDEFBAE42262B60E, 1481>
-<EDF6E5E422691DCD, 2208>
+<EDF748E42269C606, 2435>
 
 Classes used:
 AIManager
 AISpawnBoxNumber
+DoorDI
 ItemSpawner
-LadderDI
 LevelDI
 ModelObject
 QuestInventoryItemDI

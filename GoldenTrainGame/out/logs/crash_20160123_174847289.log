@@ -1,0 +1,1279 @@
+{17:48:47.290} INFO: [System] > Build version: 6.2015.1204.1439
+{17:48:47.290} INFO: [System] > [PID] 6516
+{17:48:47.313} INFO: [System] > [CPU] vendor: GenuineIntel, features: SSSE3 SSE4.1 SSE4.2 AVX AVX2 F16C FMA CX16 POPCNT LZCNT BMI1 BMI2 HTT, clock frequency: 1995.39MHz
+{17:48:47.313} INFO: [System] > [CPU] CPUs: 1, Cores: 2, HT: Yes, Logical processors: 4
+{17:48:47.364} INFO: [JobManager] > TM15d0efa, dedicated worker threads: 1 + 2, num cpus: 4
+{17:48:47.366} INFO: [ODE]        > [ode::dInitialize] SSE path
+{17:48:47.370} INFO: [Renderer]   > [r_Initialize] Loaded from rd3d11_x64_rwdi.dll.
+{17:48:47.370} INFO: [Renderer]   > Enumerating D3D11 video adapters:
+{17:48:47.371} INFO: [Renderer]   > Adapter 1: Intel(R) HD Graphics Family 0MB/1792MB/0MB
+{17:48:47.371} INFO: [Renderer]   |   Output 0: [0,0 - 1366,768] \\.\DISPLAY1
+{17:48:47.371} INFO: [Renderer]   > Adapter 2: NVIDIA GeForce 840M  1992MB/2048MB/0MB
+{17:48:47.371} INFO: [Renderer]   > Adapter 3: Microsoft Basic Render Driver 0MB/256MB/0MB
+{17:48:47.377} INFO: [Renderer]   > Renderer started in DX11 mode.
+{17:48:47.386} INFO: [Renderer]   > DDraw reported 1,787M free texture memory.
+{17:48:47.425} INFO: [Renderer]   > Renderer: supported display modes:
+{17:48:47.425} INFO: [Renderer]   |  640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  640x480, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  640x480, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  800x600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  800x600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  800x600, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  800x600, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1024x768, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1024x768, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x600, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x600, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x720, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x720, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x768, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1280x768, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1360x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1360x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1360x768, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1360x768, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1366x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{17:48:47.425} INFO: [Renderer]   |  1366x768, bpp:24, hz:47.98, fmt: A8R8G8B8
+{17:48:47.426} INFO: [INFO]       > Texture streaming lowest priority distance set to 100m
+{17:48:47.426} INFO: [Renderer]   > WindowOffset 0 0
+{17:48:47.449} DEBG: [CLOG]       > [CAudioSettings::LoadSettings] Unable to load Out/Settings/EditorAudio.scr
+{17:48:47.449} DEBG: [DXGI]       > [RChangeDeviceState] 1366x768, windowed, 0/0 Hz
+{17:48:47.449} DEBG: [DXGI]       >                  was 0x0, fullscreen, 0/0 Hz
+{17:48:47.450} INFO: [TexMgr]     > Max texture dimensions: 16384x16384x2048
+{17:48:47.465} INFO: [MatMgr]     > Number of supported techniques: 61
+{17:48:49.433} INFO: [MatMgr]     > Material pack 'global_dx11.mp' loaded.
+{17:48:49.485} INFO: [MatMgr]     > Material pack 'local_dx11.mp' loaded.
+{17:48:49.847} INFO: [INFO]       > Texture streaming buffer set to 400MB
+{17:48:49.848} INFO: [Video]      > //Video settings:
+{17:48:49.848} INFO: [Video]      > Resolution(1366,768)
+{17:48:49.848} INFO: [Video]      > Monitor(0)
+{17:48:49.848} INFO: [Video]      > TextureQuality("Medium")
+{17:48:49.848} INFO: [Video]      > VisRange(1.40, 1.40)
+{17:48:49.848} INFO: [Video]      > ShadowMapSize(1024)
+{17:48:49.848} INFO: [Video]      > SpotShadowMapSize(1024)
+{17:48:49.848} INFO: [Video]      > GammaFloat(1.00)
+{17:48:49.848} INFO: [Video]      > GrassQuality(2)
+{17:48:49.848} INFO: [Video]      > AmbientOcclusion(0)
+{17:48:49.848} INFO: [Video]      > MotionBlur(0)
+{17:48:49.848} INFO: [Video]      > AntiAliasing(0)
+{17:48:49.848} INFO: [Video]      > DisableDWM(1)
+{17:48:49.848} INFO: [Video]      > EnableFilmGrain(1)
+{17:48:49.848} INFO: [Video]      > Version(1)
+{17:48:49.849} INFO: [INFO]       > >>>>> Audio init
+{17:48:49.940} INFO: [INFO]       > FMOD::Driver: GBo[niki / SBuchawki (Realtek High Definition Audio)
+{17:48:49.941} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM8
+{17:48:49.941} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM16
+{17:48:49.941} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM24
+{17:48:49.941} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM32
+{17:48:49.941} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCMFLOAT
+{17:48:50.010} DEBG: [CLOG]       > NOTE : FMOD_SYSTEM_CALLBACKTYPE_THREADCREATED occured.
+{17:48:50.010} DEBG: [CLOG]       > Thread ID = 1372
+{17:48:50.010} DEBG: [CLOG]       > Thread Name = FMOD (WASAPI) feeder thread
+{17:48:50.011} DEBG: [CLOG]       > NOTE : FMOD_SYSTEM_CALLBACKTYPE_THREADCREATED occured.
+{17:48:50.011} DEBG: [CLOG]       > Thread ID = 1380
+{17:48:50.011} DEBG: [CLOG]       > Thread Name = FMOD mixer thread
+{17:48:50.011} DEBG: [CLOG]       > NOTE : FMOD_SYSTEM_CALLBACKTYPE_THREADCREATED occured.
+{17:48:50.011} DEBG: [CLOG]       > Thread ID = 1408
+{17:48:50.011} DEBG: [CLOG]       > Thread Name = FMOD stream thread
+{17:48:50.011} INFO: [INFO]       > FMOD is using (8) output type.
+{17:48:50.011} INFO: [INFO]       > FMOD Software Format Info:
+{17:48:50.011} INFO: [INFO]       | 	Out Sample Rate: <48000>
+{17:48:50.011} INFO: [INFO]       | 	Format: <5>
+{17:48:50.011} INFO: [INFO]       | 	Out Channels: <2>
+{17:48:50.011} INFO: [INFO]       | 	Max Input Channels: <8>
+{17:48:50.011} INFO: [INFO]       | 	Bits: <32>
+{17:48:50.011} INFO: [INFO]       > FMOD Mixer blocksize        = 21.33 ms
+{17:48:50.011} INFO: [INFO]       > FMOD Mixer blocks count     = 4
+{17:48:50.012} INFO: [INFO]       > FMOD Mixer Total buffer size = 85.33 ms
+{17:48:50.012} INFO: [INFO]       > FMOD Mixer Average Latency  = 53.33 ms
+{17:48:50.012} DEBG: [CLOG]       > [CAudioFMOD::InitNet] Can't use FMOD NetEventSystem - Audio engine is using FMODEx.
+{17:48:50.012} INFO: [INFO]       > [CAudioFMOD] FMOD debug level: 0
+{17:48:50.037} INFO: [Audio]      > //Audio settings:
+{17:48:50.037} INFO: [Audio]      > API("FMOD")
+{17:48:50.037} INFO: [Audio]      > MixFrequency(48000)
+{17:48:50.037} INFO: [Audio]      > Channels(40)
+{17:48:50.037} INFO: [Audio]      > Quality3D("high")
+{17:48:50.037} INFO: [Audio]      > MaxVolume(40)
+{17:48:50.037} INFO: [Audio]      > FXVolume(40)
+{17:48:50.037} INFO: [Audio]      > WaveVolume(40)
+{17:48:50.037} INFO: [Audio]      > SpeechVolume(40)
+{17:48:50.037} INFO: [Audio]      > MovieVolume(40)
+{17:48:50.037} INFO: [Audio]      > MovieVolumeSource(0)
+{17:48:50.037} INFO: [Audio]      > GlobalSettings("")
+{17:48:50.037} INFO: [Audio]      > ReverbChannels(1)
+{17:48:50.037} INFO: [Audio]      > MixerBlocksCount(0)
+{17:48:50.037} INFO: [Audio]      > 
+{17:49:00.215} INFO: [INFO]       > [Input] Keyboard 0 enumerated: intance_name = Klawiatura, product_name = Klawiatura, GUID = {6f1d2b61-d5a0-11cf-bfc7-444553540000}
+{17:49:00.225} INFO: [INFO]       > [CInput::SelectKeyboard] Keyboard 0 selected: Klawiatura, Klawiatura
+{17:49:00.251} INFO: [INFO]       > [SDL::InitSDL] InitSDL successed!
+{17:49:00.253} INFO: [Game]       > Game version: 0.0.99
+{17:49:03.470} ERRR: [Parser]     > Param 0 in function EnableExplosionDamage() is not a bool
+{17:49:03.472} ERRR: [Parser]     > Param 0 in function EnableExplosionDamage() is not a bool
+{17:49:03.472} ERRR: [Parser]     > Param 0 in function EnableExplosionDamage() is not a bool
+{17:49:03.511} DEBG: [CLOG]       > Failed to calc CRC for file achievements.xml  (0 to -1)
+{17:49:03.511} DEBG: [CLOG]       > Failed to calc CRC for file challenges.xml  (0 to -1)
+{17:49:05.050} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <menu_p0.csb> doesn't exist in filesystem.
+{17:49:05.050} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.050} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <menu_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.050} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.050} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <menu_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.050} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.051} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_1_p0.csb> doesn't exist in filesystem.
+{17:49:05.051} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.051} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_1_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.051} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.051} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_1_p1.csb> doesn't exist in filesystem.
+{17:49:05.051} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.052} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_1_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.052} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.055} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_2_p0.csb> doesn't exist in filesystem.
+{17:49:05.055} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.055} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_2_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.055} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.055} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_2_p1.csb> doesn't exist in filesystem.
+{17:49:05.055} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.055} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_2_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.055} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.056} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_3_p0.csb> doesn't exist in filesystem.
+{17:49:05.056} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.056} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_3_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.056} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.056} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_3_p1.csb> doesn't exist in filesystem.
+{17:49:05.056} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.075} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_1_p0.csb> doesn't exist in filesystem.
+{17:49:05.075} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.075} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_1_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.075} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.075} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_1_p1.csb> doesn't exist in filesystem.
+{17:49:05.075} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.075} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_1_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.075} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.087} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_2_p0.csb> doesn't exist in filesystem.
+{17:49:05.087} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.087} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_2_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.087} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.087} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_2_p1.csb> doesn't exist in filesystem.
+{17:49:05.087} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.087} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_2_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.087} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.088} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_3_p0.csb> doesn't exist in filesystem.
+{17:49:05.089} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.089} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_3_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.089} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.090} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_3_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.090} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.101} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_persistant_p0.csb> doesn't exist in filesystem.
+{17:49:05.101} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.101} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_persistant_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.101} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.102} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_persistant_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.102} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.102} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio.csb> doesn't exist in filesystem.
+{17:49:05.102} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.102} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio_p0.csb> doesn't exist in filesystem.
+{17:49:05.102} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.102} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.102} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.102} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio_p1.csb> doesn't exist in filesystem.
+{17:49:05.102} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.102} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.102} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{17:49:05.143} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_quests_local_p0.csb> doesn't exist in filesystem.
+{17:49:05.143} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.143} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_quests_local_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.143} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.143} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_quests_local_p1.csb> doesn't exist in filesystem.
+{17:49:05.144} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.144} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_quests_local_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.144} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.183} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_1_p0.csb> doesn't exist in filesystem.
+{17:49:05.183} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.184} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_1_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.184} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.184} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_1_p1.csb> doesn't exist in filesystem.
+{17:49:05.184} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.184} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_1_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.184} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.227} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_2_p0.csb> doesn't exist in filesystem.
+{17:49:05.227} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.228} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_2_stream_p0.csb> doesn't exist in filesystem.
+{17:49:05.228} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.228} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_2_p1.csb> doesn't exist in filesystem.
+{17:49:05.229} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.229} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_2_stream_p1.csb> doesn't exist in filesystem.
+{17:49:05.229} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{17:49:05.433} WARN: [WARN]       > Failed to register action varlist <post_process_simple, chromedvarlistoverridessimple.scr>: the script does not exist
+{17:49:05.433} WARN: [WARN]       > Failed to register action varlist <post_process_normal, chromedvarlistoverrides.scr>: the script does not exist
+{17:49:05.934} DEBG: [CLOG]       > [CInetAddr::DetermineNetworkInterface] HostName=<Darolap>
+{17:49:05.935} DEBG: [CLOG]       > [CInetAdder::DetermineNetworkInterface] address: 192.168.56.1
+{17:49:05.935} DEBG: [CLOG]       > [CInetAddr::SetLocalHost] 192.168.56.1
+{17:49:05.941} INFO: [Editor]     > [LocalizationManager] 8 asset(s) in 1 source(s), 1 language(s)
+{17:49:06.230} ERRR: [FileSystem] > Source from path 'D:\Gry\Steam\steamapps\common\Dying Light Developer Tools\DW/Assets_PC/' already added.
+{17:49:13.324} INFO: [INFO]       > Done!
+{17:49:14.701} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of btzh_light_end_light.fx
+{17:49:14.702} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of btzh_light_start_light.fx
+{17:49:14.723} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'car_hit_ground_dust_emiter.fx' (type=0, def=000000004DE9DE20) NOT registered!
+{17:49:14.723} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'car_hit_ground_dust_particle.fx' (type=2, def=000000004A051C40) NOT registered!
+{17:49:14.732} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'coll_ground_emiter.fx' (type=0, def=000000004DE9F4A0) NOT registered!
+{17:49:14.732} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'coll_ground_particle.fx' (type=2, def=000000004A053F30) NOT registered!
+{17:49:14.748} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of hex_blood_anim_decal_standard.fx
+{17:49:14.748} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of hex_blood_decal_standard.fx
+{17:49:14.788} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of eimp_sound_sound.fx
+{17:49:14.788} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'eimp_sound_sound.fx' (type=8, def=0000000000000000) NOT registered!
+{17:49:14.788} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of eimp_sound_sound.fx
+{17:49:14.807} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of eimp_sound_sound.fx
+{17:49:14.996} DEBG: [CLOG]       > IL_LoadImage file not opened: edicon_fx.dds
+{17:49:14.996} ERRR: [Icons]      > Image could not be loaded: edicon_fx.dds
+{17:49:14.996} DEBG: [CLOG]       > IL_LoadImage file not opened: flag_white.dds
+{17:49:14.996} ERRR: [Icons]      > Image could not be loaded: flag_white.dds
+{17:49:15.001} DEBG: [CLOG]       > IL_LoadImage file not opened: edicon_safeedicon_safehouse.dds
+{17:49:15.001} ERRR: [Icons]      > Image could not be loaded: edicon_safeedicon_safehouse.dds
+{17:49:15.006} DEBG: [CLOG]       > IL_LoadImage file not opened: edicon_sound_music.dds
+{17:49:15.006} ERRR: [Icons]      > Image could not be loaded: edicon_sound_music.dds
+{17:49:15.224} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{17:49:15.224} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{17:49:15.224} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'int_low_wall_dest_a.msh'
+{17:49:15.263} DEBG: [CLOG]       > IL_LoadImage file not opened: terrain_mats_color.dds
+{17:49:16.760} ERRR: [Parser]     > [parser::node_call::node_call] unknown subtree 'DefineColorsHard' in 'default_Workshop.loot'
+{17:49:16.760} ERRR: [Parser]     > [ParseUnit] syntax error in 'default_Workshop.loot' line 35
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (347)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (348)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (349)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (350)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_n_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (352)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (354)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (355)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (356)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (357)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (361)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_n_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (363)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.535} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{17:49:20.535} ERRR: [ERRR]       >  EDS: (365)[SelectionObject]
+{17:49:20.535} ERRR: [ERRR]       > *********************************
+{17:49:20.592} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_PC10.scr' contained error and was not loaded!
+{17:49:20.592} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_XBOX.scr' contained error and was not loaded!
+{17:49:20.593} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_PS3.scr' contained error and was not loaded!
+{17:49:20.593} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_PC11.scr' contained error and was not loaded!
+{17:49:20.593} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_DURANGO.scr' contained error and was not loaded!
+{17:49:20.593} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_ORBIS.scr' contained error and was not loaded!
+{17:49:20.705} DEBG: [CLOG]       > Load level: 7.818037 [s]
+{17:49:20.705} INFO: [Editor]     > Load module succeeded.
+{17:50:03.484} INFO: [Editor]     > Replace contents succeeded.
+{18:02:58.342} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:02:58.343} INFO: [Editor]     > Quest Hubs succeeded.
+{18:02:58.385} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:02:58.385} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:02:58.385} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:02:58.385} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:02:58.385} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:02:58.385} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:02:58.391} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:02:58.391} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:02:58.391} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:02:58.391} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:02:58.391} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:02:58.391} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:02:58.391} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:02:58.391} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:02:58.392} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:02:58.392} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:02:58.401} INFO: [Editor]     > Save module succeeded.
+{18:03:08.576} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:03:08.576} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:03:08.576} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:03:08.595} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:03:08.596} INFO: [Editor]     > Quest Hubs succeeded.
+{18:03:08.627} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:03:08.627} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:03:08.627} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:03:08.627} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:03:08.627} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:03:08.627} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:03:08.630} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:03:08.630} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:03:08.630} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:03:08.631} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:03:08.631} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:03:08.637} INFO: [Editor]     > Save module succeeded.
+{18:03:08.638} INFO: [Editor]     > Compile map succeeded.
+{18:18:00.313} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:18:00.314} INFO: [Editor]     > Quest Hubs succeeded.
+{18:18:00.330} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:18:00.330} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:18:00.330} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:18:00.330} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:18:00.330} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:18:00.330} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:18:00.336} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:18:00.336} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:18:00.336} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:18:00.337} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:18:00.338} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:18:00.338} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:18:00.338} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:18:00.348} INFO: [Editor]     > Save module succeeded.
+{18:18:16.173} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:18:16.174} INFO: [Editor]     > Quest Hubs succeeded.
+{18:18:16.189} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:18:16.189} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:18:16.189} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:18:16.189} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:18:16.189} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:18:16.189} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:18:16.195} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:18:16.195} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:18:16.195} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:18:16.195} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:18:16.195} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:18:16.195} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:18:16.195} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:18:16.195} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:18:16.196} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:18:16.196} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:18:16.205} INFO: [Editor]     > Save module succeeded.
+{18:18:30.752} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:18:30.752} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:18:30.752} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:18:30.766} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:18:30.767} INFO: [Editor]     > Quest Hubs succeeded.
+{18:18:30.806} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:18:30.806} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:18:30.806} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:18:30.806} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:18:30.806} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:18:30.806} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:18:30.812} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:18:30.813} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:18:30.813} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:18:30.819} INFO: [Editor]     > Save module succeeded.
+{18:18:30.819} INFO: [Editor]     > Compile map succeeded.
+{18:19:22.733} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:19:22.734} INFO: [Editor]     > Quest Hubs succeeded.
+{18:19:22.753} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:19:22.753} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:19:22.753} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:19:22.753} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:19:22.753} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:19:22.753} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:19:22.761} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:19:22.761} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:19:22.761} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:19:22.761} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:19:22.761} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:19:22.761} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:19:22.761} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:19:22.761} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:19:22.762} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:19:22.762} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:19:22.772} INFO: [Editor]     > Save module succeeded.
+{18:19:35.102} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:19:35.102} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:19:35.102} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:19:35.121} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:19:35.122} INFO: [Editor]     > Quest Hubs succeeded.
+{18:19:35.164} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:19:35.164} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:19:35.164} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:19:35.164} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:19:35.164} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:19:35.164} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:19:35.168} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:19:35.168} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:19:35.174} INFO: [Editor]     > Save module succeeded.
+{18:19:35.174} INFO: [Editor]     > Compile map succeeded.
+{18:25:30.350} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:25:30.350} INFO: [Editor]     > Quest Hubs succeeded.
+{18:25:30.365} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:25:30.365} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:25:30.365} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:25:30.365} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:25:30.365} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:25:30.365} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:25:30.372} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:25:30.373} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:25:30.373} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:25:30.382} INFO: [Editor]     > Save module succeeded.
+{18:25:44.912} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:25:44.912} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:25:44.912} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:25:44.929} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:25:44.929} INFO: [Editor]     > Quest Hubs succeeded.
+{18:25:44.963} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:25:44.963} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:25:44.963} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:25:44.963} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:25:44.963} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:25:44.963} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:25:44.966} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:25:44.966} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:25:44.966} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:25:44.967} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:25:44.967} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:25:44.975} INFO: [Editor]     > Save module succeeded.
+{18:25:44.975} INFO: [Editor]     > Compile map succeeded.
+{18:28:08.146} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:28:08.147} INFO: [Editor]     > Quest Hubs succeeded.
+{18:28:08.165} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:28:08.165} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:28:08.165} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:28:08.165} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:28:08.165} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:28:08.165} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:28:08.171} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:28:08.171} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:28:08.172} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:28:08.172} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:28:08.172} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:28:08.172} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:28:08.172} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:28:08.172} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:28:08.172} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:28:08.172} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:28:08.173} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:28:08.173} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:28:08.184} INFO: [Editor]     > Save module succeeded.
+{18:28:19.409} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:28:19.409} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:28:19.409} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:28:19.428} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:28:19.429} INFO: [Editor]     > Quest Hubs succeeded.
+{18:28:19.456} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:28:19.456} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:28:19.456} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:28:19.456} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:28:19.456} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:28:19.456} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:28:19.461} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:28:19.462} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:28:19.462} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:28:19.468} INFO: [Editor]     > Save module succeeded.
+{18:28:19.469} INFO: [Editor]     > Compile map succeeded.
+{18:31:00.944} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:31:00.945} INFO: [Editor]     > Quest Hubs succeeded.
+{18:31:00.958} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:31:00.958} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:31:00.958} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:31:00.958} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:31:00.958} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:31:00.958} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:31:00.965} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:31:00.966} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:31:00.966} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:31:00.973} INFO: [Editor]     > Save module succeeded.
+{18:31:13.343} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:31:13.343} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:31:13.343} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:31:13.359} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:31:13.360} INFO: [Editor]     > Quest Hubs succeeded.
+{18:31:13.390} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:31:13.390} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:31:13.390} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:31:13.390} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:31:13.390} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:31:13.390} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:31:13.395} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:31:13.396} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:31:13.396} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:31:13.402} INFO: [Editor]     > Save module succeeded.
+{18:31:13.403} INFO: [Editor]     > Compile map succeeded.
+{18:32:39.911} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:32:39.913} INFO: [Editor]     > Quest Hubs succeeded.
+{18:32:39.952} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:32:39.952} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:32:39.952} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:32:39.952} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:32:39.952} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:32:39.952} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:32:39.969} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:32:39.969} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:32:39.969} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:32:39.970} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:32:39.970} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:32:39.970} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:32:39.970} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:32:39.970} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:32:39.970} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:32:39.970} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:32:39.971} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:32:39.971} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:32:39.972} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:32:39.972} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:32:39.993} INFO: [Editor]     > Save module succeeded.
+{18:32:45.960} DEBG: [CLOG]       > Cannot load plg_raise_0603_l_stairs_a.edsCannot load plg_raise_0603_n_stairs_a.edsCannot load plg_raise_0603_r_stairs_a.edsCannot load plg_raise_0603_l_stairs_a.edsCannot load plg_raise_0603_n_stairs_a.edsCannot load plg_raise_0603_r_stairs_a.eds
+{18:33:07.017} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:33:07.018} INFO: [Editor]     > Quest Hubs succeeded.
+{18:33:07.037} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:33:07.038} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:33:07.038} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:33:07.038} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:33:07.038} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:33:07.038} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:33:07.043} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:33:07.043} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:33:07.043} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:33:07.043} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:33:07.043} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:33:07.043} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:33:07.043} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:33:07.043} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:33:07.044} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:33:07.044} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:33:07.056} INFO: [Editor]     > Save module succeeded.
+{18:33:18.351} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:33:18.351} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:33:18.351} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:33:18.368} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:33:18.369} INFO: [Editor]     > Quest Hubs succeeded.
+{18:33:18.400} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:33:18.400} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:33:18.400} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:33:18.400} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:33:18.400} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:33:18.400} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:33:18.404} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:33:18.405} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:33:18.405} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:33:18.411} INFO: [Editor]     > Save module succeeded.
+{18:33:18.411} INFO: [Editor]     > Compile map succeeded.
+{18:35:07.961} INFO: [Editor]     > Zoom to objects succeeded.
+{18:35:12.281} INFO: [Editor]     > Zoom to objects succeeded.
+{18:35:13.707} INFO: [Editor]     > Zoom to objects succeeded.
+{18:37:16.068} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:37:16.071} INFO: [Editor]     > Quest Hubs succeeded.
+{18:37:16.120} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:37:16.121} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:37:16.121} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:37:16.121} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:37:16.121} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:37:16.121} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:37:16.138} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:37:16.138} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:37:16.138} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:37:16.140} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:37:16.140} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:37:16.140} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:37:16.140} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:37:16.141} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:37:16.141} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:37:16.141} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:37:16.143} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:37:16.143} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:37:16.143} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:37:16.144} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:37:16.144} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:37:16.144} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:37:16.144} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:37:16.144} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:37:16.144} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:37:16.144} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:37:16.144} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:37:16.144} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:37:16.169} INFO: [Editor]     > Save module succeeded.
+{18:37:31.130} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:37:31.130} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:37:31.130} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:37:31.147} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:37:31.147} INFO: [Editor]     > Quest Hubs succeeded.
+{18:37:31.161} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:37:31.161} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:37:31.161} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:37:31.161} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:37:31.161} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:37:31.161} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:37:31.165} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:37:31.166} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:37:31.166} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:37:31.174} INFO: [Editor]     > Save module succeeded.
+{18:37:31.174} INFO: [Editor]     > Compile map succeeded.
+{18:37:46.893} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:37:46.893} INFO: [Editor]     > Quest Hubs succeeded.
+{18:37:46.905} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:37:46.905} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:37:46.905} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:37:46.905} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:37:46.905} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:37:46.905} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:37:46.910} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:37:46.910} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:37:46.910} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:37:46.910} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:37:46.910} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:37:46.910} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:37:46.910} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:37:46.910} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:37:46.911} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:37:46.911} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:37:46.918} INFO: [Editor]     > Save module succeeded.
+{18:37:51.235} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:37:51.235} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:37:51.235} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:37:51.253} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:37:51.253} INFO: [Editor]     > Quest Hubs succeeded.
+{18:37:51.266} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:37:51.266} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:37:51.266} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:37:51.266} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:37:51.266} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:37:51.266} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:37:51.269} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:37:51.269} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:37:51.269} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:37:51.270} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:37:51.270} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:37:51.278} INFO: [Editor]     > Save module succeeded.
+{18:37:51.279} INFO: [Editor]     > Compile map succeeded.
+{18:41:45.602} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:41:45.603} INFO: [Editor]     > Quest Hubs succeeded.
+{18:41:45.619} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:41:45.619} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:41:45.619} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:41:45.619} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:41:45.619} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:41:45.619} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:41:45.624} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:41:45.624} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:41:45.625} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:41:45.625} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:41:45.637} INFO: [Editor]     > Save module succeeded.
+{18:41:52.588} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:41:52.588} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:41:52.588} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:41:52.615} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:41:52.616} INFO: [Editor]     > Quest Hubs succeeded.
+{18:41:52.625} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:41:52.625} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:41:52.625} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:41:52.625} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:41:52.625} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:41:52.625} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:41:52.629} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:41:52.630} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:41:52.630} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:41:52.636} INFO: [Editor]     > Save module succeeded.
+{18:41:52.637} INFO: [Editor]     > Compile map succeeded.
+{18:48:15.803} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:48:15.803} INFO: [Editor]     > Quest Hubs succeeded.
+{18:48:15.819} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:48:15.819} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:48:15.819} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:48:15.819} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:48:15.819} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:48:15.819} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:48:15.826} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:48:15.826} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:48:15.826} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:48:15.826} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:48:15.826} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:48:15.826} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:48:15.826} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:48:15.826} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:48:15.827} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:48:15.827} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:48:15.836} INFO: [Editor]     > Save module succeeded.
+{18:48:23.306} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:48:23.306} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:48:23.306} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:48:23.327} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:48:23.327} INFO: [Editor]     > Quest Hubs succeeded.
+{18:48:23.340} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:48:23.340} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:48:23.340} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:48:23.340} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:48:23.340} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:48:23.340} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:48:23.346} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:48:23.347} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:48:23.347} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:48:23.351} INFO: [Editor]     > Save module succeeded.
+{18:48:23.352} INFO: [Editor]     > Compile map succeeded.
+{18:55:15.494} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:55:15.494} INFO: [Editor]     > Quest Hubs succeeded.
+{18:55:15.510} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:55:15.510} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:55:15.510} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:55:15.510} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:55:15.510} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:55:15.510} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:55:15.515} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:55:15.516} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:55:15.516} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:55:15.516} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:55:15.516} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:55:15.516} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:55:15.516} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:55:15.516} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:55:15.516} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:55:15.517} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:55:15.517} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:55:15.517} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:55:15.517} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:55:15.525} INFO: [Editor]     > Save module succeeded.
+{18:55:36.907} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:55:36.907} INFO: [Editor]     > Quest Hubs succeeded.
+{18:55:36.919} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:55:36.919} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:55:36.919} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:55:36.919} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:55:36.919} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:55:36.919} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:55:36.923} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:55:36.923} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:55:36.923} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:55:36.924} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:55:36.924} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:55:36.932} INFO: [Editor]     > Save module succeeded.
+{18:55:43.860} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{18:55:43.860} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{18:55:43.860} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{18:55:43.895} INFO: [Editor]     > Generate Map Portals succeeded.
+{18:55:43.895} INFO: [Editor]     > Quest Hubs succeeded.
+{18:55:43.911} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{18:55:43.911} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{18:55:43.911} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{18:55:43.911} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{18:55:43.911} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{18:55:43.911} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{18:55:43.914} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{18:55:43.914} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{18:55:43.914} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{18:55:43.915} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{18:55:43.915} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{18:55:43.923} INFO: [Editor]     > Save module succeeded.
+{18:55:43.923} INFO: [Editor]     > Compile map succeeded.
+{19:02:18.128} INFO: [Editor]     > Generate Map Portals succeeded.
+{19:02:18.129} INFO: [Editor]     > Quest Hubs succeeded.
+{19:02:18.154} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{19:02:18.154} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{19:02:18.154} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{19:02:18.154} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{19:02:18.154} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{19:02:18.154} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{19:02:18.163} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{19:02:18.163} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{19:02:18.163} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{19:02:18.164} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{19:02:18.165} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{19:02:18.165} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{19:02:18.165} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{19:02:18.165} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{19:02:18.165} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{19:02:18.175} INFO: [Editor]     > Save module succeeded.
+{19:02:26.112} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{19:02:26.112} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{19:02:26.112} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{19:02:26.146} INFO: [Editor]     > Generate Map Portals succeeded.
+{19:02:26.146} INFO: [Editor]     > Quest Hubs succeeded.
+{19:02:26.157} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{19:02:26.157} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{19:02:26.157} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{19:02:26.157} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{19:02:26.157} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{19:02:26.157} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{19:02:26.161} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{19:02:26.161} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{19:02:26.161} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{19:02:26.161} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{19:02:26.161} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{19:02:26.161} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{19:02:26.161} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{19:02:26.161} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{19:02:26.162} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{19:02:26.162} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{19:02:26.169} INFO: [Editor]     > Save module succeeded.
+{19:02:26.170} INFO: [Editor]     > Compile map succeeded.
+{19:03:03.627} INFO: [Editor]     > Generate Map Portals succeeded.
+{19:03:03.628} INFO: [Editor]     > Quest Hubs succeeded.
+{19:03:03.640} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{19:03:03.640} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{19:03:03.640} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{19:03:03.640} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{19:03:03.640} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{19:03:03.640} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{19:03:03.645} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{19:03:03.646} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{19:03:03.646} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{19:03:03.646} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{19:03:03.646} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{19:03:03.646} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{19:03:03.653} INFO: [Editor]     > Save module succeeded.
+{19:03:03.740} DEBG: [CLOG]       > Level map_01 (LevelDI) deleted
+{19:03:04.771} DEBG: [CLOG]       > [CSocket::~CSocket]: <shutdown> error: WSAENOTCONN
+{19:03:05.080} INFO: [INFO]       > ---------------------------------------------------------
+{19:03:05.080} INFO: [INFO]       > Time of playing game: 4457.781250s
+{19:03:05.080} INFO: [INFO]       > Updated frames: 0 Rendered frames: 51711
+{19:03:05.080} INFO: [INFO]       > Average FPS: 11.600165
+{19:03:05.080} INFO: [INFO]       > ---------------------------------------------------------
+{19:03:05.080} DEBG: [CLOG]       > Level  (Level) deleted
+{19:03:05.131} DEBG: [CLOG]       > CtrlObjGrid: Maximum grid 000000004C767570 memory usage: 83 kbytes
+{19:03:05.135} DEBG: [CLOG]       > CtrlObjGrid: Maximum grid 000000004DF892E0 memory usage: 1 kbytes
+{19:03:05.447} DEBG: [CLOG]       > WARNING [~CSurfaceManager] Num nondeleted surfaces 93
+{19:03:05.447} WARN: [WARN]       > [~CSurfaceManager] Num nondeleted vertex buffers 1
+{19:03:05.447} WARN: [WARN]       > [~CSurfaceManager] Num nondeleted index buffers 1
+{19:03:05.467} INFO: [Renderer]   > [r_Shutdown] Dll released
