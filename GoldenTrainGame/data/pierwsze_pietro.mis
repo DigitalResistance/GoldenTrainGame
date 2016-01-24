@@ -12,7 +12,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	1
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-23, 0, -41>
@@ -20,7 +20,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 0, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	2
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <6, 0, -39>
@@ -28,7 +28,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	3
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-28, 0, -39>
@@ -36,7 +36,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	4
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -1>
@@ -44,7 +44,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	5
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -5>
@@ -52,7 +52,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	6
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -9>
@@ -60,7 +60,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	7
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -13>
@@ -68,7 +68,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	8
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -17>
@@ -76,7 +76,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	9
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -21>
@@ -84,7 +84,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	10
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-32, 0, -27>
@@ -124,7 +124,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	15
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-24, 0, -27>
@@ -132,7 +132,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	16
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -29>
@@ -140,7 +140,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	17
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -33>
@@ -180,7 +180,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	22
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-1, 0, -39>
@@ -188,7 +188,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	23
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-5, 0, -39>
@@ -196,7 +196,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	24
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-9, 0, -39>
@@ -204,7 +204,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	25
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-13, 0, -39>
@@ -212,7 +212,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	26
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-20, 0, -35>
@@ -220,7 +220,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	27
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -35>
@@ -228,7 +228,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	28
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-12, 0, -35>
@@ -236,7 +236,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	29
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-8, 0, -35>
@@ -244,7 +244,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	30
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -21>
@@ -252,7 +252,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	31
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -21>
@@ -260,7 +260,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	32
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-28, 0, -19>
@@ -268,7 +268,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	33
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-24, 0, -19>
@@ -276,7 +276,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 0, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	34
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -21>
@@ -284,7 +284,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	35
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -25>
@@ -308,7 +308,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	38
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -29>
@@ -316,7 +316,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	39
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -25>
@@ -324,7 +324,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	40
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -21>
@@ -332,7 +332,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	41
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -17>
@@ -340,7 +340,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	42
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -13>
@@ -348,7 +348,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	43
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -9>
@@ -356,7 +356,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	44
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -17>
@@ -364,7 +364,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	45
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -25>
@@ -372,7 +372,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	46
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -29>
@@ -380,7 +380,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	47
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -13>
@@ -388,7 +388,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	48
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -9>
@@ -396,7 +396,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	49
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -33>
@@ -404,7 +404,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	50
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-17, 0, -39>
@@ -412,7 +412,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	51
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -39>
@@ -420,7 +420,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 0, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	52
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -1>
@@ -428,7 +428,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	53
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -5>
@@ -436,7 +436,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	54
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -9>
@@ -444,7 +444,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	55
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -13>
@@ -452,7 +452,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	56
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -17>
@@ -460,7 +460,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	57
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -21>
@@ -468,7 +468,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	58
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -25>
@@ -476,7 +476,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	59
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-4, 0, -35>
@@ -492,7 +492,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	61
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <2, 0, -35>
@@ -500,7 +500,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	62
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <5, 0, -35>
@@ -612,7 +612,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	76
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -33>
@@ -620,7 +620,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	77
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <8, 0, -37>
@@ -628,7 +628,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	78
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-33, 0, 0>
@@ -636,7 +636,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <0, 0, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	79
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-29, 0, 0>
@@ -644,7 +644,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	80
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-25, 0, 0>
@@ -652,7 +652,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	81
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-21, 0, 0>
@@ -660,7 +660,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	82
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-17, 0, 0>
@@ -668,7 +668,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	83
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-13, 0, 0>
@@ -676,7 +676,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	84
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-9, 0, 0>
@@ -684,7 +684,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	85
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-5, 0, 0>
@@ -692,7 +692,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	86
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-1, 0, 0>
@@ -700,7 +700,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	87
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <2, 0, 0>
@@ -708,7 +708,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	88
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-34, 0, -37>
@@ -716,7 +716,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	89
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <5, 0, 0>
@@ -724,7 +724,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 0, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	90
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -5>
@@ -732,7 +732,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 0, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	91
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-27, 0, -1>
@@ -756,7 +756,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	94
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-2, 0, -3>
@@ -764,7 +764,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	95
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-6, 0, -3>
@@ -772,7 +772,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	96
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-10, 0, -3>
@@ -780,7 +780,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	97
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-14, 0, -3>
@@ -788,7 +788,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	98
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-18, 0, -3>
@@ -796,7 +796,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	99
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -3>
@@ -804,7 +804,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	100
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-29, 0, -3>
@@ -812,7 +812,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	101
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -5>
@@ -820,7 +820,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	102
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-27, 0, -3>
@@ -836,7 +836,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	104
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-2, 0, -23>
@@ -844,7 +844,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	105
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-6, 0, -23>
@@ -852,7 +852,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	106
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-10, 0, -23>
@@ -860,7 +860,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	107
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-12, 0, -21>
@@ -884,7 +884,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	110
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-6, 0, -19>
@@ -892,7 +892,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	111
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-2, 0, -19>
@@ -900,7 +900,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	112
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <1, 0, -19>
@@ -908,7 +908,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	113
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-12, 0, -17>
@@ -916,7 +916,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	114
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-12, 0, -13>
@@ -924,7 +924,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	115
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-12, 0, -9>
@@ -932,7 +932,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	116
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-10, 0, -7>
@@ -940,7 +940,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	117
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-6, 0, -7>
@@ -948,7 +948,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	118
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-2, 0, -7>
@@ -956,7 +956,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	119
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <1, 0, -7>
@@ -964,7 +964,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	120
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <3, 0, -5>
@@ -988,7 +988,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	123
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-12, 0, -29>
@@ -996,7 +996,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	124
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-12, 0, -25>
@@ -1004,7 +1004,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	125
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -29>
@@ -1012,7 +1012,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	126
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -21>
@@ -1020,7 +1020,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	127
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-24, 0, -19>
@@ -1028,7 +1028,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	128
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-28, 0, -19>
@@ -1036,7 +1036,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	129
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -5>
@@ -1044,7 +1044,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	130
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -9>
@@ -1052,7 +1052,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	131
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -13>
@@ -1060,7 +1060,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	132
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -17>
@@ -1068,7 +1068,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	133
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -21>
@@ -1076,7 +1076,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	134
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-30, 0, -25>
@@ -1084,7 +1084,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	135
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-24, 0, -27>
@@ -1092,7 +1092,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	136
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <0, 0, -3>
@@ -1100,7 +1100,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <0, 0, 2>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	137
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-6, 0, -3>
@@ -1108,7 +1108,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	138
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-10, 0, -3>
@@ -1116,7 +1116,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	139
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-14, 0, -3>
@@ -1124,7 +1124,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	140
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-18, 0, -3>
@@ -1132,7 +1132,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	141
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-22, 0, -3>
@@ -1140,7 +1140,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	142
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-29, 0, -3>
@@ -1148,7 +1148,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 0, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	143
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -33>
@@ -1156,7 +1156,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	144
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -29>
@@ -1164,7 +1164,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	145
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -25>
@@ -1172,7 +1172,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	146
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -21>
@@ -1180,7 +1180,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	147
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -17>
@@ -1188,7 +1188,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	148
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -13>
@@ -1196,7 +1196,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	149
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -9>
@@ -1204,7 +1204,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	150
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -5>
@@ -1212,7 +1212,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	151
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -33>
@@ -1220,7 +1220,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	152
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -29>
@@ -1228,7 +1228,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	153
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -25>
@@ -1236,7 +1236,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	154
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -21>
@@ -1244,7 +1244,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	155
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -17>
@@ -1252,7 +1252,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	156
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -13>
@@ -1260,7 +1260,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	157
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -9>
@@ -1268,7 +1268,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	158
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -5>
@@ -1276,7 +1276,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	159
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-20, 0, -35>
@@ -1284,7 +1284,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	160
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-16, 0, -35>
@@ -1292,7 +1292,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	161
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-12, 0, -35>
@@ -1300,7 +1300,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	162
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-18, 0, -30>
@@ -1356,7 +1356,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 0>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	169
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-4, 0, -10>
@@ -1380,7 +1380,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 0, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	172
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 ModelObject{ModelObject} from group :2516
 	world_position = <-23, 0, -41>
@@ -1388,7 +1388,7 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 0, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	173
-	MeshName	=	meshes/int_low_wall_a.msh
+	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
 DoorDI{DoorDI} from group :2516
 	world_position = <3, 0, -12>
@@ -2003,5 +2003,5 @@ ModelObject{ModelObject} from group :2516
 	local_scale = <1, 1, 1>
 	Parent's guid	=	EDF2FCE422655C0B
 	local ID	=	189
-	MeshName	=	ot_wardrobe_b_close.msh
-	SkinName	=	default
+	MeshName	=	loot_wardrobe_anm.msh
+	SkinName	=	Default

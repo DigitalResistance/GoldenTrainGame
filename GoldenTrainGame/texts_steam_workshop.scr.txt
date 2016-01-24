@@ -6,7 +6,7 @@ String("MyWalletEpilog_Name","Epilog")
 String("MyWallet_Desc","Quest about my lost wallet.")
 String("MyWalletEpilog_Desc","Last quest.")
 
-String("MyWallet_Item_Wallet","My special wallet")
+String("MyQuest_Item","Quest item")
 
 String("MyWallet_Kill","Kill enemy")
 String("MyWallet_Take","Take wallet")

@@ -655,6 +655,13 @@ DoorDI{DoorDI}
 	m_Static	=	0
 	m_ConflictSide	=	2
 	SkinName	=	default
+ModelObject{ModelObject}
+	world_position = <4, 0, -5>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	guid	=	1BE2C1B9AB49226C
+	MeshName	=	loot_wardrobe_anm.msh
+	SkinName	=	Default
 ItemSpawner{ItemSpawner}
 	world_position = <-25, 0, 16>
 	world_dir = <0, 0, 1>
@@ -884,7 +891,7 @@ ItemSpawner{ItemSpawner}
 	MeshName	=	wn_pistol_a.msh
 	SkinName	=	default
 enemy{AISpawnBoxNumber}
-	world_position = <-20, 0, 14>
+	world_position = <-3, 0, -13>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 2, 1>
 	guid	=	EDEF54E4226208BC
@@ -928,40 +935,54 @@ enemy{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 wallet{QuestInventoryItemDI}
-	world_position = <-20, 0, 14>
+	world_position = <-3, 0, -18>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	EDEF50E4226201F0
-	m_Description	=	&MyWallet_Item_Wallet&
+	m_Description	=	&MyQuest_Item&
 	MeshName	=	collectable_wallet.msh
 	SkinName	=	default
+ConversationNode{ConversationNode}
+	world_position = <-3, 0, -16>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDE565E42259D11A
+ConversationNode{ConversationNode}
+	world_position = <4, 2, -5>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	ED9E23E4221D5E51
 
  GUID to level ID mapping:
-<1BE2BDB9AB491BA0, 2757>
-<1BE2BEB9AB491D53, 2751>
-<1BE2BFB9AB491F06, 2768>
-<1BE2C0B9AB4920B9, 2760>
-<1BE2C2B9AB49241F, 2764>
-<1BE2C5B9AB492938, 2765>
-<1BE2C6B9AB492AEB, 2763>
-<1BE2C7B9AB492C9E, 2759>
-<1BE2C8B9AB492E51, 2766>
-<1BE2C9B9AB493004, 2756>
-<1BE2CAB9AB4931B7, 2744>
-<1BE2CBB9AB49336A, 2758>
-<1BE2CCB9AB49351D, 2750>
-<1BE2CEB9AB493883, 2525>
-<1BE2CFB9AB493A36, 2528>
-<1BE2D0B9AB493BE9, 2527>
-<1BE2D3B9AB494102, 2762>
-<1BE2D4B9AB4942B5, 2761>
-<1BE2D7B9AB4947CE, 2521>
-<1BE2D9B9AB494B34, 2522>
-<1BE2DAB9AB494CE7, 2523>
-<1BE2DBB9AB494E9A, 2524>
-<1BE2DCB9AB49504D, 2517>
+<1BE2BDB9AB491BA0, 4416>
+<1BE2BEB9AB491D53, 4414>
+<1BE2BFB9AB491F06, 4426>
+<1BE2C0B9AB4920B9, 4419>
+<1BE2C1B9AB49226C, 4427>
+<1BE2C2B9AB49241F, 4423>
+<1BE2C5B9AB492938, 4424>
+<1BE2C6B9AB492AEB, 4422>
+<1BE2C7B9AB492C9E, 4418>
+<1BE2C8B9AB492E51, 4425>
+<1BE2C9B9AB493004, 4415>
+<1BE2CAB9AB4931B7, 4412>
+<1BE2CBB9AB49336A, 4417>
+<1BE2CCB9AB49351D, 4413>
+<1BE2CEB9AB493883, 4406>
+<1BE2CFB9AB493A36, 4409>
+<1BE2D0B9AB493BE9, 4408>
+<1BE2D3B9AB494102, 4421>
+<1BE2D4B9AB4942B5, 4420>
+<1BE2D7B9AB4947CE, 4402>
+<1BE2D9B9AB494B34, 4403>
+<1BE2DAB9AB494CE7, 4404>
+<1BE2DBB9AB494E9A, 4405>
+<1BE2DCB9AB49504D, 4401>
 <894C8C3C86CCE78D, 2>
+<ED9E23E4221D5E51, 4046>
 <EDD495E4224BAF77, 13>
+<EDE565E42259D11A, 4008>
+<EDE909E4225D1D9D, 3364>
 <EDEF40E42261E6C0, 1486>
 <EDEF42E42261EA26, 1485>
 <EDEF44E42261ED8C, 1484>
@@ -970,11 +991,11 @@ wallet{QuestInventoryItemDI}
 <EDEF54E4226208BC, 1492>
 <EDEFB8E42262B2A8, 1482>
 <EDEFBAE42262B60E, 1481>
-<EDF748E42269C606, 2435>
 
 Classes used:
 AIManager
 AISpawnBoxNumber
+ConversationNode
 DoorDI
 ItemSpawner
 LevelDI

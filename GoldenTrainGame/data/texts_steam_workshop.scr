@@ -1,14 +1,14 @@
 !string(s,s)
 
-String("MyWallet_Name","Where is my wallet?")
+String("MyWallet_Name","Try to find golden train")
 String("MyWalletEpilog_Name","Epilog")
 
 String("MyWallet_Desc","Quest about my lost wallet.")
 String("MyWalletEpilog_Desc","Last quest.")
 
-String("MyWallet_Item_Wallet","My special wallet")
+String("MyQuest_Item","Quest item")
 
-String("MyWallet_Kill","Kill enemy")
-String("MyWallet_Take","Take wallet")
+String("MyWallet_Kill","There is a legend about misterious creature that is somewhere inside the building. Find it")
+String("MyWallet_Take","Take the weapon it can be usefull")
 
 String("MyWalletEpilog_Go","Go back")
