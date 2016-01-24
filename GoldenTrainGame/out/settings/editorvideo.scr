@@ -20,7 +20,7 @@
 !EnableFilmGrain(i)            // 1 - enable; 0 - disable
 !Version(i)
 
-Resolution(1920,1080)
+Resolution(1366,768)
 Monitor(0)
 TextureQuality("Medium")
 VisRange(1.40, 1.40)

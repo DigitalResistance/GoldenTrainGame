@@ -3,69 +3,208 @@ map_01{LevelDI}
 	m_DayTimeAndWeatherScripts	=	Data/Scripts/dw_weather.scr;
 	m_tempTinyObjectsScriptPath	=	
 MapStart{SpawnPoint}
-	world_position = <-22, 1, -45>
+	world_position = <35, 9, -8>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	EDD495E4224BAF77
-ModelObject{ModelObject}
-	world_position = <-18, 0, -30>
+DoorDI{DoorDI}
+	world_position = <27, 0, 12>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2D7B9AB4947CE
-	MeshName	=	dream_floor_a.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <1, 0, -30>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2DAB9AB494CE7
-	MeshName	=	dream_floor_a.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-5, 0, -30>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2D9B9AB494B34
-	MeshName	=	dream_floor_a.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-30, 0, -30>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2DCB9AB49504D
-	MeshName	=	dream_floor_a.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-30, 0, -10>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2DBB9AB494E9A
-	MeshName	=	dream_floor_a.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-17, 0, -10>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2CEB9AB493883
-	MeshName	=	dream_floor_a.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <-4, 0, -10>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2D0B9AB493BE9
-	MeshName	=	dream_floor_a.msh
-	SkinName	=	default
-ModelObject{ModelObject}
-	world_position = <2, 0, -10>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2CFB9AB493A36
-	MeshName	=	dream_floor_a.msh
+	guid	=	C14B08B7FE09AE68
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <3, 0, -12>
-	world_dir = <1, 0, 0>
+	world_position = <27, 0, 24>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	C14B09B7FE09B01B
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
+	SkinName	=	default
+DoorDI{DoorDI}
+	world_position = <23, 0, 22>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	guid	=	C14B0AB7FE09B1CE
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
+	SkinName	=	default
+DoorDI{DoorDI}
+	world_position = <19, 0, 12>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	C14B0BB7FE09B381
+		Preset: Behaviour : OpenedCW
+				m_SelectedBehaviours : 1
+				m_StartState : opened_cw
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
+	SkinName	=	default
+DoorDI{DoorDI}
+	world_position = <33, 9, -8>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
+	guid	=	C14AAAB7FE090EAE
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
+	SkinName	=	default
+DoorDI{DoorDI}
+	world_position = <47, 9, 27>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2D4B9AB4942B5
 		Preset: Behaviour : ClosedCheck
@@ -104,14 +243,13 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <3, 0, -8>
-	world_dir = <1, 0, 0>
+	world_position = <43, 9, 27>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2D3B9AB494102
-		Preset: Behaviour : ClosedCheck
-				m_InteractionMode : check
-				m_SelectedBehaviours : 16
-				m_StartState : locked
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
 		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
 				MeshName : ot_door_f.msh
 				m_InteractionNameCheck : blocked_door_wooden
@@ -144,8 +282,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <3, 0, -4>
-	world_dir = <1, 0, 0>
+	world_position = <39, 10, 27>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2C6B9AB492AEB
 		Preset: Behaviour : Closed
@@ -183,8 +321,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <-12, 0, -20>
-	world_dir = <1, 0, 0>
+	world_position = <55, 9, 11>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2C5B9AB492938
 		Preset: Behaviour : ClosedCheck
@@ -223,8 +361,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <-22, 0, -24>
-	world_dir = <1, 0, 0>
+	world_position = <59, 9, 0>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2C8B9AB492E51
 		Preset: Behaviour : Closed
@@ -262,9 +400,9 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <3, 0, -28>
-	world_dir = <0, 0, 0>
-	local_scale = <0, 1, 0>
+	world_position = <63, 9, 27>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
 	guid	=	1BE2C7B9AB492C9E
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
@@ -302,9 +440,9 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <-28, 0, -27>
-	world_dir = <0, 0, 0>
-	local_scale = <0, 1, 0>
+	world_position = <61, 9, -4>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
 	guid	=	1BE2CAB9AB4931B7
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
@@ -341,8 +479,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <-22, 0, -37>
-	world_dir = <-1, 0, 0>
+	world_position = <71, 9, 0>
+	world_dir = <0, 0, -1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2C9B9AB493004
 		Preset: Behaviour : Closed
@@ -380,8 +518,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <-32, 0, -27>
-	world_dir = <0, 0, -1>
+	world_position = <61, 9, -8>
+	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2CCB9AB49351D
 		Preset: Behaviour : Closed
@@ -419,8 +557,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <6, 0, -35>
-	world_dir = <0, 0, -1>
+	world_position = <69, 9, 29>
+	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2CBB9AB49336A
 		Preset: Behaviour : ClosedCheck
@@ -459,9 +597,9 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <-22, 0, -34>
-	world_dir = <0, 0, 0>
-	local_scale = <0, 1, 0>
+	world_position = <68, 9, 0>
+	world_dir = <0, 0, -1>
+	local_scale = <1, 1, 1>
 	guid	=	1BE2BEB9AB491D53
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
@@ -499,9 +637,9 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <-4, 0, -35>
-	world_dir = <0, 0, 0>
-	local_scale = <0, 1, 0>
+	world_position = <69, 9, 19>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
 	guid	=	1BE2BDB9AB491BA0
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
@@ -539,8 +677,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <3, 0, -20>
-	world_dir = <1, 0, 0>
+	world_position = <55, 9, 27>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2C0B9AB4920B9
 		Preset: Behaviour : Closed
@@ -578,8 +716,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <-27, 0, 0>
-	world_dir = <1, 0, 0>
+	world_position = <34, 9, -3>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2BFB9AB491F06
 		Preset: Behaviour : Closed
@@ -617,8 +755,8 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <3, 0, 0>
-	world_dir = <1, 0, 0>
+	world_position = <35, 9, 27>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2C2B9AB49241F
 		Preset: Behaviour : Closed
@@ -656,245 +794,27 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <4, 0, -5>
-	world_dir = <1, 0, 0>
+	world_position = <39, 9, 27>
+	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2C1B9AB49226C
 	MeshName	=	loot_wardrobe_anm.msh
 	SkinName	=	Default
-ItemSpawner{ItemSpawner}
-	world_position = <-25, 0, 16>
-	world_dir = <0, 0, 1>
+ConversationNode{ConversationNode}
+	world_position = <56, 9, 9>
+	world_dir = <-1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDEFBAE42262B60E
-	ID	=	AI_Throwable_Knife
-	m_EditorItemName	=	AI_Throwable_Knife
-	m_IsVisibleOnStart	=	1
-	m_Automat	=	0
-	m_SpawnOnDamage	=	0
-	m_ConditionMax	=	1.000000
-	m_ConditionMin	=	1.000000
-	m_CountMin	=	-1
-	m_CountMax	=	-1
-	m_UpgradeLevel	=	0
-	m_ItemColor	=	White
-	m_ItemReqLevel	=	0
-	m_RespawnInterval	=	-1.000000
-	m_RespawnRangeAfterTake	=	150.000000
-	m_NightSpawner	=	0
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_UsingDistance	=	-1.000000
-	m_UsingAngle	=	0.000000
-	m_UsingDir	=	0.000000
-	m_UsingInterval	=	0.000000
-	m_AutoExecuteDistance	=	2.500000
-	m_MultiplayerTrigger	=	0
-	m_ForceIcon	=	0
-	m_ForceHideIcon	=	0
-	m_Underwater	=	0
-	m_GatherPlayersRadius	=	0.000000
-	m_TriggerForcedIcon	=	None
-	m_UsePickupMechanism	=	0
-	m_Static	=	1
-	m_ConflictSide	=	2
-	MeshName	=	wn_throwing_knife_a.msh
-	SkinName	=	default
-ItemSpawner{ItemSpawner}
-	world_position = <-24, 0, 16>
-	world_dir = <0, 0, 1>
+	guid	=	1BE276B9AB48A2FB
+ConversationNode{ConversationNode}
+	world_position = <68, 9, 8>
+	world_dir = <-1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDEFB8E42262B2A8
-	ID	=	Firearm_PistolAGen
-	m_EditorItemName	=	Firearm_PistolAGen
-	m_IsVisibleOnStart	=	1
-	m_Automat	=	0
-	m_SpawnOnDamage	=	0
-	m_ConditionMax	=	1.000000
-	m_ConditionMin	=	1.000000
-	m_CountMin	=	-1
-	m_CountMax	=	-1
-	m_UpgradeLevel	=	0
-	m_ItemColor	=	White
-	m_ItemReqLevel	=	0
-	m_RespawnInterval	=	-1.000000
-	m_RespawnRangeAfterTake	=	150.000000
-	m_NightSpawner	=	0
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_UsingDistance	=	-1.000000
-	m_UsingAngle	=	0.000000
-	m_UsingDir	=	0.000000
-	m_UsingInterval	=	0.000000
-	m_AutoExecuteDistance	=	2.500000
-	m_MultiplayerTrigger	=	0
-	m_ForceIcon	=	0
-	m_ForceHideIcon	=	0
-	m_Underwater	=	0
-	m_GatherPlayersRadius	=	0.000000
-	m_TriggerForcedIcon	=	None
-	m_UsePickupMechanism	=	0
-	m_Static	=	1
-	m_ConflictSide	=	2
-	MeshName	=	wn_pistol_a.msh
-	SkinName	=	default
-ItemSpawner{ItemSpawner}
-	world_position = <-24, 0, 17>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDEF46E42261F0F2
-	ID	=	ShotgunTPP
-	m_EditorItemName	=	ShotgunTPP
-	m_IsVisibleOnStart	=	1
-	m_Automat	=	0
-	m_SpawnOnDamage	=	0
-	m_ConditionMax	=	1.000000
-	m_ConditionMin	=	1.000000
-	m_CountMin	=	-1
-	m_CountMax	=	-1
-	m_UpgradeLevel	=	0
-	m_ItemColor	=	White
-	m_ItemReqLevel	=	0
-	m_RespawnInterval	=	-1.000000
-	m_RespawnRangeAfterTake	=	150.000000
-	m_NightSpawner	=	0
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_UsingDistance	=	-1.000000
-	m_UsingAngle	=	0.000000
-	m_UsingDir	=	0.000000
-	m_UsingInterval	=	0.000000
-	m_AutoExecuteDistance	=	2.500000
-	m_MultiplayerTrigger	=	0
-	m_ForceIcon	=	0
-	m_ForceHideIcon	=	0
-	m_Underwater	=	0
-	m_GatherPlayersRadius	=	0.000000
-	m_TriggerForcedIcon	=	None
-	m_UsePickupMechanism	=	0
-	m_Static	=	1
-	m_ConflictSide	=	2
-	MeshName	=	wn_shotgun_a_tpp.msh
-	SkinName	=	default
-ItemSpawner{ItemSpawner}
-	world_position = <-24, 0, 17>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDEF44E42261ED8C
-	ID	=	Ammo_ShotgunBig
-	m_EditorItemName	=	Ammo_ShotgunBig
-	m_IsVisibleOnStart	=	1
-	m_Automat	=	0
-	m_SpawnOnDamage	=	0
-	m_ConditionMax	=	1.000000
-	m_ConditionMin	=	1.000000
-	m_CountMin	=	-1
-	m_CountMax	=	-1
-	m_UpgradeLevel	=	0
-	m_ItemColor	=	White
-	m_ItemReqLevel	=	0
-	m_RespawnInterval	=	-1.000000
-	m_RespawnRangeAfterTake	=	150.000000
-	m_NightSpawner	=	0
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_UsingDistance	=	-1.000000
-	m_UsingAngle	=	0.000000
-	m_UsingDir	=	0.000000
-	m_UsingInterval	=	0.000000
-	m_AutoExecuteDistance	=	2.500000
-	m_MultiplayerTrigger	=	0
-	m_ForceIcon	=	0
-	m_ForceHideIcon	=	0
-	m_Underwater	=	0
-	m_GatherPlayersRadius	=	0.000000
-	m_TriggerForcedIcon	=	None
-	m_UsePickupMechanism	=	0
-	m_Static	=	1
-	m_ConflictSide	=	2
-	MeshName	=	ammo_gauge.msh
-	SkinName	=	default
-ItemSpawner{ItemSpawner}
-	world_position = <-24, 0, 17>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDEF42E42261EA26
-	ID	=	Ammo_PistolBig
-	m_EditorItemName	=	Ammo_PistolBig
-	m_IsVisibleOnStart	=	1
-	m_Automat	=	0
-	m_SpawnOnDamage	=	0
-	m_ConditionMax	=	1.000000
-	m_ConditionMin	=	1.000000
-	m_CountMin	=	-1
-	m_CountMax	=	-1
-	m_UpgradeLevel	=	0
-	m_ItemColor	=	White
-	m_ItemReqLevel	=	0
-	m_RespawnInterval	=	-1.000000
-	m_RespawnRangeAfterTake	=	150.000000
-	m_NightSpawner	=	0
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_UsingDistance	=	-1.000000
-	m_UsingAngle	=	0.000000
-	m_UsingDir	=	0.000000
-	m_UsingInterval	=	0.000000
-	m_AutoExecuteDistance	=	2.500000
-	m_MultiplayerTrigger	=	0
-	m_ForceIcon	=	0
-	m_ForceHideIcon	=	0
-	m_Underwater	=	0
-	m_GatherPlayersRadius	=	0.000000
-	m_TriggerForcedIcon	=	None
-	m_UsePickupMechanism	=	0
-	m_Static	=	1
-	m_ConflictSide	=	2
-	MeshName	=	loot_ok_ammo_short.msh
-	SkinName	=	default
-ItemSpawner{ItemSpawner}
-	world_position = <-24, 0, 17>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDEF40E42261E6C0
-	ID	=	ZZZZFirearm_PVPPistol
-	m_EditorItemName	=	ZZZZFirearm_PVPPistol
-	m_IsVisibleOnStart	=	1
-	m_Automat	=	0
-	m_SpawnOnDamage	=	0
-	m_ConditionMax	=	1.000000
-	m_ConditionMin	=	1.000000
-	m_CountMin	=	-1
-	m_CountMax	=	-1
-	m_UpgradeLevel	=	0
-	m_ItemColor	=	White
-	m_ItemReqLevel	=	0
-	m_RespawnInterval	=	-1.000000
-	m_RespawnRangeAfterTake	=	150.000000
-	m_NightSpawner	=	0
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_UsingDistance	=	-1.000000
-	m_UsingAngle	=	0.000000
-	m_UsingDir	=	0.000000
-	m_UsingInterval	=	0.000000
-	m_AutoExecuteDistance	=	2.500000
-	m_MultiplayerTrigger	=	0
-	m_ForceIcon	=	0
-	m_ForceHideIcon	=	0
-	m_Underwater	=	0
-	m_GatherPlayersRadius	=	0.000000
-	m_TriggerForcedIcon	=	None
-	m_UsePickupMechanism	=	0
-	m_Static	=	1
-	m_ConflictSide	=	2
-	MeshName	=	wn_pistol_a.msh
-	SkinName	=	default
+	guid	=	1BE275B9AB48A148
 enemy{AISpawnBoxNumber}
-	world_position = <-3, 0, -13>
-	world_dir = <0, 0, 1>
+	world_position = <61, 9, 9>
+	world_dir = <-1, 0, 0>
 	local_scale = <1, 2, 1>
-	guid	=	EDEF54E4226208BC
+	guid	=	1BE278B9AB48A661
 		Preset: AI Preset : Screamer
 				m_AIPresets : Screamer
 				m_BeforeSpawnSoundStartRange : 22.0
@@ -935,69 +855,49 @@ enemy{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 wallet{QuestInventoryItemDI}
-	world_position = <-3, 0, -18>
-	world_dir = <0, 0, 1>
+	world_position = <61, 9, 8>
+	world_dir = <-1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	EDEF50E4226201F0
+	guid	=	1BE277B9AB48A4AE
 	m_Description	=	&MyQuest_Item&
 	MeshName	=	collectable_wallet.msh
 	SkinName	=	default
-ConversationNode{ConversationNode}
-	world_position = <-3, 0, -16>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	EDE565E42259D11A
-ConversationNode{ConversationNode}
-	world_position = <4, 2, -5>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	ED9E23E4221D5E51
 
  GUID to level ID mapping:
-<1BE2BDB9AB491BA0, 4416>
-<1BE2BEB9AB491D53, 4414>
-<1BE2BFB9AB491F06, 4426>
-<1BE2C0B9AB4920B9, 4419>
-<1BE2C1B9AB49226C, 4427>
-<1BE2C2B9AB49241F, 4423>
-<1BE2C5B9AB492938, 4424>
-<1BE2C6B9AB492AEB, 4422>
-<1BE2C7B9AB492C9E, 4418>
-<1BE2C8B9AB492E51, 4425>
-<1BE2C9B9AB493004, 4415>
-<1BE2CAB9AB4931B7, 4412>
-<1BE2CBB9AB49336A, 4417>
-<1BE2CCB9AB49351D, 4413>
-<1BE2CEB9AB493883, 4406>
-<1BE2CFB9AB493A36, 4409>
-<1BE2D0B9AB493BE9, 4408>
-<1BE2D3B9AB494102, 4421>
-<1BE2D4B9AB4942B5, 4420>
-<1BE2D7B9AB4947CE, 4402>
-<1BE2D9B9AB494B34, 4403>
-<1BE2DAB9AB494CE7, 4404>
-<1BE2DBB9AB494E9A, 4405>
-<1BE2DCB9AB49504D, 4401>
+<1BE275B9AB48A148, 6841>
+<1BE276B9AB48A2FB, 6842>
+<1BE277B9AB48A4AE, 6840>
+<1BE278B9AB48A661, 6839>
+<1BE2BDB9AB491BA0, 7012>
+<1BE2BEB9AB491D53, 7010>
+<1BE2BFB9AB491F06, 7022>
+<1BE2C0B9AB4920B9, 7015>
+<1BE2C1B9AB49226C, 7023>
+<1BE2C2B9AB49241F, 7019>
+<1BE2C5B9AB492938, 7020>
+<1BE2C6B9AB492AEB, 7018>
+<1BE2C7B9AB492C9E, 7014>
+<1BE2C8B9AB492E51, 7021>
+<1BE2C9B9AB493004, 7011>
+<1BE2CAB9AB4931B7, 7008>
+<1BE2CBB9AB49336A, 7013>
+<1BE2CCB9AB49351D, 7009>
+<1BE2D3B9AB494102, 7017>
+<1BE2D4B9AB4942B5, 7016>
 <894C8C3C86CCE78D, 2>
-<ED9E23E4221D5E51, 4046>
+<C14AAAB7FE090EAE, 7158>
+<C14B08B7FE09AE68, 7132>
+<C14B09B7FE09B01B, 7133>
+<C14B0AB7FE09B1CE, 7134>
+<C14B0BB7FE09B381, 7131>
+<ED9DA7E4221C8B9D, 4934>
 <EDD495E4224BAF77, 13>
-<EDE565E42259D11A, 4008>
-<EDE909E4225D1D9D, 3364>
-<EDEF40E42261E6C0, 1486>
-<EDEF42E42261EA26, 1485>
-<EDEF44E42261ED8C, 1484>
-<EDEF46E42261F0F2, 1483>
-<EDEF50E4226201F0, 1497>
-<EDEF54E4226208BC, 1492>
-<EDEFB8E42262B2A8, 1482>
-<EDEFBAE42262B60E, 1481>
 
 Classes used:
 AIManager
 AISpawnBoxNumber
 ConversationNode
 DoorDI
-ItemSpawner
 LevelDI
 ModelObject
 QuestInventoryItemDI
