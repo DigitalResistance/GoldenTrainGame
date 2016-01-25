@@ -598,7 +598,7 @@ ModelObject{ModelObject} from group :5449
 	local ID	=	59
 	MeshName	=	int_low_wall_a.msh
 	SkinName	=	default
-ModelObject{ModelObject} from group :5449
+GoldenTrain{QuestInventoryItemDI} from group :5449
 	world_position = <21, 0, 31>
 	world_dir = <0, 0, 3>
 	local_scale = <3, 3, 3>

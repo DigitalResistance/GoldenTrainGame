@@ -1,6 +1,6 @@
 Version(106)
 ResPackVersion(1)
-Source("data/maps/map_01/build/map_01_buildterrain_0.msh", "1D156938D9CF4B0")  // 2016-01-24, 10:39:50:651
+Source("data/maps/map_01/build/map_01_buildterrain_0.msh", "1D157BF8413DF80")  // 2016-01-25, 22:27:03:672
 UsedFile("map_01_t2_0040aaa&0008.dmt", "1D13A8DBB3B7210")  // 2015-12-19, 18:47:37:649
 UsedFile("map_01_t2_200000bbb&0008.dmt", "1D13A8DBB4ADB60")  // 2015-12-19, 18:47:37:750
 UsedFile("map_01_t2_200000bbc&0008.dmt", "1D13A8DBB4BECD0")  // 2015-12-19, 18:47:37:757
@@ -11,13 +11,13 @@ UsedFile("map_01_t2_200040abc&0008.dmt", "1D13A8DBB53DC10")  // 2015-12-19, 18:4
 ResVersion("_SKIN_", 8, 108)
 ResVersion("_MESH_", 15, 40816)
 ResVersion("_MESH_FIXUPS_", 15, 476)
-ResVersion("_VERTEX_DATA_", 1, 95840)
-ResVersion("_INDEX_DATA_", 1, 59404)
+ResVersion("_VERTEX_DATA_", 1, 105280)
+ResVersion("_INDEX_DATA_", 1, 65452)
 ResVersion("_BUILDER_INFORMATION_", 1, 32)
 Meta("nodes","1")
 Meta("lods","2")
-Meta("vertices_bytes","95840")
-Meta("indices_bytes","59402")
+Meta("vertices_bytes","105280")
+Meta("indices_bytes","65450")
 Meta("colltree_bytes","39488")
 Meta("mesh_bytes","40816")
 Meta("skins_bytes","108")

@@ -3,7 +3,7 @@ sub main()
 
 	state() 
 	{ 
-		path( "data/" ); 
+		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
 		selected( "" ); 
@@ -19,7 +19,71 @@ sub main()
 
 	state() 
 	{ 
-		path( "data/" ); 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
 		selected( "" ); 
@@ -69,7 +133,7 @@ sub main()
 	{ 
 		path( "meshes/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "s" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -85,471 +149,7 @@ sub main()
 	{ 
 		path( "meshes/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "st" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "sta" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "stai" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "stair" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "stairs" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "floor" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "s" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "stair" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "floor" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "s" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "stai" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "stairs" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "wall" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "floor" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "int_low_wall" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "int_low_wal" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "int_low_wall_a" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "int_low_wall_" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "int_low_wall_d" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "int_low_wall_d" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "d" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "door" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "f" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "f" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "floor" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "floor" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/buildings/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/constructions/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -565,7 +165,7 @@ sub main()
 	{ 
 		path( "collections/decorations/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -579,169 +179,9 @@ sub main()
 
 	state() 
 	{ 
-		path( "collections/enemies/" ); 
+		path( "object types/common/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/flora/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/grounds/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/primitives/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/traps/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/vehicles/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "packages/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "meshes/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "train" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "door" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -757,7 +197,7 @@ sub main()
 	{ 
 		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "door" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -771,9 +211,9 @@ sub main()
 
 	state() 
 	{ 
-		path( "meshes/" ); 
+		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "door" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -787,9 +227,569 @@ sub main()
 
 	state() 
 	{ 
-		path( "meshes/" ); 
+		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "floor" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "item" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "ai" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 

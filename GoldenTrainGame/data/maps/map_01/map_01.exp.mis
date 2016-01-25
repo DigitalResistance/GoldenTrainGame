@@ -3,9 +3,9 @@ map_01{LevelDI}
 	m_DayTimeAndWeatherScripts	=	Data/Scripts/dw_weather.scr;
 	m_tempTinyObjectsScriptPath	=	
 MapStart{SpawnPoint}
-	world_position = <35, 9, -8>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
+	world_position = <95, 9, 80>
+	world_dir = <0, 0, 0>
+	local_scale = <0, 1, 0>
 	guid	=	EDD495E4224BAF77
 DoorDI{DoorDI}
 	world_position = <27, 0, 12>
@@ -162,6 +162,13 @@ DoorDI{DoorDI}
 	m_UsePickupMechanism	=	0
 	m_Static	=	0
 	m_ConflictSide	=	2
+	SkinName	=	default
+GoldenTrain{QuestInventoryItemDI}
+	world_position = <21, 0, 31>
+	world_dir = <0, 0, 3>
+	local_scale = <3, 3, 3>
+	guid	=	C14AF0B7FE0985A0
+	MeshName	=	toy_train.msh
 	SkinName	=	default
 DoorDI{DoorDI}
 	world_position = <33, 9, -8>
@@ -794,7 +801,7 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <39, 9, 27>
+	world_position = <41, 9, 27>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
 	guid	=	1BE2C1B9AB49226C
@@ -811,7 +818,7 @@ ConversationNode{ConversationNode}
 	local_scale = <1, 1, 1>
 	guid	=	1BE275B9AB48A148
 enemy{AISpawnBoxNumber}
-	world_position = <61, 9, 9>
+	world_position = <38, 9, 18>
 	world_dir = <-1, 0, 0>
 	local_scale = <1, 2, 1>
 	guid	=	1BE278B9AB48A661
@@ -855,42 +862,408 @@ enemy{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 wallet{QuestInventoryItemDI}
-	world_position = <61, 9, 8>
+	world_position = <40, 9, 9>
 	world_dir = <-1, 0, 0>
 	local_scale = <1, 1, 1>
 	guid	=	1BE277B9AB48A4AE
 	m_Description	=	&MyQuest_Item&
-	MeshName	=	collectable_wallet.msh
+	MeshName	=	wl_map_a.msh
+	SkinName	=	Default
+ItemSpawner{ItemSpawner}
+	world_position = <39, 9, 15>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	ED9110E42212B3AC
+	ID	=	ShotgunTPP
+	m_EditorItemName	=	ShotgunTPP
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_shotgun_a_tpp.msh
 	SkinName	=	default
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <79, 9, 41>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED975EE42217A3E4
+		Preset: AI Preset : Viral_Group
+				m_AIPresets : Viral_Man_Group;Viral_Woman_Group
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	NpcsDoNotForceVisibility
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+ItemSpawner{ItemSpawner}
+	world_position = <96, 9, 75>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	ED9754E4221792E6
+	ID	=	Ammo_ShotgunBig
+	m_EditorItemName	=	Ammo_ShotgunBig
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	ammo_gauge.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <95, 9, 75>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	ED9756E42217964C
+	ID	=	Ammo_RifleBig
+	m_EditorItemName	=	Ammo_RifleBig
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	loot_ok_ammo_long.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <94, 9, 74>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	ED9758E4221799B2
+	ID	=	Firearm_RifleBGen
+	m_EditorItemName	=	Firearm_RifleBGen
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_rifle_b.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <96, 9, 74>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	ED978AE42217EEA8
+	ID	=	Firearm_ShotgunAGen
+	m_EditorItemName	=	Firearm_ShotgunAGen
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_shotgun_a.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <95, 9, 73>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	ED978CE42217F20E
+	ID	=	Bundle_Shotgun_A
+	m_EditorItemName	=	Bundle_Shotgun_A
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	box_plastic_closed_ho.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <97, 9, 74>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	ED978EE42217F574
+	ID	=	Ammo_ShotgunSmall
+	m_EditorItemName	=	Ammo_ShotgunSmall
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	ammo_gauge.msh
+	SkinName	=	default
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <80, 9, 44>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED97C6E42218549C
+		Preset: AI Preset : ViralHumanity
+				m_AIPresets : ViralHumanity_Man;ViralHumanity_Woman
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_COUNTER_ALL_1
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	Player
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
 
  GUID to level ID mapping:
-<1BE275B9AB48A148, 6841>
-<1BE276B9AB48A2FB, 6842>
-<1BE277B9AB48A4AE, 6840>
-<1BE278B9AB48A661, 6839>
-<1BE2BDB9AB491BA0, 7012>
-<1BE2BEB9AB491D53, 7010>
-<1BE2BFB9AB491F06, 7022>
-<1BE2C0B9AB4920B9, 7015>
-<1BE2C1B9AB49226C, 7023>
-<1BE2C2B9AB49241F, 7019>
-<1BE2C5B9AB492938, 7020>
-<1BE2C6B9AB492AEB, 7018>
-<1BE2C7B9AB492C9E, 7014>
-<1BE2C8B9AB492E51, 7021>
-<1BE2C9B9AB493004, 7011>
-<1BE2CAB9AB4931B7, 7008>
-<1BE2CBB9AB49336A, 7013>
-<1BE2CCB9AB49351D, 7009>
-<1BE2D3B9AB494102, 7017>
-<1BE2D4B9AB4942B5, 7016>
+<1BE275B9AB48A148, 10229>
+<1BE276B9AB48A2FB, 10230>
+<1BE277B9AB48A4AE, 10228>
+<1BE278B9AB48A661, 10227>
+<1BE2BDB9AB491BA0, 10400>
+<1BE2BEB9AB491D53, 10398>
+<1BE2BFB9AB491F06, 10410>
+<1BE2C0B9AB4920B9, 10403>
+<1BE2C1B9AB49226C, 10411>
+<1BE2C2B9AB49241F, 10407>
+<1BE2C5B9AB492938, 10408>
+<1BE2C6B9AB492AEB, 10406>
+<1BE2C7B9AB492C9E, 10402>
+<1BE2C8B9AB492E51, 10409>
+<1BE2C9B9AB493004, 10399>
+<1BE2CAB9AB4931B7, 10396>
+<1BE2CBB9AB49336A, 10401>
+<1BE2CCB9AB49351D, 10397>
+<1BE2D3B9AB494102, 10405>
+<1BE2D4B9AB4942B5, 10404>
 <894C8C3C86CCE78D, 2>
-<C14AAAB7FE090EAE, 7158>
-<C14B08B7FE09AE68, 7132>
-<C14B09B7FE09B01B, 7133>
-<C14B0AB7FE09B1CE, 7134>
-<C14B0BB7FE09B381, 7131>
-<ED9DA7E4221C8B9D, 4934>
+<C14AAAB7FE090EAE, 10546>
+<C14AF0B7FE0985A0, 10530>
+<C14B08B7FE09AE68, 10520>
+<C14B09B7FE09B01B, 10521>
+<C14B0AB7FE09B1CE, 10522>
+<C14B0BB7FE09B381, 10519>
+<ED8D8CE4220F9D89, 10031>
+<ED9110E42212B3AC, 9407>
+<ED9754E4221792E6, 10666>
+<ED9756E42217964C, 10667>
+<ED9758E4221799B2, 10668>
+<ED975EE42217A3E4, 10650>
+<ED978AE42217EEA8, 10669>
+<ED978CE42217F20E, 10670>
+<ED978EE42217F574, 10671>
+<ED97C6E42218549C, 10709>
 <EDD495E4224BAF77, 13>
 
 Classes used:
@@ -898,6 +1271,7 @@ AIManager
 AISpawnBoxNumber
 ConversationNode
 DoorDI
+ItemSpawner
 LevelDI
 ModelObject
 QuestInventoryItemDI

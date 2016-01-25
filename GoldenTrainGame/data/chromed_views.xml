@@ -2,7 +2,7 @@
 	<document path=""/>
 	<document path="data/maps/map_01/map_01.map">
 		<docksite id="0000000000000000" data="">
-			<view name="map_01" location="-1" float_rc="0;0;0;0" data="41;1.000000;-0.420448;0.000000;0.907317;0.291716;0.946904;0.135180;-0.859142;0.321515;-0.398124;62.725395;17.112190;-5.519651;0.100000;500.000000;"/>
+			<view name="map_01" location="-1" float_rc="0;0;0;0" data="41;1.000000;-0.578615;0.000000;-0.815601;-0.347810;0.904513;0.246748;0.737722;0.426447;-0.523364;22.351454;1.317843;30.296515;0.100000;500.000000;"/>
 		</docksite>
 	</document>
 	<document path="data/quests/e.pxsl">
@@ -38,6 +38,11 @@
 	<document path="data/quests/example/walletstory3.pxsl">
 		<docksite id="0000000000000000" data="">
 			<view name="walletstory3.pxsl" location="-1" float_rc="0;0;0;0" data=""/>
+		</docksite>
+	</document>
+	<document path="data/quests/map_01/quest.pxsl">
+		<docksite id="0000000000000000" data="">
+			<view name="quest.pxsl" location="-1" float_rc="0;0;0;0" data=""/>
 		</docksite>
 	</document>
 </documents>

@@ -1,17 +1,17 @@
 Version(106)
 ResPackVersion(1)
-Source("data/maps/map_01/terrain/patches/map_01_0x0.msh", "1D1569BCB8BC730")  // 2016-01-24, 11:38:50:531
-UsedFile("map_01_t2_0040aaa&0008.dmt", "1D13B161727D220")  // 2015-12-20, 11:03:43:426
+Source("data/maps/map_01/terrain/patches/map_01_0x0.msh", "1D157BF81AA0B70")  // 2016-01-25, 22:26:59:623
+UsedFile("map_01_t2_0040aaa&0008.dmt", "1D13A8DBB3B7210")  // 2015-12-19, 18:47:37:649
+ResVersion("_SKIN_", 8, 84)
 ResVersion("_MESH_", 15, 5248)
 ResVersion("_MESH_FIXUPS_", 15, 380)
-ResVersion("_SKIN_", 8, 84)
-ResVersion("_VERTEX_DATA_", 1, 320)
-ResVersion("_INDEX_DATA_", 1, 168)
+ResVersion("_VERTEX_DATA_", 1, 2720)
+ResVersion("_INDEX_DATA_", 1, 1188)
 ResVersion("_BUILDER_INFORMATION_", 1, 16)
 Meta("nodes","1")
 Meta("lods","2")
-Meta("vertices_bytes","320")
-Meta("indices_bytes","168")
+Meta("vertices_bytes","2720")
+Meta("indices_bytes","1188")
 Meta("colltree_bytes","4416")
 Meta("mesh_bytes","5248")
 Meta("skins_bytes","84")

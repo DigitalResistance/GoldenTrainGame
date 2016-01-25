@@ -1,0 +1,452 @@
+{14:18:51.432} INFO: [System] > Build version: 6.2015.1204.1439
+{14:18:51.432} INFO: [System] > [PID] 4524
+{14:18:51.491} INFO: [System] > [CPU] vendor: GenuineIntel, features: SSSE3 SSE4.1 SSE4.2 AVX AVX2 F16C FMA CX16 POPCNT LZCNT BMI1 BMI2 HTT, clock frequency: 2194.93MHz
+{14:18:51.492} INFO: [System] > [CPU] CPUs: 1, Cores: 2, HT: Yes, Logical processors: 4
+{14:18:51.544} INFO: [JobManager] > TM47c5bc5f, dedicated worker threads: 1 + 2, num cpus: 4
+{14:18:51.560} INFO: [ODE]        > [ode::dInitialize] SSE path
+{14:18:51.734} INFO: [Renderer]   > [r_Initialize] Loaded from rd3d11_x64_rwdi.dll.
+{14:18:51.734} INFO: [Renderer]   > Enumerating D3D11 video adapters:
+{14:18:51.739} INFO: [Renderer]   > Adapter 1: Intel(R) HD Graphics 5500 128MB/3839MB/0MB
+{14:18:51.739} INFO: [Renderer]   |   Output 0: [0,0 - 1920,1080] \\.\DISPLAY1
+{14:18:51.739} INFO: [Renderer]   |   Output 1: [2400,0 - 4200,1125] \\.\DISPLAY2
+{14:18:51.739} INFO: [Renderer]   > Adapter 2: AMD Radeon(TM) R9 M375 4075MB/3840MB/0MB
+{14:18:51.739} INFO: [Renderer]   > Adapter 3: Microsoft Basic Render Driver 0MB/256MB/0MB
+{14:18:51.756} INFO: [Renderer]   > Renderer started in DX11 mode.
+{14:18:51.792} INFO: [Renderer]   > DDraw reported 3,960M free texture memory.
+{14:18:51.994} INFO: [Renderer]   > Renderer: supported display modes:
+{14:18:51.994} INFO: [Renderer]   |  640x480, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.994} INFO: [Renderer]   |  640x480, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  800x600, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  800x600, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1024x768, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1024x768, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1152x864, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1152x864, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x600, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x600, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x720, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x720, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x768, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x768, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x800, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x800, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x960, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x960, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x1024, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1280x1024, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1360x768, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1360x768, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1366x768, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1366x768, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1400x1050, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1400x1050, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1440x900, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1440x900, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1600x900, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1600x900, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1680x1050, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1680x1050, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:51.995} INFO: [Renderer]   |  1920x1080, bpp:24, hz:60.05, fmt: A8R8G8B8
+{14:18:52.032} INFO: [INFO]       > Texture streaming lowest priority distance set to 100m
+{14:18:52.032} INFO: [Renderer]   > WindowOffset 0 0
+{14:18:52.103} DEBG: [CLOG]       > [CAudioSettings::LoadSettings] Unable to load Out/Settings/EditorAudio.scr
+{14:18:52.103} DEBG: [DXGI]       > [RChangeDeviceState] 1920x1080, windowed, 0/0 Hz
+{14:18:52.103} DEBG: [DXGI]       >                  was 0x0, fullscreen, 0/0 Hz
+{14:18:52.106} INFO: [TexMgr]     > Max texture dimensions: 16384x16384x2048
+{14:18:52.116} INFO: [MatMgr]     > Number of supported techniques: 61
+{14:18:54.719} INFO: [MatMgr]     > Material pack 'global_dx11.mp' loaded.
+{14:18:54.843} INFO: [MatMgr]     > Material pack 'local_dx11.mp' loaded.
+{14:18:55.813} INFO: [INFO]       > Texture streaming buffer set to 400MB
+{14:18:55.816} INFO: [Video]      > //Video settings:
+{14:18:55.816} INFO: [Video]      > Resolution(1920,1080)
+{14:18:55.816} INFO: [Video]      > Monitor(0)
+{14:18:55.816} INFO: [Video]      > TextureQuality("Medium")
+{14:18:55.816} INFO: [Video]      > VisRange(1.40, 1.40)
+{14:18:55.816} INFO: [Video]      > ShadowMapSize(1024)
+{14:18:55.816} INFO: [Video]      > SpotShadowMapSize(1024)
+{14:18:55.816} INFO: [Video]      > GammaFloat(1.00)
+{14:18:55.816} INFO: [Video]      > GrassQuality(2)
+{14:18:55.816} INFO: [Video]      > AmbientOcclusion(0)
+{14:18:55.816} INFO: [Video]      > MotionBlur(0)
+{14:18:55.816} INFO: [Video]      > AntiAliasing(0)
+{14:18:55.816} INFO: [Video]      > DisableDWM(1)
+{14:18:55.816} INFO: [Video]      > EnableFilmGrain(1)
+{14:18:55.816} INFO: [Video]      > Version(1)
+{14:18:55.817} INFO: [INFO]       > >>>>> Audio init
+{14:18:56.494} INFO: [INFO]       > FMOD::Driver: GBo[niki (Realtek High Definition Audio)
+{14:18:56.495} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM8
+{14:18:56.495} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM16
+{14:18:56.495} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM24
+{14:18:56.495} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM32
+{14:18:56.495} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCMFLOAT
+{14:18:58.004} DEBG: [CLOG]       > NOTE : FMOD_SYSTEM_CALLBACKTYPE_THREADCREATED occured.
+{14:18:58.004} DEBG: [CLOG]       > Thread ID = 1328
+{14:18:58.004} DEBG: [CLOG]       > Thread Name = FMOD (WASAPI) feeder thread
+{14:18:58.004} DEBG: [CLOG]       > NOTE : FMOD_SYSTEM_CALLBACKTYPE_THREADCREATED occured.
+{14:18:58.004} DEBG: [CLOG]       > Thread ID = 1440
+{14:18:58.004} DEBG: [CLOG]       > Thread Name = FMOD mixer thread
+{14:18:58.110} DEBG: [CLOG]       > NOTE : FMOD_SYSTEM_CALLBACKTYPE_THREADCREATED occured.
+{14:18:58.110} DEBG: [CLOG]       > Thread ID = 1448
+{14:18:58.110} DEBG: [CLOG]       > Thread Name = FMOD stream thread
+{14:18:58.110} INFO: [INFO]       > FMOD is using (8) output type.
+{14:18:58.110} INFO: [INFO]       > FMOD Software Format Info:
+{14:18:58.110} INFO: [INFO]       | 	Out Sample Rate: <48000>
+{14:18:58.110} INFO: [INFO]       | 	Format: <5>
+{14:18:58.110} INFO: [INFO]       | 	Out Channels: <2>
+{14:18:58.110} INFO: [INFO]       | 	Max Input Channels: <8>
+{14:18:58.110} INFO: [INFO]       | 	Bits: <32>
+{14:18:58.110} INFO: [INFO]       > FMOD Mixer blocksize        = 21.33 ms
+{14:18:58.110} INFO: [INFO]       > FMOD Mixer blocks count     = 4
+{14:18:58.110} INFO: [INFO]       > FMOD Mixer Total buffer size = 85.33 ms
+{14:18:58.110} INFO: [INFO]       > FMOD Mixer Average Latency  = 53.33 ms
+{14:18:58.110} DEBG: [CLOG]       > [CAudioFMOD::InitNet] Can't use FMOD NetEventSystem - Audio engine is using FMODEx.
+{14:18:58.110} INFO: [INFO]       > [CAudioFMOD] FMOD debug level: 0
+{14:18:58.141} INFO: [Audio]      > //Audio settings:
+{14:18:58.141} INFO: [Audio]      > API("FMOD")
+{14:18:58.141} INFO: [Audio]      > MixFrequency(48000)
+{14:18:58.141} INFO: [Audio]      > Channels(40)
+{14:18:58.141} INFO: [Audio]      > Quality3D("high")
+{14:18:58.141} INFO: [Audio]      > MaxVolume(40)
+{14:18:58.141} INFO: [Audio]      > FXVolume(40)
+{14:18:58.141} INFO: [Audio]      > WaveVolume(40)
+{14:18:58.141} INFO: [Audio]      > SpeechVolume(40)
+{14:18:58.141} INFO: [Audio]      > MovieVolume(40)
+{14:18:58.141} INFO: [Audio]      > MovieVolumeSource(0)
+{14:18:58.141} INFO: [Audio]      > GlobalSettings("")
+{14:18:58.141} INFO: [Audio]      > ReverbChannels(1)
+{14:18:58.141} INFO: [Audio]      > MixerBlocksCount(0)
+{14:18:58.141} INFO: [Audio]      > 
+{14:19:15.585} INFO: [INFO]       > [Input] Keyboard 0 enumerated: intance_name = Klawiatura, product_name = Klawiatura, GUID = {6f1d2b61-d5a0-11cf-bfc7-444553540000}
+{14:19:15.588} INFO: [INFO]       > [CInput::SelectKeyboard] Keyboard 0 selected: Klawiatura, Klawiatura
+{14:19:15.604} INFO: [INFO]       > [SDL::InitSDL] InitSDL successed!
+{14:19:15.628} INFO: [Game]       > Game version: 0.0.99
+{14:19:26.769} ERRR: [Parser]     > Param 0 in function EnableExplosionDamage() is not a bool
+{14:19:26.775} ERRR: [Parser]     > Param 0 in function EnableExplosionDamage() is not a bool
+{14:19:26.776} ERRR: [Parser]     > Param 0 in function EnableExplosionDamage() is not a bool
+{14:19:26.919} DEBG: [CLOG]       > Failed to calc CRC for file achievements.xml  (0 to -1)
+{14:19:26.920} DEBG: [CLOG]       > Failed to calc CRC for file challenges.xml  (0 to -1)
+{14:19:31.676} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <menu_p0.csb> doesn't exist in filesystem.
+{14:19:31.676} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.677} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <menu_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.677} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.678} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <menu_stream_p1.csb> doesn't exist in filesystem.
+{14:19:31.678} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.682} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_1_p0.csb> doesn't exist in filesystem.
+{14:19:31.682} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.682} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_1_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.682} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.682} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_1_p1.csb> doesn't exist in filesystem.
+{14:19:31.682} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.682} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_1_stream_p1.csb> doesn't exist in filesystem.
+{14:19:31.682} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.701} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_2_p0.csb> doesn't exist in filesystem.
+{14:19:31.701} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.701} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_2_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.702} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.702} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_2_p1.csb> doesn't exist in filesystem.
+{14:19:31.702} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.702} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_2_stream_p1.csb> doesn't exist in filesystem.
+{14:19:31.702} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.707} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_3_p0.csb> doesn't exist in filesystem.
+{14:19:31.707} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.707} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_3_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.707} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.707} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <music_3_p1.csb> doesn't exist in filesystem.
+{14:19:31.707} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.791} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_1_p0.csb> doesn't exist in filesystem.
+{14:19:31.791} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.791} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_1_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.791} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.792} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_1_p1.csb> doesn't exist in filesystem.
+{14:19:31.792} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.792} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_1_stream_p1.csb> doesn't exist in filesystem.
+{14:19:31.792} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.837} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_2_p0.csb> doesn't exist in filesystem.
+{14:19:31.838} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.838} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_2_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.838} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.838} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_2_p1.csb> doesn't exist in filesystem.
+{14:19:31.838} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.839} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_2_stream_p1.csb> doesn't exist in filesystem.
+{14:19:31.839} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.847} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_3_p0.csb> doesn't exist in filesystem.
+{14:19:31.847} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.848} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_3_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.848} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.853} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_3_stream_p1.csb> doesn't exist in filesystem.
+{14:19:31.853} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.910} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_persistant_p0.csb> doesn't exist in filesystem.
+{14:19:31.911} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.911} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_persistant_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.911} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.912} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_in_maps_persistant_stream_p1.csb> doesn't exist in filesystem.
+{14:19:31.912} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.913} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio.csb> doesn't exist in filesystem.
+{14:19:31.913} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.913} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio_p0.csb> doesn't exist in filesystem.
+{14:19:31.913} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.914} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio_stream_p0.csb> doesn't exist in filesystem.
+{14:19:31.914} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.914} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio_p1.csb> doesn't exist in filesystem.
+{14:19:31.914} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:31.914} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <workshop_audio_stream_p1.csb> doesn't exist in filesystem.
+{14:19:31.915} DEBG: [CLOG]       > [AudioScript::Execute] <LoadAudioBanks> failed!
+{14:19:32.089} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_quests_local_p0.csb> doesn't exist in filesystem.
+{14:19:32.090} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.091} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_quests_local_stream_p0.csb> doesn't exist in filesystem.
+{14:19:32.091} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.092} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_quests_local_p1.csb> doesn't exist in filesystem.
+{14:19:32.092} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.092} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <all_quests_local_stream_p1.csb> doesn't exist in filesystem.
+{14:19:32.093} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.257} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_1_p0.csb> doesn't exist in filesystem.
+{14:19:32.259} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.259} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_1_stream_p0.csb> doesn't exist in filesystem.
+{14:19:32.260} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.260} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_1_p1.csb> doesn't exist in filesystem.
+{14:19:32.261} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.261} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_1_stream_p1.csb> doesn't exist in filesystem.
+{14:19:32.262} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.451} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_2_p0.csb> doesn't exist in filesystem.
+{14:19:32.452} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.452} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_2_stream_p0.csb> doesn't exist in filesystem.
+{14:19:32.453} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.453} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_2_p1.csb> doesn't exist in filesystem.
+{14:19:32.454} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:32.454} DEBG: [CLOG]       > [FMODSoundBankManager::LoadBank] Sound bank <common_local_2_stream_p1.csb> doesn't exist in filesystem.
+{14:19:32.455} DEBG: [CLOG]       > [AudioScript::Execute] <LoadLocalisedAudioBank> failed!
+{14:19:33.934} WARN: [WARN]       > Failed to register action varlist <post_process_simple, chromedvarlistoverridessimple.scr>: the script does not exist
+{14:19:33.934} WARN: [WARN]       > Failed to register action varlist <post_process_normal, chromedvarlistoverrides.scr>: the script does not exist
+{14:19:35.537} DEBG: [CLOG]       > [CInetAddr::DetermineNetworkInterface] HostName=<Wojtek>
+{14:19:35.541} DEBG: [CLOG]       > [CInetAdder::DetermineNetworkInterface] address: 192.168.56.1
+{14:19:35.541} DEBG: [CLOG]       > [CInetAddr::SetLocalHost] 192.168.56.1
+{14:19:35.559} INFO: [Editor]     > [LocalizationManager] 8 asset(s) in 1 source(s), 1 language(s)
+{14:19:36.914} ERRR: [FileSystem] > Source from path 'D:\Steam\steam\steamapps\common\Dying Light Developer Tools\DW/Assets_PC/' already added.
+{14:19:58.647} INFO: [INFO]       > Done!
+{14:20:03.523} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of btzh_light_end_light.fx
+{14:20:03.525} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of btzh_light_start_light.fx
+{14:20:03.608} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'car_hit_ground_dust_emiter.fx' (type=0, def=000000006AAE5590) NOT registered!
+{14:20:03.609} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'car_hit_ground_dust_particle.fx' (type=2, def=000000006AD4FCD0) NOT registered!
+{14:20:03.643} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'coll_ground_emiter.fx' (type=0, def=000000006AAE3970) NOT registered!
+{14:20:03.644} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'coll_ground_particle.fx' (type=2, def=000000006AD4EA00) NOT registered!
+{14:20:03.708} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of hex_blood_anim_decal_standard.fx
+{14:20:03.709} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of hex_blood_decal_standard.fx
+{14:20:03.861} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of eimp_sound_sound.fx
+{14:20:03.861} WARN: [WARN]       > [CFXDefinitionManager::CreateDefFromMemory] RPACK: fx definition 'eimp_sound_sound.fx' (type=8, def=0000000000000000) NOT registered!
+{14:20:03.862} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of eimp_sound_sound.fx
+{14:20:03.935} DEBG: [CLOG]       > ERROR [FX] Cannot read definition of eimp_sound_sound.fx
+{14:20:04.687} DEBG: [CLOG]       > IL_LoadImage file not opened: edicon_fx.dds
+{14:20:04.688} ERRR: [Icons]      > Image could not be loaded: edicon_fx.dds
+{14:20:04.688} DEBG: [CLOG]       > IL_LoadImage file not opened: flag_white.dds
+{14:20:04.688} ERRR: [Icons]      > Image could not be loaded: flag_white.dds
+{14:20:04.868} DEBG: [CLOG]       > IL_LoadImage file not opened: edicon_safeedicon_safehouse.dds
+{14:20:04.869} ERRR: [Icons]      > Image could not be loaded: edicon_safeedicon_safehouse.dds
+{14:20:05.102} DEBG: [CLOG]       > IL_LoadImage file not opened: edicon_sound_music.dds
+{14:20:05.102} ERRR: [Icons]      > Image could not be loaded: edicon_sound_music.dds
+{14:20:05.696} DEBG: [CLOG]       > IL_LoadImage file not opened: terrain_mats_color.dds
+{14:20:11.924} ERRR: [Parser]     > [parser::node_call::node_call] unknown subtree 'DefineColorsHard' in 'default_Workshop.loot'
+{14:20:11.924} ERRR: [Parser]     > [ParseUnit] syntax error in 'default_Workshop.loot' line 35
+{14:20:23.606} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{14:20:23.606} ERRR: [ERRR]       >  EDS: (347)[SelectionObject]
+{14:20:23.606} ERRR: [ERRR]       > *********************************
+{14:20:23.606} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{14:20:23.606} ERRR: [ERRR]       >  EDS: (348)[SelectionObject]
+{14:20:23.606} ERRR: [ERRR]       > *********************************
+{14:20:23.606} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{14:20:23.606} ERRR: [ERRR]       >  EDS: (349)[SelectionObject]
+{14:20:23.606} ERRR: [ERRR]       > *********************************
+{14:20:23.606} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{14:20:23.606} ERRR: [ERRR]       >  EDS: (350)[SelectionObject]
+{14:20:23.606} ERRR: [ERRR]       > *********************************
+{14:20:23.606} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_n_stairs_a.eds does not exist.
+{14:20:23.606} ERRR: [ERRR]       >  EDS: (352)[SelectionObject]
+{14:20:23.606} ERRR: [ERRR]       > *********************************
+{14:20:23.606} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{14:20:23.606} ERRR: [ERRR]       >  EDS: (354)[SelectionObject]
+{14:20:23.606} ERRR: [ERRR]       > *********************************
+{14:20:23.606} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{14:20:23.606} ERRR: [ERRR]       >  EDS: (355)[SelectionObject]
+{14:20:23.606} ERRR: [ERRR]       > *********************************
+{14:20:23.607} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{14:20:23.607} ERRR: [ERRR]       >  EDS: (356)[SelectionObject]
+{14:20:23.607} ERRR: [ERRR]       > *********************************
+{14:20:23.607} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{14:20:23.607} ERRR: [ERRR]       >  EDS: (357)[SelectionObject]
+{14:20:23.607} ERRR: [ERRR]       > *********************************
+{14:20:23.607} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_l_stairs_a.eds does not exist.
+{14:20:23.607} ERRR: [ERRR]       >  EDS: (361)[SelectionObject]
+{14:20:23.607} ERRR: [ERRR]       > *********************************
+{14:20:23.607} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_n_stairs_a.eds does not exist.
+{14:20:23.607} ERRR: [ERRR]       >  EDS: (363)[SelectionObject]
+{14:20:23.607} ERRR: [ERRR]       > *********************************
+{14:20:23.607} ERRR: [ERRR]       > Import selection failed. File plg_raise_0603_r_stairs_a.eds does not exist.
+{14:20:23.607} ERRR: [ERRR]       >  EDS: (365)[SelectionObject]
+{14:20:23.607} ERRR: [ERRR]       > *********************************
+{14:20:23.620} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{14:20:23.620} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{14:20:23.620} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'int_low_wall_dest_a.msh'
+{14:20:23.630} WARN: [WARN]       > Skin 'Default' not found for mesh 'loot_wardrobe_anm.msh'. Trying default skin...
+{14:20:23.630} WARN: [WARN]       > Skin 'Default' not found for mesh 'loot_wardrobe_anm.msh'!
+{14:20:23.630} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'Default' in mesh 'loot_wardrobe_anm.msh'
+{14:20:23.637} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{14:20:23.637} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{14:20:23.637} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin '' in mesh 'int_low_wall_dest_a.msh'
+{14:20:23.647} WARN: [WARN]       > Skin 'Default' not found for mesh 'loot_wardrobe_anm.msh'. Trying default skin...
+{14:20:23.647} WARN: [WARN]       > Skin 'Default' not found for mesh 'loot_wardrobe_anm.msh'!
+{14:20:23.647} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'Default' in mesh 'loot_wardrobe_anm.msh'
+{14:20:23.653} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{14:20:23.653} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{14:20:23.740} WARN: [WARN]       > Skin 'Default' not found for mesh 'loot_wardrobe_anm.msh'. Trying default skin...
+{14:20:23.740} WARN: [WARN]       > Skin 'Default' not found for mesh 'loot_wardrobe_anm.msh'!
+{14:20:23.966} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_PC10.scr' contained error and was not loaded!
+{14:20:23.966} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_XBOX.scr' contained error and was not loaded!
+{14:20:23.966} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_PS3.scr' contained error and was not loaded!
+{14:20:23.966} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_PC11.scr' contained error and was not loaded!
+{14:20:23.966} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_DURANGO.scr' contained error and was not loaded!
+{14:20:23.966} DEBG: [CLOG]       > ERROR: override script 'map_01_ovr_sml_ORBIS.scr' contained error and was not loaded!
+{14:20:24.366} DEBG: [CLOG]       > Load level: 27.241005 [s]
+{14:20:24.366} INFO: [Editor]     > Load module succeeded.
+{14:25:14.801} INFO: [Editor]     > Generate Map Portals succeeded.
+{14:25:14.810} INFO: [Editor]     > Quest Hubs succeeded.
+{14:25:15.174} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{14:25:15.181} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{14:25:15.181} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{14:25:15.181} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{14:25:15.181} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{14:25:15.181} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{14:25:15.203} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{14:25:15.203} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{14:25:15.203} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{14:25:15.204} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{14:25:15.204} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{14:25:15.204} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{14:25:15.204} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{14:25:15.204} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{14:25:15.205} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{14:25:15.205} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{14:25:15.213} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{14:25:15.213} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{14:25:15.269} INFO: [Editor]     > Save module succeeded.
+{14:25:22.393} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{14:25:22.393} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{14:25:22.393} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{14:25:22.518} INFO: [Editor]     > Generate Map Portals succeeded.
+{14:25:22.520} INFO: [Editor]     > Quest Hubs succeeded.
+{14:25:22.654} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{14:25:22.654} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{14:25:22.654} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{14:25:22.654} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{14:25:22.654} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{14:25:22.654} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{14:25:22.674} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{14:25:22.674} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{14:25:22.674} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{14:25:22.675} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{14:25:22.675} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{14:25:22.675} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{14:25:22.675} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{14:25:22.675} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{14:25:22.675} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{14:25:22.675} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{14:25:22.677} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{14:25:22.677} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{14:25:22.723} INFO: [Editor]     > Save module succeeded.
+{14:25:22.726} INFO: [Editor]     > Compile map succeeded.
+{14:27:06.857} INFO: [Editor]     > Generate Map Portals succeeded.
+{14:27:06.860} INFO: [Editor]     > Quest Hubs succeeded.
+{14:27:06.933} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{14:27:06.934} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{14:27:06.934} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{14:27:06.934} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{14:27:06.935} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{14:27:06.935} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{14:27:06.972} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{14:27:06.972} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{14:27:06.972} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{14:27:06.973} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{14:27:06.973} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{14:27:06.973} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{14:27:06.973} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{14:27:06.974} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{14:27:06.974} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{14:27:06.974} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{14:27:06.976} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{14:27:06.976} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{14:27:07.080} INFO: [Editor]     > Save module succeeded.
+{14:27:14.923} WARN: [WARN]       > Skin 'default' not found for mesh 'int_low_wall_dest_a.msh'. Trying default skin...
+{14:27:14.923} WARN: [WARN]       > Skin 'Default' not found for mesh 'int_low_wall_dest_a.msh'!
+{14:27:14.923} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'default' in mesh 'int_low_wall_dest_a.msh'
+{14:27:15.006} INFO: [Editor]     > Generate Map Portals succeeded.
+{14:27:15.008} INFO: [Editor]     > Quest Hubs succeeded.
+{14:27:15.123} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{14:27:15.123} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{14:27:15.123} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{14:27:15.123} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{14:27:15.123} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{14:27:15.123} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{14:27:15.130} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{14:27:15.130} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{14:27:15.130} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{14:27:15.131} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{14:27:15.131} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{14:27:15.131} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{14:27:15.131} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{14:27:15.131} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{14:27:15.131} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{14:27:15.131} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{14:27:15.132} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{14:27:15.132} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{14:27:15.163} INFO: [Editor]     > Save module succeeded.
+{14:27:15.165} INFO: [Editor]     > Compile map succeeded.
+{14:30:23.746} DEBG: [CLOG]       > Level map_01 (LevelDI) deleted
+{14:30:26.538} DEBG: [CLOG]       > [CSocket::~CSocket]: <shutdown> error: WSAENOTCONN
+{14:30:27.049} INFO: [INFO]       > ---------------------------------------------------------
+{14:30:27.049} INFO: [INFO]       > Time of playing game: 695.589966s
+{14:30:27.049} INFO: [INFO]       > Updated frames: 0 Rendered frames: 277
+{14:30:27.049} INFO: [INFO]       > Average FPS: 0.398223
+{14:30:27.049} INFO: [INFO]       > ---------------------------------------------------------
+{14:30:27.056} DEBG: [CLOG]       > Level  (Level) deleted
+{14:30:27.221} DEBG: [CLOG]       > CtrlObjGrid: Maximum grid 000000005E53E210 memory usage: 72 kbytes
+{14:30:27.223} DEBG: [CLOG]       > CtrlObjGrid: Maximum grid 000000006ACB5380 memory usage: 1 kbytes
+{14:30:29.625} DEBG: [CLOG]       > WARNING [~CSurfaceManager] Num nondeleted surfaces 93
+{14:30:29.629} WARN: [WARN]       > [~CSurfaceManager] Num nondeleted vertex buffers 1
+{14:30:29.629} WARN: [WARN]       > [~CSurfaceManager] Num nondeleted index buffers 1
+{14:30:29.712} INFO: [Renderer]   > [r_Shutdown] Dll released

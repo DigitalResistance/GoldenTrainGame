@@ -1,0 +1,11 @@
+<<<?xml version="1.0"?>>>
+
+QuestsDefinitions -level=map_01
+    quest MyWallet
+        ,kill <<Kill enemy>> AISpawnBoxNumber enemy -obj=&MyWallet_Kill&
+        ,take <<take map>> QuestInventoryItemDI wallet -obj=&MyWallet_Take&  
+    quest FindTrain -parent=MyWallet
+        ,take <<take map>> QuestInventoryItemDI GoldenTrain -obj=&FindTrain&  
+    quest TrainEpilog -parent=FindTrain -final=true
+        ,goto <<Go back>> SpawnPoint MapStart -distance=5 -obj=&MyWalletEpilog_Go&
+        ,semaphore <<No credits>>

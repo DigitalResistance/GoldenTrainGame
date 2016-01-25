@@ -1,22 +1,24 @@
 Version(106)
 ResPackVersion(1)
-Source("data/maps/map_01/terrain/patches/map_01_0x1.msh", "1D1569BCB8BC730")  // 2016-01-24, 11:38:50:531
-UsedFile("map_01_t2_0040aaa&0008.dmt", "1D13B161727D220")  // 2015-12-20, 11:03:43:426
-UsedFile("map_01_t2_200000ccc&0008.dmt", "1D13B161727F930")  // 2015-12-20, 11:03:43:427
-UsedFile("map_01_t2_200040aac&0008.dmt", "1D13B161727F930")  // 2015-12-20, 11:03:43:427
-ResVersion("_MESH_", 15, 5408)
-ResVersion("_MESH_FIXUPS_", 15, 412)
-ResVersion("_SKIN_", 8, 92)
-ResVersion("_VERTEX_DATA_", 1, 16960)
-ResVersion("_INDEX_DATA_", 1, 9184)
+Source("data/maps/map_01/terrain/patches/map_01_0x1.msh", "1D157BF81BA3810")  // 2016-01-25, 22:26:59:729
+UsedFile("map_01_t2_0040aaa&0008.dmt", "1D13A8DBB3B7210")  // 2015-12-19, 18:47:37:649
+UsedFile("map_01_t2_200000bbb&0008.dmt", "1D13A8DBB4ADB60")  // 2015-12-19, 18:47:37:750
+UsedFile("map_01_t2_200000ccc&0008.dmt", "1D13A8DBB4D4C60")  // 2015-12-19, 18:47:37:766
+UsedFile("map_01_t2_200040aab&0008.dmt", "1D13A8DBB4EABF0")  // 2015-12-19, 18:47:37:775
+UsedFile("map_01_t2_200040aac&0008.dmt", "1D13A8DBB52A390")  // 2015-12-19, 18:47:37:801
+ResVersion("_SKIN_", 8, 100)
+ResVersion("_MESH_", 15, 5552)
+ResVersion("_MESH_FIXUPS_", 15, 444)
+ResVersion("_VERTEX_DATA_", 1, 17600)
+ResVersion("_INDEX_DATA_", 1, 9476)
 ResVersion("_BUILDER_INFORMATION_", 1, 16)
 Meta("nodes","1")
 Meta("lods","2")
-Meta("vertices_bytes","16960")
-Meta("indices_bytes","9182")
+Meta("vertices_bytes","17600")
+Meta("indices_bytes","9476")
 Meta("colltree_bytes","4416")
-Meta("mesh_bytes","5408")
-Meta("skins_bytes","92")
+Meta("mesh_bytes","5552")
+Meta("skins_bytes","100")
 Meta("surface_params","1")
 Meta("hull_faces","2178")
 Meta("hull_vertices","6534")

@@ -20,7 +20,7 @@
         </Phase>
         <Phase
              type="take item"
-             name="take wallet"
+             name="take map"
              objective="&amp;MyWallet_Take&amp;"
              pxsl_line="6">
             <Item
@@ -33,32 +33,45 @@
         </Phase>
     </Quest>
     <Quest
-         name="MyWalletEpilog"
+         name="FindTrain"
          parent="MyWallet"
-         final="true"
          pxsl_line="7">
         <Phase
-             type="wait guard"
-             name="Wait 5 seconds"
-             time="5"
-             pxsl_line="8" />
+             type="take item"
+             name="take map"
+             objective="&amp;FindTrain&amp;"
+             pxsl_line="8">
+            <Item
+                 pxsl_line="8">
+                <QuestObject
+                     class="QuestInventoryItemDI"
+                     name="GoldenTrain"
+                     pxsl_line="8" />
+            </Item>
+        </Phase>
+    </Quest>
+    <Quest
+         name="TrainEpilog"
+         parent="FindTrain"
+         final="true"
+         pxsl_line="9">
         <Phase
              type="go to"
              name="Go back"
              objective="&amp;MyWalletEpilog_Go&amp;"
              distance="5"
-             pxsl_line="9">
+             pxsl_line="10">
             <Destination
-                 pxsl_line="9">
+                 pxsl_line="10">
                 <QuestObject
                      class="SpawnPoint"
                      name="MapStart"
-                     pxsl_line="9" />
+                     pxsl_line="10" />
             </Destination>
         </Phase>
         <Phase
-             type="semaphore"
-             name="No credits"
-             pxsl_line="10" />
+             type="game over failer"
+             name="Game over"
+             pxsl_line="11" />
     </Quest>
 </QuestsDefinitions>

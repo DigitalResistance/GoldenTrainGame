@@ -2,13 +2,14 @@
 
 String("MyWallet_Name","Try to find golden train")
 String("MyWalletEpilog_Name","Epilog")
-
 String("MyWallet_Desc","Quest about my lost wallet.")
 String("MyWalletEpilog_Desc","Last quest.")
 
 String("MyQuest_Item","Quest item")
 
-String("MyWallet_Kill","There is a legend about misterious creature that is somewhere inside the building. Find it")
-String("MyWallet_Take","Take the weapon it can be usefull")
+String("MyWallet_Kill","Try to find misterious buiding which hides Golden Train!")
+String("MyWallet_Take","Find the map!")
 
-String("MyWalletEpilog_Go","Go back")
+String("MyWalletEpilog_Go","Thats is it? Golden train is just a stupid toy?. Congratulation!")
+
+String("FindTrain","This map shows that golden train is closer than You thought. But take care this building can be dangerous!")
