@@ -633,3 +633,49 @@
 {22:27:06.081} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
 {22:27:06.125} INFO: [Editor]     > Save module succeeded.
 {22:27:06.127} INFO: [Editor]     > Compile map succeeded.
+{22:33:04.981} INFO: [Editor]     > Generate Map Portals succeeded.
+{22:33:04.989} INFO: [Editor]     > Quest Hubs succeeded.
+{22:33:05.030} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] start
+{22:33:05.030} DEBG: [CLOG]       > [CLevel::SaveChunks] grid saved
+{22:33:05.030} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain end
+{22:33:05.030} DEBG: [CLOG]       > [CLevel::SaveChunks] trees
+{22:33:05.030} DEBG: [CLOG]       > [CLevel::SaveChunks] trees end
+{22:33:05.031} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters start
+{22:33:05.046} DEBG: [CLOG]       > [CLevel::SaveChunks] mesh visibility parameters end
+{22:33:05.046} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects sort
+{22:33:05.046} DEBG: [CLOG]       > [CLevel::SaveChunks] grid objects save
+{22:33:05.047} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects sort
+{22:33:05.047} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects save
+{22:33:05.047} DEBG: [CLOG]       > [CLevel::SaveChunks] gs objects saved
+{22:33:05.047} DEBG: [CLOG]       > [CLevel::SaveChunks] movies
+{22:33:05.047} DEBG: [CLOG]       > [CLevel::SaveChunks] movies end
+{22:33:05.047} DEBG: [CLOG]       > [CLevel::SaveChunks] occluders
+{22:33:05.047} DEBG: [CLOG]       > [CLevel::SaveChunks] roads
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] roads end
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] decals end
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] shapes end
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] lofter end
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] terrain v.2
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] Terrain v.2 end
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] CGSObject data
+{22:33:05.049} DEBG: [CLOG]       > [CLevel::SaveChunks] Envprobes
+{22:33:05.049} DEBG: [CLOG]       > [CGameEditor::SaveGameModule] end
+{22:33:05.091} INFO: [Editor]     > Save module succeeded.
+{22:33:05.599} DEBG: [CLOG]       > CVarMgr::UnloadScripted(..): unable to parse file: data/maps/map_01/map_01.scr
+{22:33:05.686} DEBG: [CLOG]       > Level map_01 (LevelDI) deleted
+{22:33:07.379} DEBG: [CLOG]       > [CSocket::~CSocket]: <shutdown> error: WSAENOTCONN
+{22:33:07.818} INFO: [INFO]       > ---------------------------------------------------------
+{22:33:07.818} INFO: [INFO]       > Time of playing game: 3465.843750s
+{22:33:07.818} INFO: [INFO]       > Updated frames: 0 Rendered frames: 7637
+{22:33:07.818} INFO: [INFO]       > Average FPS: 2.203504
+{22:33:07.818} INFO: [INFO]       > ---------------------------------------------------------
+{22:33:07.829} DEBG: [CLOG]       > Level  (Level) deleted
+{22:33:07.978} DEBG: [CLOG]       > CtrlObjGrid: Maximum grid 0000000066C4C390 memory usage: 78 kbytes
+{22:33:07.981} DEBG: [CLOG]       > CtrlObjGrid: Maximum grid 000000005396F270 memory usage: 1 kbytes
+{22:33:09.117} DEBG: [CLOG]       > WARNING [~CSurfaceManager] Num nondeleted surfaces 93
+{22:33:09.117} WARN: [WARN]       > [~CSurfaceManager] Num nondeleted vertex buffers 1
+{22:33:09.117} WARN: [WARN]       > [~CSurfaceManager] Num nondeleted index buffers 1
+{22:33:09.206} INFO: [Renderer]   > [r_Shutdown] Dll released

@@ -1,6 +1,6 @@
 Version(106)
 ResPackVersion(1)
-Source("data/maps/map_01/terrain/patches/map_01_2x3.msh", "1D157BF81F60890")  // 2016-01-25, 22:27:00:121
+Source("data/maps/map_01/terrain/patches/map_01_2x3.msh", "1D1586D62C78EE0")  // 2016-01-26, 19:11:40:238
 UsedFile("map_01_t2_0040aaa&0008.dmt", "1D13A8DBB3B7210")  // 2015-12-19, 18:47:37:649
 ResVersion("_SKIN_", 8, 84)
 ResVersion("_MESH_", 15, 5248)

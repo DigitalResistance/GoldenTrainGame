@@ -1225,37 +1225,1305 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	EditorMeshName	=	dummybox_AI.MSH
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <76, 9, 34>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED93BBE422145914
+		Preset: AI Preset : Viral
+				m_AIPresets : Viral_Man;Viral_Woman
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <78, 9, 30>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED93B9E4221455AE
+		Preset: AI Preset : Viral
+				m_AIPresets : Viral_Man;Viral_Woman
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <76, 9, 27>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED93B7E422145248
+		Preset: AI Preset : Viral
+				m_AIPresets : Viral_Man;Viral_Woman
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <77, 9, 18>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9383E42213F9EC
+		Preset: AI Preset : Biter
+				m_AIPresets : Biter_Man;Biter_Woman
+				m_DiffLevelTables : Biter_Man;Biter_Woman
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <75, 9, 8>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9381E42213F686
+		Preset: AI Preset : Biter
+				m_AIPresets : Biter_Man;Biter_Woman
+				m_DiffLevelTables : Biter_Man;Biter_Woman
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <78, 9, 13>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED937FE42213F320
+		Preset: AI Preset : Biter
+				m_AIPresets : Biter_Man;Biter_Woman
+				m_DiffLevelTables : Biter_Man;Biter_Woman
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <78, 9, 18>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED938BE422140784
+		Preset: AI Preset : Toad_OldTown
+				m_AIPresets : Toad_OldTown
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <77, 9, 15>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9389E42214041E
+		Preset: AI Preset : Toad_OldTown
+				m_AIPresets : Toad_OldTown
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <76, 9, 27>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9387E4221400B8
+		Preset: AI Preset : Toad_OldTown
+				m_AIPresets : Toad_OldTown
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <73, 9, 38>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9395E422141882
+		Preset: AI Preset : Toad_OldTown
+				m_AIPresets : Toad_OldTown
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <85, 10, 28>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9391E4221411B6
+		Preset: AI Preset : GasTank
+				m_AIPresets : GasTank
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <86, 10, 23>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED938FE422140E50
+		Preset: AI Preset : GasTank
+				m_AIPresets : GasTank
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <82, 9, 13>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED939DE42214261A
+		Preset: AI Preset : GasTank
+				m_AIPresets : GasTank
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <55, 9, -9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED939BE4221422B4
+		Preset: AI Preset : GasTank
+				m_AIPresets : GasTank
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <49, 9, -9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9399E422141F4E
+		Preset: AI Preset : GasTank
+				m_AIPresets : GasTank
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <45, 9, -9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9397E422141BE8
+		Preset: AI Preset : GasTank
+				m_AIPresets : GasTank
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <51, 9, -9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9363E42213C38C
+		Preset: AI Preset : Biter
+				m_AIPresets : Biter_Man;Biter_Woman
+				m_DiffLevelTables : Biter_Man;Biter_Woman
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <46, 9, -9>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9361E42213C026
+		Preset: AI Preset : Biter
+				m_AIPresets : Biter_Man;Biter_Woman
+				m_DiffLevelTables : Biter_Man;Biter_Woman
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : 
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <16, 0, 21>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED936DE42213D48A
+		Preset: AI Preset : Goon_OldTown
+				m_AIPresets : Goon
+				m_BeforeSpawnSoundStartRange : 22.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 1
+				m_SpawnerBeforeSpawnSounds : zombie_mutant_spawner_exterior_00.wav;zombie_mutant_spawner_exterior_01.wav
+				m_DiffLevelTables : Goon
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <19, 0, 18>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED936BE42213D124
+		Preset: AI Preset : Goon_OldTown
+				m_AIPresets : Goon
+				m_BeforeSpawnSoundStartRange : 22.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 1
+				m_SpawnerBeforeSpawnSounds : zombie_mutant_spawner_exterior_00.wav;zombie_mutant_spawner_exterior_01.wav
+				m_DiffLevelTables : Goon
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <71, 9, 13>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9367E42213CA58
+		Preset: AI Preset : Viral
+				m_AIPresets : Viral_Man;Viral_Woman
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <71, 9, 7>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	ED9375E42213E222
+		Preset: AI Preset : Viral
+				m_AIPresets : Viral_Man;Viral_Woman
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+ItemSpawner{ItemSpawner}
+	world_position = <39, 9, 15>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB975E42234B15F
+	ID	=	Ammo_ShotgunBig
+	m_EditorItemName	=	Ammo_ShotgunBig
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	ammo_gauge.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <39, 9, 14>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB973E42234ADF9
+	ID	=	Ammo_RifleBig
+	m_EditorItemName	=	Ammo_RifleBig
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	loot_ok_ammo_long.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <39, 9, 14>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB971E42234AA93
+	ID	=	Bundle_Small_Ammo_Pack
+	m_EditorItemName	=	Bundle_Small_Ammo_Pack
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	box_plastic_closed_ho.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <38, 9, 14>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB97FE42234C25D
+	ID	=	zzz01_Melee_HrHlAxeD
+	m_EditorItemName	=	zzz01_Melee_HrHlAxeD
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_hl_axe_d.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <95, 9, 72>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB97DE42234BEF7
+	ID	=	AAA_TEST_PHYSICS_DAMAGE
+	m_EditorItemName	=	AAA_TEST_PHYSICS_DAMAGE
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_baseballbat_a.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <94, 9, 72>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB97BE42234BB91
+	ID	=	ZZZZ_Ammo_Arrow
+	m_EditorItemName	=	ZZZZ_Ammo_Arrow
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	weapon_arrow_a.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <94, 9, 72>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB979E42234B82B
+	ID	=	ZZZZ_Bow
+	m_EditorItemName	=	ZZZZ_Bow
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_bow_classic_composite_a.msh
+	SkinName	=	default
 
  GUID to level ID mapping:
-<1BE275B9AB48A148, 10229>
-<1BE276B9AB48A2FB, 10230>
-<1BE277B9AB48A4AE, 10228>
-<1BE278B9AB48A661, 10227>
-<1BE2BDB9AB491BA0, 10400>
-<1BE2BEB9AB491D53, 10398>
-<1BE2BFB9AB491F06, 10410>
-<1BE2C0B9AB4920B9, 10403>
-<1BE2C1B9AB49226C, 10411>
-<1BE2C2B9AB49241F, 10407>
-<1BE2C5B9AB492938, 10408>
-<1BE2C6B9AB492AEB, 10406>
-<1BE2C7B9AB492C9E, 10402>
-<1BE2C8B9AB492E51, 10409>
-<1BE2C9B9AB493004, 10399>
-<1BE2CAB9AB4931B7, 10396>
-<1BE2CBB9AB49336A, 10401>
-<1BE2CCB9AB49351D, 10397>
-<1BE2D3B9AB494102, 10405>
-<1BE2D4B9AB4942B5, 10404>
+<1BE275B9AB48A148, 10991>
+<1BE276B9AB48A2FB, 10992>
+<1BE277B9AB48A4AE, 10990>
+<1BE278B9AB48A661, 10989>
+<1BE2BDB9AB491BA0, 11161>
+<1BE2BEB9AB491D53, 11159>
+<1BE2BFB9AB491F06, 11171>
+<1BE2C0B9AB4920B9, 11164>
+<1BE2C1B9AB49226C, 11172>
+<1BE2C2B9AB49241F, 11168>
+<1BE2C5B9AB492938, 11169>
+<1BE2C6B9AB492AEB, 11167>
+<1BE2C7B9AB492C9E, 11163>
+<1BE2C8B9AB492E51, 11170>
+<1BE2C9B9AB493004, 11160>
+<1BE2CAB9AB4931B7, 11157>
+<1BE2CBB9AB49336A, 11162>
+<1BE2CCB9AB49351D, 11158>
+<1BE2D3B9AB494102, 11166>
+<1BE2D4B9AB4942B5, 11165>
 <894C8C3C86CCE78D, 2>
-<C14AAAB7FE090EAE, 10546>
-<C14AF0B7FE0985A0, 10530>
-<C14B08B7FE09AE68, 10520>
-<C14B09B7FE09B01B, 10521>
-<C14B0AB7FE09B1CE, 10522>
-<C14B0BB7FE09B381, 10519>
-<ED8D8CE4220F9D89, 10031>
+<C14AAAB7FE090EAE, 11307>
+<C14AF0B7FE0985A0, 11291>
+<C14B08B7FE09AE68, 11281>
+<C14B09B7FE09B01B, 11282>
+<C14B0AB7FE09B1CE, 11283>
+<C14B0BB7FE09B381, 11280>
 <ED9110E42212B3AC, 9407>
+<ED9361E42213C026, 11423>
+<ED9363E42213C38C, 11421>
+<ED9367E42213CA58, 11431>
+<ED936BE42213D124, 11428>
+<ED936DE42213D48A, 11426>
+<ED9375E42213E222, 11433>
+<ED937FE42213F320, 11396>
+<ED9381E42213F686, 11394>
+<ED9383E42213F9EC, 11392>
+<ED9387E4221400B8, 11403>
+<ED9389E42214041E, 11401>
+<ED938BE422140784, 11399>
+<ED938FE422140E50, 11410>
+<ED9391E4221411B6, 11408>
+<ED9395E422141882, 11405>
+<ED9397E422141BE8, 11418>
+<ED9399E422141F4E, 11416>
+<ED939BE4221422B4, 11414>
+<ED939DE42214261A, 11412>
+<ED93B7E422145248, 11389>
+<ED93B9E4221455AE, 11387>
+<ED93BBE422145914, 11385>
+<ED9747E422177CCF, 10794>
 <ED9754E4221792E6, 10666>
 <ED9756E42217964C, 10667>
 <ED9758E4221799B2, 10668>
@@ -1264,6 +2532,13 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 <ED978CE42217F20E, 10670>
 <ED978EE42217F574, 10671>
 <ED97C6E42218549C, 10709>
+<EDB971E42234AA93, 11503>
+<EDB973E42234ADF9, 11502>
+<EDB975E42234B15F, 11501>
+<EDB979E42234B82B, 11507>
+<EDB97BE42234BB91, 11506>
+<EDB97DE42234BEF7, 11505>
+<EDB97FE42234C25D, 11504>
 <EDD495E4224BAF77, 13>
 
 Classes used:

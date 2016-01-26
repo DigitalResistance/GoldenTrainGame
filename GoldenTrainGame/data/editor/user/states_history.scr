@@ -83,6 +83,294 @@ sub main()
 
 	state() 
 	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
 		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
@@ -99,7 +387,7 @@ sub main()
 
 	state() 
 	{ 
-		path( "meshes/" ); 
+		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
 		selected( "" ); 
@@ -115,7 +403,7 @@ sub main()
 
 	state() 
 	{ 
-		path( "meshes/" ); 
+		path( "packages/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
 		selected( "" ); 
@@ -131,7 +419,7 @@ sub main()
 
 	state() 
 	{ 
-		path( "meshes/" ); 
+		path( "data/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
 		selected( "" ); 
@@ -147,7 +435,279 @@ sub main()
 
 	state() 
 	{ 
-		path( "meshes/" ); 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "packages/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "data/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "tre" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "object types/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "tree" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "tree" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "trr" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "tree" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/enemies/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
 		selected( "" ); 
@@ -179,6 +739,22 @@ sub main()
 
 	state() 
 	{ 
+		path( "collections/enemies/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
 		path( "object types/common/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
@@ -195,9 +771,9 @@ sub main()
 
 	state() 
 	{ 
-		path( "object types/" ); 
+		path( "object types/common/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
+		filter( "i" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -211,585 +787,9 @@ sub main()
 
 	state() 
 	{ 
-		path( "object types/" ); 
+		path( "object types/common/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "packages/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "packages/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "packages/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "packages/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "packages/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "packages/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "packages/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "data/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "item" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "ai" ); 
+		filter( "ite" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 

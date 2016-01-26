@@ -1,6 +1,6 @@
 Version(106)
 ResPackVersion(1)
-Source("data/maps/map_01/terrain/patches/map_01_4x4.msh", "1D157BF82264050")  // 2016-01-25, 22:27:00:437
+Source("data/maps/map_01/terrain/patches/map_01_4x4.msh", "1D1586D630AB260")  // 2016-01-26, 19:11:40:678
 UsedFile("map_01_t2_0040aaa&0008.dmt", "1D13A8DBB3B7210")  // 2015-12-19, 18:47:37:649
 UsedFile("map_01_t2_200000bbb&0008.dmt", "1D13A8DBB4ADB60")  // 2015-12-19, 18:47:37:750
 UsedFile("map_01_t2_200000bbc&0008.dmt", "1D13A8DBB4BECD0")  // 2015-12-19, 18:47:37:757
