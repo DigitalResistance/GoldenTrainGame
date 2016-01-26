@@ -1,0 +1,18 @@
+SelectionObject{SelectionObject} from group :12211
+	world_position = <53, 9, 11>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 1, 1>
+	Parent's guid	=	EDB926E422342B22
+	local ID	=	0
+	Seed	=	0
+	Eds_table	=	
+		pierwsze_pietro.eds	=	1
+SelectionObject{SelectionObject} from group :12211
+	world_position = <22, 0, 15>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	Parent's guid	=	EDB926E422342B22
+	local ID	=	1
+	Seed	=	0
+	Eds_table	=	
+		drugie_pietro.eds	=	1

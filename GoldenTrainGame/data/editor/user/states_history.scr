@@ -35,54 +35,6 @@ sub main()
 
 	state() 
 	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "object types/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
 		path( "collections/" ); 
 		path_expand( "object types/,collections/" ); 
 		filter( "" ); 
@@ -597,7 +549,7 @@ sub main()
 	{ 
 		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "tre" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -613,23 +565,7 @@ sub main()
 	{ 
 		path( "object types/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "tree" ); 
-		selected( "" ); 
-		types( 1048576 ); 
-		options( 0 ); 
-		view_data( 0 ); 
-		view_types( 3 ); 
-		view_coll( 0 ); 
-		preview( 1 ); 
-		sort( 0 ); 
-		find_options( 16 ); 
-	}
-
-	state() 
-	{ 
-		path( "collections/" ); 
-		path_expand( "object types/,collections/" ); 
-		filter( "tree" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -661,7 +597,7 @@ sub main()
 	{ 
 		path( "collections/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "trr" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -677,7 +613,23 @@ sub main()
 	{ 
 		path( "collections/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "tree" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "collections/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -773,7 +725,7 @@ sub main()
 	{ 
 		path( "object types/common/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "i" ); 
+		filter( "" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 
@@ -789,7 +741,55 @@ sub main()
 	{ 
 		path( "object types/common/" ); 
 		path_expand( "object types/,collections/" ); 
-		filter( "ite" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "meshes/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "meshes/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "ce" ); 
+		selected( "" ); 
+		types( 1048576 ); 
+		options( 0 ); 
+		view_data( 0 ); 
+		view_types( 3 ); 
+		view_coll( 0 ); 
+		preview( 1 ); 
+		sort( 0 ); 
+		find_options( 16 ); 
+	}
+
+	state() 
+	{ 
+		path( "meshes/" ); 
+		path_expand( "object types/,collections/" ); 
+		filter( "ceiling" ); 
 		selected( "" ); 
 		types( 1048576 ); 
 		options( 0 ); 

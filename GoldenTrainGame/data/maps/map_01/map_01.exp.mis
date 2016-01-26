@@ -3,15 +3,15 @@ map_01{LevelDI}
 	m_DayTimeAndWeatherScripts	=	Data/Scripts/dw_weather.scr;
 	m_tempTinyObjectsScriptPath	=	
 MapStart{SpawnPoint}
-	world_position = <95, 9, 80>
+	world_position = <89, 9, 87>
 	world_dir = <0, 0, 0>
 	local_scale = <0, 1, 0>
 	guid	=	EDD495E4224BAF77
 DoorDI{DoorDI}
-	world_position = <27, 0, 12>
+	world_position = <27, 0, 14>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	C14B08B7FE09AE68
+	guid	=	4BAD9F0B933E9099
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -47,10 +47,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <27, 0, 24>
+	world_position = <27, 0, 26>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	C14B09B7FE09B01B
+	guid	=	4BAD9E0B933E8EE6
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -86,10 +86,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <23, 0, 22>
+	world_position = <23, 0, 25>
 	world_dir = <0, 0, 0>
 	local_scale = <0, 1, 0>
-	guid	=	C14B0AB7FE09B1CE
+	guid	=	4BAD9D0B933E8D33
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -125,10 +125,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <19, 0, 12>
+	world_position = <19, 0, 14>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	C14B0BB7FE09B381
+	guid	=	4BAD9C0B933E8B80
 		Preset: Behaviour : OpenedCW
 				m_SelectedBehaviours : 1
 				m_StartState : opened_cw
@@ -164,17 +164,17 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 GoldenTrain{QuestInventoryItemDI}
-	world_position = <21, 0, 31>
+	world_position = <21, 0, 33>
 	world_dir = <0, 0, 3>
 	local_scale = <3, 3, 3>
-	guid	=	C14AF0B7FE0985A0
+	guid	=	4BADB70B933EB961
 	MeshName	=	toy_train.msh
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <33, 9, -8>
+	world_position = <33, 9, -5>
 	world_dir = <0, 0, 0>
 	local_scale = <0, 1, 0>
-	guid	=	C14AAAB7FE090EAE
+	guid	=	4BADFD0B933F3053
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -210,10 +210,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <47, 9, 27>
+	world_position = <47, 9, 30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2D4B9AB4942B5
+	guid	=	3EFF81E115F076A8
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
 				m_SelectedBehaviours : 16
@@ -250,88 +250,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <43, 9, 27>
+	world_position = <43, 9, 30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2D3B9AB494102
-		Preset: Behaviour : Closed
-				m_SelectedBehaviours : 4
-				m_StartState : closed
-		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
-				MeshName : ot_door_f.msh
-				m_InteractionNameCheck : blocked_door_wooden
-				m_InteractionNameKnock : knocking_wood
-				m_InteractionNameUnlock : door_unlocking_with_key
-				m_SoundBreaking : door_wooden_b_breaking.wav
-				m_SoundClosing : door_wooden_b_closing_end.wav
-				m_SoundOpening : door_wooden_b_opening.wav
-				m_SoundStartClosing : door_wooden_b_closing_start.wav
-				m_SupportedBehaviours : 3711
-	m_MaxAngle	=	90.000000
-	m_UnlimitedLockpicks	=	0
-	m_QuestOpenDir	=	CCW
-	m_HoldMinigameInterval	=	5.000000
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_UsingDistance	=	-1.000000
-	m_UsingAngle	=	0.000000
-	m_UsingDir	=	0.000000
-	m_UsingInterval	=	0.000000
-	m_AutoExecuteDistance	=	2.500000
-	m_MultiplayerTrigger	=	0
-	m_ForceIcon	=	0
-	m_ForceHideIcon	=	0
-	m_Underwater	=	0
-	m_GatherPlayersRadius	=	0.000000
-	m_TriggerForcedIcon	=	None
-	m_UsePickupMechanism	=	0
-	m_Static	=	0
-	m_ConflictSide	=	2
-	SkinName	=	default
-DoorDI{DoorDI}
-	world_position = <39, 10, 27>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2C6B9AB492AEB
-		Preset: Behaviour : Closed
-				m_SelectedBehaviours : 4
-				m_StartState : closed
-		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
-				MeshName : ot_door_f.msh
-				m_InteractionNameCheck : blocked_door_wooden
-				m_InteractionNameKnock : knocking_wood
-				m_InteractionNameUnlock : door_unlocking_with_key
-				m_SoundBreaking : door_wooden_b_breaking.wav
-				m_SoundClosing : door_wooden_b_closing_end.wav
-				m_SoundOpening : door_wooden_b_opening.wav
-				m_SoundStartClosing : door_wooden_b_closing_start.wav
-				m_SupportedBehaviours : 3711
-	m_MaxAngle	=	90.000000
-	m_UnlimitedLockpicks	=	0
-	m_QuestOpenDir	=	CCW
-	m_HoldMinigameInterval	=	5.000000
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_UsingDistance	=	-1.000000
-	m_UsingAngle	=	0.000000
-	m_UsingDir	=	0.000000
-	m_UsingInterval	=	0.000000
-	m_AutoExecuteDistance	=	2.500000
-	m_MultiplayerTrigger	=	0
-	m_ForceIcon	=	0
-	m_ForceHideIcon	=	0
-	m_Underwater	=	0
-	m_GatherPlayersRadius	=	0.000000
-	m_TriggerForcedIcon	=	None
-	m_UsePickupMechanism	=	0
-	m_Static	=	0
-	m_ConflictSide	=	2
-	SkinName	=	default
-DoorDI{DoorDI}
-	world_position = <55, 9, 11>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 1, 1>
-	guid	=	1BE2C5B9AB492938
+	guid	=	3EFF82E115F0785B
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
 				m_SelectedBehaviours : 16
@@ -368,10 +290,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <59, 9, 0>
+	world_position = <39, 9, 30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2C8B9AB492E51
+	guid	=	3EFF6FE115F05812
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -407,10 +329,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <63, 9, 27>
+	world_position = <55, 9, 14>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2C7B9AB492C9E
+	guid	=	3EFF70E115F059C5
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
 				m_SelectedBehaviours : 16
@@ -447,10 +369,89 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <61, 9, -4>
+	world_position = <59, 9, 3>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	3EFF6DE115F054AC
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
+	SkinName	=	default
+DoorDI{DoorDI}
+	world_position = <63, 9, 30>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	3EFF6EE115F0565F
+		Preset: Behaviour : ClosedCheck
+				m_InteractionMode : check
+				m_SelectedBehaviours : 16
+				m_StartState : locked
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
+	SkinName	=	default
+DoorDI{DoorDI}
+	world_position = <61, 9, -1>
 	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2CAB9AB4931B7
+	guid	=	3EFF6BE115F05146
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -486,10 +487,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <71, 9, 0>
+	world_position = <71, 9, 5>
 	world_dir = <0, 0, -1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2C9B9AB493004
+	guid	=	3EFF6CE115F052F9
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -525,10 +526,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <61, 9, -8>
+	world_position = <61, 9, -5>
 	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2CCB9AB49351D
+	guid	=	3EFF69E115F04DE0
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -564,10 +565,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <69, 9, 29>
+	world_position = <69, 9, 32>
 	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2CBB9AB49336A
+	guid	=	3EFF6AE115F04F93
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
 				m_SelectedBehaviours : 16
@@ -604,10 +605,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <68, 9, 0>
+	world_position = <68, 9, 3>
 	world_dir = <0, 0, -1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2BEB9AB491D53
+	guid	=	3EFF77E115F065AA
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
 				m_SelectedBehaviours : 16
@@ -644,10 +645,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <69, 9, 19>
+	world_position = <69, 9, 22>
 	world_dir = <1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2BDB9AB491BA0
+	guid	=	3EFF78E115F0675D
 		Preset: Behaviour : ClosedCheck
 				m_InteractionMode : check
 				m_SelectedBehaviours : 16
@@ -684,10 +685,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <55, 9, 27>
+	world_position = <55, 9, 30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2C0B9AB4920B9
+	guid	=	3EFF75E115F06244
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -723,10 +724,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <34, 9, -3>
+	world_position = <34, 9, -1>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2BFB9AB491F06
+	guid	=	3EFF76E115F063F7
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -762,10 +763,10 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 DoorDI{DoorDI}
-	world_position = <35, 9, 27>
+	world_position = <35, 9, 30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2C2B9AB49241F
+	guid	=	3EFF73E115F05EDE
 		Preset: Behaviour : Closed
 				m_SelectedBehaviours : 4
 				m_StartState : closed
@@ -801,27 +802,27 @@ DoorDI{DoorDI}
 	m_ConflictSide	=	2
 	SkinName	=	default
 ModelObject{ModelObject}
-	world_position = <41, 9, 27>
+	world_position = <41, 9, 30>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 1, 1>
-	guid	=	1BE2C1B9AB49226C
+	guid	=	3EFF74E115F06091
 	MeshName	=	loot_wardrobe_anm.msh
 	SkinName	=	Default
 ConversationNode{ConversationNode}
-	world_position = <56, 9, 9>
+	world_position = <56, 9, 12>
 	world_dir = <-1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	1BE276B9AB48A2FB
+	guid	=	3EFF9FE115F0A9A2
 ConversationNode{ConversationNode}
-	world_position = <68, 9, 8>
+	world_position = <68, 9, 11>
 	world_dir = <-1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	1BE275B9AB48A148
+	guid	=	3EFFA0E115F0AB55
 enemy{AISpawnBoxNumber}
-	world_position = <38, 9, 18>
+	world_position = <38, 9, 21>
 	world_dir = <-1, 0, 0>
 	local_scale = <1, 2, 1>
-	guid	=	1BE278B9AB48A661
+	guid	=	3EFF9DE115F0A63C
 		Preset: AI Preset : Screamer
 				m_AIPresets : Screamer
 				m_BeforeSpawnSoundStartRange : 22.0
@@ -862,13 +863,186 @@ enemy{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 wallet{QuestInventoryItemDI}
-	world_position = <40, 9, 9>
+	world_position = <66, 9, 11>
 	world_dir = <-1, 0, 0>
 	local_scale = <1, 1, 1>
-	guid	=	1BE277B9AB48A4AE
+	guid	=	3EFF9EE115F0A7EF
 	m_Description	=	&MyQuest_Item&
 	MeshName	=	wl_map_a.msh
 	SkinName	=	Default
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <71, 9, 10>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	3EFF9BE115F0A2D6
+		Preset: AI Preset : Viral
+				m_AIPresets : Viral_Man;Viral_Woman
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+AISpawnBoxNumber{AISpawnBoxNumber}
+	world_position = <71, 9, 15>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 2, 1>
+	guid	=	3EFF9CE115F0A489
+		Preset: AI Preset : Viral
+				m_AIPresets : Viral_Man;Viral_Woman
+				m_BeforeSpawnSoundStartRange : 30.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 4
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+				m_DiffLevelTables : Viral_Man;Viral_Woman
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+enemy{AISpawnBoxNumber}
+	world_position = <62, 9, 10>
+	world_dir = <-1, 0, 0>
+	local_scale = <1, 2, 1>
+	guid	=	3EFF99E115F09F70
+		Preset: AI Preset : Screamer
+				m_AIPresets : Screamer
+				m_BeforeSpawnSoundStartRange : 22.0
+				m_BeforeSpawnSoundStartRangeMin : 15.0
+				m_MinAIsToMakeSound : 1
+				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
+	m_NumberOfZombies	=	1
+	m_BlockSpawnsWhenPlayerIsNear	=	0
+	m_DialogSpeakerName	=	none
+	m_ActivityTime	=	Ever
+	m_RemoveAIsOnDisable	=	0
+	m_AdditionalDiffLevel	=	0
+	m_MinLevel	=	0
+	m_MaxLevel	=	0
+	m_CanBeUsedByDirector	=	1
+	m_AILocation	=	Undefined
+	m_Type	=	Exterior
+	m_NoLootAfterDeath	=	0
+	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
+	m_CanLeaveSpawner	=	1
+	m_StartInAttractor	=	1
+	m_ActiveInBTZMode	=	1
+	m_ShootingDifficulty	=	MEDIUM
+	m_CloseDmgDifficulty	=	MEDIUM
+	m_ConflictSide	=	_NONE
+	m_NulifyInstantKill	=	0
+	m_SpawnAsBoss	=	0
+	m_RadiusOfScaring	=	0.000000
+	m_EscapeRadius	=	0.000000
+	m_DistActivation3D	=	1
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_WanderDist	=	Wide
+	m_ForcedTargetType	=	None
+	m_UseNavMeshToRandomLoiterPosition	=	0
+	m_ImmortalDuringInit	=	0
+	EditorMeshName	=	dummybox_AI.MSH
+	EditorMeshColor	=	1.000000 1.000000 1.000000
+	EditorMeshAlpha	=	1.000000
+DoorDI{DoorDI}
+	world_position = <73, 9, 4>
+	world_dir = <1, 0, 0>
+	local_scale = <1, 1, 1>
+	guid	=	3EFFBEE115F0DE4F
+		Preset: Behaviour : Closed
+				m_SelectedBehaviours : 4
+				m_StartState : closed
+		Preset: Visual : Outdoor_Wood_OldTown_OTDoorF_Building_Relief
+				MeshName : ot_door_f.msh
+				m_InteractionNameCheck : blocked_door_wooden
+				m_InteractionNameKnock : knocking_wood
+				m_InteractionNameUnlock : door_unlocking_with_key
+				m_SoundBreaking : door_wooden_b_breaking.wav
+				m_SoundClosing : door_wooden_b_closing_end.wav
+				m_SoundOpening : door_wooden_b_opening.wav
+				m_SoundStartClosing : door_wooden_b_closing_start.wav
+				m_SupportedBehaviours : 3711
+	m_MaxAngle	=	90.000000
+	m_UnlimitedLockpicks	=	0
+	m_QuestOpenDir	=	CCW
+	m_HoldMinigameInterval	=	5.000000
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	0
+	m_ConflictSide	=	2
+	SkinName	=	default
 ItemSpawner{ItemSpawner}
 	world_position = <39, 9, 15>
 	world_dir = <0, 0, 1>
@@ -1224,7 +1398,7 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	m_ImmortalDuringInit	=	0
 	EditorMeshName	=	dummybox_AI.MSH
 	EditorMeshColor	=	1.000000 1.000000 1.000000
-	EditorMeshAlpha	=	1.000000
+	EditorMeshAlpha	=	0.150000
 AISpawnBoxNumber{AISpawnBoxNumber}
 	world_position = <76, 9, 34>
 	world_dir = <0, 0, 1>
@@ -1275,13 +1449,12 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	world_dir = <0, 0, 1>
 	local_scale = <1, 2, 1>
 	guid	=	ED93B9E4221455AE
-		Preset: AI Preset : Viral
-				m_AIPresets : Viral_Man;Viral_Woman
-				m_BeforeSpawnSoundStartRange : 30.0
+		Preset: AI Preset : Goon_Blisters
+				m_AIPresets : Goon_Blisters
+				m_BeforeSpawnSoundStartRange : 22.0
 				m_BeforeSpawnSoundStartRangeMin : 15.0
-				m_MinAIsToMakeSound : 4
-				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
-				m_DiffLevelTables : Viral_Man;Viral_Woman
+				m_MinAIsToMakeSound : 1
+				m_SpawnerBeforeSpawnSounds : zombie_mutant_spawner_exterior_00.wav;zombie_mutant_spawner_exterior_01.wav
 	m_NumberOfZombies	=	1
 	m_BlockSpawnsWhenPlayerIsNear	=	0
 	m_DialogSpeakerName	=	none
@@ -1320,13 +1493,12 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	world_dir = <0, 0, 1>
 	local_scale = <1, 2, 1>
 	guid	=	ED93B7E422145248
-		Preset: AI Preset : Viral
-				m_AIPresets : Viral_Man;Viral_Woman
-				m_BeforeSpawnSoundStartRange : 30.0
-				m_BeforeSpawnSoundStartRangeMin : 15.0
+		Preset: AI Preset : BiterLurker
+				m_AIPresets : BiterLurker_Man;BiterLurker_Woman
+				m_BeforeSpawnSoundStartRange : 40.0
+				m_BeforeSpawnSoundStartRangeMin : 13.0
 				m_MinAIsToMakeSound : 4
-				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
-				m_DiffLevelTables : Viral_Man;Viral_Woman
+				m_SpawnerBeforeSpawnSounds : 
 	m_NumberOfZombies	=	1
 	m_BlockSpawnsWhenPlayerIsNear	=	0
 	m_DialogSpeakerName	=	none
@@ -1354,7 +1526,7 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	m_LEnableState	=	1
 	m_QEnableState	=	1
 	m_WanderDist	=	Wide
-	m_ForcedTargetType	=	None
+	m_ForcedTargetType	=	Player
 	m_UseNavMeshToRandomLoiterPosition	=	0
 	m_ImmortalDuringInit	=	0
 	EditorMeshName	=	dummybox_AI.MSH
@@ -1804,7 +1976,7 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 AISpawnBoxNumber{AISpawnBoxNumber}
-	world_position = <55, 9, -9>
+	world_position = <55, 9, -6>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 2, 1>
 	guid	=	ED939BE4221422B4
@@ -1848,7 +2020,7 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 AISpawnBoxNumber{AISpawnBoxNumber}
-	world_position = <49, 9, -9>
+	world_position = <49, 9, -6>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 2, 1>
 	guid	=	ED9399E422141F4E
@@ -1892,7 +2064,7 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 AISpawnBoxNumber{AISpawnBoxNumber}
-	world_position = <45, 9, -9>
+	world_position = <42, 9, -6>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 2, 1>
 	guid	=	ED9397E422141BE8
@@ -1936,7 +2108,7 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 AISpawnBoxNumber{AISpawnBoxNumber}
-	world_position = <51, 9, -9>
+	world_position = <51, 9, -6>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 2, 1>
 	guid	=	ED9363E42213C38C
@@ -1981,7 +2153,7 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 	EditorMeshColor	=	1.000000 1.000000 1.000000
 	EditorMeshAlpha	=	1.000000
 AISpawnBoxNumber{AISpawnBoxNumber}
-	world_position = <46, 9, -9>
+	world_position = <46, 9, -6>
 	world_dir = <0, 0, 1>
 	local_scale = <1, 2, 1>
 	guid	=	ED9361E42213C026
@@ -2082,96 +2254,6 @@ AISpawnBoxNumber{AISpawnBoxNumber}
 				m_MinAIsToMakeSound : 1
 				m_SpawnerBeforeSpawnSounds : zombie_mutant_spawner_exterior_00.wav;zombie_mutant_spawner_exterior_01.wav
 				m_DiffLevelTables : Goon
-	m_NumberOfZombies	=	1
-	m_BlockSpawnsWhenPlayerIsNear	=	0
-	m_DialogSpeakerName	=	none
-	m_ActivityTime	=	Ever
-	m_RemoveAIsOnDisable	=	0
-	m_AdditionalDiffLevel	=	0
-	m_MinLevel	=	0
-	m_MaxLevel	=	0
-	m_CanBeUsedByDirector	=	1
-	m_AILocation	=	Undefined
-	m_Type	=	Exterior
-	m_NoLootAfterDeath	=	0
-	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
-	m_CanLeaveSpawner	=	1
-	m_StartInAttractor	=	1
-	m_ActiveInBTZMode	=	1
-	m_ShootingDifficulty	=	MEDIUM
-	m_CloseDmgDifficulty	=	MEDIUM
-	m_ConflictSide	=	_NONE
-	m_NulifyInstantKill	=	0
-	m_SpawnAsBoss	=	0
-	m_RadiusOfScaring	=	0.000000
-	m_EscapeRadius	=	0.000000
-	m_DistActivation3D	=	1
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_WanderDist	=	Wide
-	m_ForcedTargetType	=	None
-	m_UseNavMeshToRandomLoiterPosition	=	0
-	m_ImmortalDuringInit	=	0
-	EditorMeshName	=	dummybox_AI.MSH
-	EditorMeshColor	=	1.000000 1.000000 1.000000
-	EditorMeshAlpha	=	1.000000
-AISpawnBoxNumber{AISpawnBoxNumber}
-	world_position = <71, 9, 13>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 2, 1>
-	guid	=	ED9367E42213CA58
-		Preset: AI Preset : Viral
-				m_AIPresets : Viral_Man;Viral_Woman
-				m_BeforeSpawnSoundStartRange : 30.0
-				m_BeforeSpawnSoundStartRangeMin : 15.0
-				m_MinAIsToMakeSound : 4
-				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
-				m_DiffLevelTables : Viral_Man;Viral_Woman
-	m_NumberOfZombies	=	1
-	m_BlockSpawnsWhenPlayerIsNear	=	0
-	m_DialogSpeakerName	=	none
-	m_ActivityTime	=	Ever
-	m_RemoveAIsOnDisable	=	0
-	m_AdditionalDiffLevel	=	0
-	m_MinLevel	=	0
-	m_MaxLevel	=	0
-	m_CanBeUsedByDirector	=	1
-	m_AILocation	=	Undefined
-	m_Type	=	Exterior
-	m_NoLootAfterDeath	=	0
-	m_TimeToGenerateAfterAllAIsAreDead	=	1800.000000
-	m_CanLeaveSpawner	=	1
-	m_StartInAttractor	=	1
-	m_ActiveInBTZMode	=	1
-	m_ShootingDifficulty	=	MEDIUM
-	m_CloseDmgDifficulty	=	MEDIUM
-	m_ConflictSide	=	_NONE
-	m_NulifyInstantKill	=	0
-	m_SpawnAsBoss	=	0
-	m_RadiusOfScaring	=	0.000000
-	m_EscapeRadius	=	0.000000
-	m_DistActivation3D	=	1
-	m_LEnableState	=	1
-	m_QEnableState	=	1
-	m_WanderDist	=	Wide
-	m_ForcedTargetType	=	None
-	m_UseNavMeshToRandomLoiterPosition	=	0
-	m_ImmortalDuringInit	=	0
-	EditorMeshName	=	dummybox_AI.MSH
-	EditorMeshColor	=	1.000000 1.000000 1.000000
-	EditorMeshAlpha	=	1.000000
-AISpawnBoxNumber{AISpawnBoxNumber}
-	world_position = <71, 9, 7>
-	world_dir = <0, 0, 1>
-	local_scale = <1, 2, 1>
-	guid	=	ED9375E42213E222
-		Preset: AI Preset : Viral
-				m_AIPresets : Viral_Man;Viral_Woman
-				m_BeforeSpawnSoundStartRange : 30.0
-				m_BeforeSpawnSoundStartRangeMin : 15.0
-				m_MinAIsToMakeSound : 4
-				m_SpawnerBeforeSpawnSounds : infected_spawner_exterior_00.wav;infected_spawner_exterior_01.wav;infected_spawner_exterior_02.wav;infected_spawner_exterior_03.wav;infected_spawner_exterior_04.wav
-				m_DiffLevelTables : Viral_Man;Viral_Woman
 	m_NumberOfZombies	=	1
 	m_BlockSpawnsWhenPlayerIsNear	=	0
 	m_DialogSpeakerName	=	none
@@ -2471,42 +2553,120 @@ ItemSpawner{ItemSpawner}
 	m_ConflictSide	=	2
 	MeshName	=	wn_bow_classic_composite_a.msh
 	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <90, 9, 84>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB925E42234296F
+	ID	=	Firearm_RifleBGen
+	m_EditorItemName	=	Firearm_RifleBGen
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_rifle_b.msh
+	SkinName	=	default
+ItemSpawner{ItemSpawner}
+	world_position = <90, 9, 84>
+	world_dir = <0, 0, 1>
+	local_scale = <1, 1, 1>
+	guid	=	EDB924E4223427BC
+	ID	=	Firearm_RifleBGen
+	m_EditorItemName	=	Firearm_RifleBGen
+	m_IsVisibleOnStart	=	1
+	m_Automat	=	0
+	m_SpawnOnDamage	=	0
+	m_ConditionMax	=	1.000000
+	m_ConditionMin	=	1.000000
+	m_CountMin	=	-1
+	m_CountMax	=	-1
+	m_UpgradeLevel	=	0
+	m_ItemColor	=	White
+	m_ItemReqLevel	=	0
+	m_RespawnInterval	=	-1.000000
+	m_RespawnRangeAfterTake	=	150.000000
+	m_NightSpawner	=	0
+	m_LEnableState	=	1
+	m_QEnableState	=	1
+	m_UsingDistance	=	-1.000000
+	m_UsingAngle	=	0.000000
+	m_UsingDir	=	0.000000
+	m_UsingInterval	=	0.000000
+	m_AutoExecuteDistance	=	2.500000
+	m_MultiplayerTrigger	=	0
+	m_ForceIcon	=	0
+	m_ForceHideIcon	=	0
+	m_Underwater	=	0
+	m_GatherPlayersRadius	=	0.000000
+	m_TriggerForcedIcon	=	None
+	m_UsePickupMechanism	=	0
+	m_Static	=	1
+	m_ConflictSide	=	2
+	MeshName	=	wn_rifle_b.msh
+	SkinName	=	default
 
  GUID to level ID mapping:
-<1BE275B9AB48A148, 10991>
-<1BE276B9AB48A2FB, 10992>
-<1BE277B9AB48A4AE, 10990>
-<1BE278B9AB48A661, 10989>
-<1BE2BDB9AB491BA0, 11161>
-<1BE2BEB9AB491D53, 11159>
-<1BE2BFB9AB491F06, 11171>
-<1BE2C0B9AB4920B9, 11164>
-<1BE2C1B9AB49226C, 11172>
-<1BE2C2B9AB49241F, 11168>
-<1BE2C5B9AB492938, 11169>
-<1BE2C6B9AB492AEB, 11167>
-<1BE2C7B9AB492C9E, 11163>
-<1BE2C8B9AB492E51, 11170>
-<1BE2C9B9AB493004, 11160>
-<1BE2CAB9AB4931B7, 11157>
-<1BE2CBB9AB49336A, 11162>
-<1BE2CCB9AB49351D, 11158>
-<1BE2D3B9AB494102, 11166>
-<1BE2D4B9AB4942B5, 11165>
+<3EFF69E115F04DE0, 13288>
+<3EFF6AE115F04F93, 13292>
+<3EFF6BE115F05146, 13287>
+<3EFF6CE115F052F9, 13290>
+<3EFF6DE115F054AC, 13300>
+<3EFF6EE115F0565F, 13293>
+<3EFF6FE115F05812, 13297>
+<3EFF70E115F059C5, 13299>
+<3EFF73E115F05EDE, 13298>
+<3EFF74E115F06091, 13302>
+<3EFF75E115F06244, 13294>
+<3EFF76E115F063F7, 13301>
+<3EFF77E115F065AA, 13289>
+<3EFF78E115F0675D, 13291>
+<3EFF81E115F076A8, 13295>
+<3EFF82E115F0785B, 13296>
+<3EFF99E115F09F70, 13304>
+<3EFF9BE115F0A2D6, 13123>
+<3EFF9CE115F0A489, 13122>
+<3EFF9DE115F0A63C, 13124>
+<3EFF9EE115F0A7EF, 13125>
+<3EFF9FE115F0A9A2, 13127>
+<3EFFA0E115F0AB55, 13126>
+<3EFFBEE115F0DE4F, 13332>
+<4BAD9C0B933E8B80, 13475>
+<4BAD9D0B933E8D33, 13478>
+<4BAD9E0B933E8EE6, 13477>
+<4BAD9F0B933E9099, 13476>
+<4BADB70B933EB961, 13486>
+<4BADFD0B933F3053, 13502>
 <894C8C3C86CCE78D, 2>
-<C14AAAB7FE090EAE, 11307>
-<C14AF0B7FE0985A0, 11291>
-<C14B08B7FE09AE68, 11281>
-<C14B09B7FE09B01B, 11282>
-<C14B0AB7FE09B1CE, 11283>
-<C14B0BB7FE09B381, 11280>
 <ED9110E42212B3AC, 9407>
 <ED9361E42213C026, 11423>
 <ED9363E42213C38C, 11421>
-<ED9367E42213CA58, 11431>
 <ED936BE42213D124, 11428>
 <ED936DE42213D48A, 11426>
-<ED9375E42213E222, 11433>
 <ED937FE42213F320, 11396>
 <ED9381E42213F686, 11394>
 <ED9383E42213F9EC, 11392>
@@ -2523,7 +2683,6 @@ ItemSpawner{ItemSpawner}
 <ED93B7E422145248, 11389>
 <ED93B9E4221455AE, 11387>
 <ED93BBE422145914, 11385>
-<ED9747E422177CCF, 10794>
 <ED9754E4221792E6, 10666>
 <ED9756E42217964C, 10667>
 <ED9758E4221799B2, 10668>
@@ -2532,6 +2691,9 @@ ItemSpawner{ItemSpawner}
 <ED978CE42217F20E, 10670>
 <ED978EE42217F574, 10671>
 <ED97C6E42218549C, 10709>
+<EDB8F8E42233DCF8, 11696>
+<EDB924E4223427BC, 12681>
+<EDB925E42234296F, 12680>
 <EDB971E42234AA93, 11503>
 <EDB973E42234ADF9, 11502>
 <EDB975E42234B15F, 11501>
